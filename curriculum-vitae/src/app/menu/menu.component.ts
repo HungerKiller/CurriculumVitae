@@ -1,8 +1,5 @@
 import { Component, OnInit } from '@angular/core';
 import {MenuItem} from 'primeng/api';
-import {PanelMenuModule} from 'primeng/panelmenu';
-import {MenuModule, MenuItemContent} from 'primeng/menu';
-import {ButtonModule} from 'primeng/button';
 
 @Component({
   selector: 'app-menu',

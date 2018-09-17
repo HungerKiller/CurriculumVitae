@@ -1,8 +1,11 @@
 import { BrowserModule } from '@angular/platform-browser';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { NgModule } from '@angular/core';
+
 import {PanelMenuModule} from 'primeng/panelmenu';
+import {MenuItem} from 'primeng/api';
 import {MenuModule, MenuItemContent} from 'primeng/menu';
-import {ButtonModule} from 'primeng/button';
+
 import { AppComponent } from './app.component';
 import { MenuComponent } from './menu/menu.component';
 
@@ -13,9 +16,8 @@ import { MenuComponent } from './menu/menu.component';
   ],
   imports: [
     BrowserModule,
-    // MenuModule,
-    // PanelMenuModule,
-   ButtonModule
+    BrowserAnimationsModule,
+    PanelMenuModule
   ],
   providers: [],
   bootstrap: [AppComponent]
