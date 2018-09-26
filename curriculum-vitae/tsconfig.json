@@ -1,11 +1,11 @@
 {
   "compileOnSave": false,
   "compilerOptions": {
-    "baseUrl": "./",
-    "outDir": "./dist/out-tsc",
-    "sourceMap": true,
+    "outDir": "../dist/", // 注意这个路径
+    "rootDir": ".",
+    "baseUrl": "src",
+    "sourceMap": true, // 这个必须要启用，重要
     "declaration": false,
-    "module": "es2015",
     "moduleResolution": "node",
     "emitDecoratorMetadata": true,
     "experimentalDecorators": true,
@@ -14,7 +14,7 @@
       "node_modules/@types"
     ],
     "lib": [
-      "es2017",
+      "es2016",
       "dom"
     ]
   }
