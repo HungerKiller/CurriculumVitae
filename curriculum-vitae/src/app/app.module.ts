@@ -14,6 +14,7 @@ import { CvComponent } from './cv/cv.component';
 import { FooterComponent } from './footer/footer.component';
 import { HeaderComponent } from './header/header.component';
 import { ProjectComponent } from './project/project.component';
+import { AppRoutingModule } from './/app-routing.module';
 
 @NgModule({
   declarations: [
@@ -29,7 +30,8 @@ import { ProjectComponent } from './project/project.component';
     BrowserAnimationsModule,
     PanelMenuModule,
     MessagesModule,
-    MessageModule
+    MessageModule,
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]
