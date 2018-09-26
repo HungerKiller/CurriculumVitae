@@ -15,11 +15,13 @@ export class MenuComponent implements OnInit {
     ngOnInit() {
         this.items = [{
             label: '简历',
-            icon: 'fa fa-address-card'
+            icon: 'fa fa-address-card',
+            url: 'cv'
         },
         {
             label: '项目',
             icon: 'fa fa-tasks',
+            url: 'project',
             items: [
                 { label: '项目1', icon: 'fa fa-tasks' },
                 { label: '项目2', icon: 'fa fa-tasks' }
