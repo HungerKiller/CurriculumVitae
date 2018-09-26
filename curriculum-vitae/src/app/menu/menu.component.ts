@@ -1,32 +1,29 @@
 import { Component, OnInit } from '@angular/core';
-import {MenuItem} from 'primeng/api';
+import { MenuItem } from 'primeng/api';
 
 @Component({
-  selector: 'app-menu',
-  templateUrl: './menu.component.html',
-  styleUrls: ['./menu.component.css']
+    selector: 'app-menu',
+    templateUrl: './menu.component.html',
+    styleUrls: ['./menu.component.css']
 })
 export class MenuComponent implements OnInit {
 
-  private items: MenuItem[];
+    private items: MenuItem[];
 
-  constructor() { }
+    constructor() { }
 
-  ngOnInit() {
-    this.items = [{
-      label: 'File',
-      items: [
-          {label: 'New', icon: 'fa fa-plus'},
-          {label: 'Open', icon: 'fa fa-download'}
-      ]
-  },
-  {
-      label: 'Edit',
-      items: [
-          {label: 'Undo', icon: 'fa fa-refresh'},
-          {label: 'Redo', icon: 'fa fa-repeat'}
-      ]
-  }];
-  }
-
+    ngOnInit() {
+        this.items = [{
+            label: '简历',
+            icon: 'fa fa-address-card'
+        },
+        {
+            label: '项目',
+            icon: 'fa fa-tasks',
+            items: [
+                { label: '项目1', icon: 'fa fa-tasks' },
+                { label: '项目2', icon: 'fa fa-tasks' }
+            ]
+        }];
+    }
 }
