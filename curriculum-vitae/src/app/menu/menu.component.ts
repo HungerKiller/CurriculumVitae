@@ -16,12 +16,12 @@ export class MenuComponent implements OnInit {
         this.items = [{
             label: '简历',
             icon: 'fa fa-address-card',
-            url: 'cv'
+            routerLink: 'cv'
         },
         {
             label: '项目',
             icon: 'fa fa-tasks',
-            url: 'project',
+            routerLink: 'project',
             items: [
                 { label: '项目1', icon: 'fa fa-tasks' },
                 { label: '项目2', icon: 'fa fa-tasks' }
