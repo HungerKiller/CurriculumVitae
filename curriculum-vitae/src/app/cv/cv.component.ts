@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { JsonReaderService } from '../services/json-reader.service'
 
 @Component({
   selector: 'app-cv',
@@ -7,9 +8,11 @@ import { Component, OnInit } from '@angular/core';
 })
 export class CvComponent implements OnInit {
 
-  constructor() { }
+  constructor(private jsonReaderService: JsonReaderService) { }
 
   ngOnInit() {
+    this.jsonReaderService.getJSON().subscribe(data => {
+      console.log(data)
+    });
   }
-
 }

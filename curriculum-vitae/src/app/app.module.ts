@@ -1,6 +1,7 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { NgModule } from '@angular/core';
+import { HttpClientModule } from '@angular/common/http'; 
 
 import {PanelMenuModule} from 'primeng/panelmenu';
 import {MessagesModule} from 'primeng/messages';
@@ -31,7 +32,8 @@ import { AppRoutingModule } from './/app-routing.module';
     PanelMenuModule,
     MessagesModule,
     MessageModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
