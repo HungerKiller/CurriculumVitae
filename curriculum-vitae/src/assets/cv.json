@@ -1,21 +1,86 @@
 {
-  "compileOnSave": false,
-  "compilerOptions": {
-    "outDir": "../dist/",
-    "rootDir": ".",
-    "baseUrl": "src",
-    "sourceMap": true,
-    "declaration": false,
-    "moduleResolution": "node",
-    "emitDecoratorMetadata": true,
-    "experimentalDecorators": true,
-    "target": "es5",
-    "typeRoots": [
-      "node_modules/@types"
-    ],
-    "lib": [
-      "es2016",
-      "dom"
-    ]
+  "basicInformation": {
+	"name": "王忠水",
+	"sex": "男",
+	"birthday": "1988/10/13",
+	"tel": "+86 18291880714",
+	"email": "zhongshui.wang.chn@gmail.com"
+  },
+  "educationalExperience": {
+	"tours": {
+		"period": "2011/09 - 2014/10",
+		"school": "图尔工程师学院",
+		"specialty": "计算机",
+		"level": "硕士",
+		"city": "法国图尔",
+		"courses": [
+			"C/C++",
+			"Java/J2ee",
+			"Web编程-PHP",
+			"C#.net",
+			"数据结构与算法",
+			"图论",
+			"调度管理",
+			"项目管理",
+			"系统管理",
+			"网络管理",
+			"操作系统Unix",
+			"编译器",
+			"人工智能",
+			"解决方法",
+			"数据分析",
+			"模式识别",
+			"智能家居",
+			"信号处理",
+			"图片处理"
+		]
+	},
+	"dalian": {
+		"period": "2007/09 - 2011/06",
+		"school": "大连理工大学",
+		"specialty": "软件学院",
+		"level": "本科",
+		"city": "中国辽宁大连",
+		"courses": [
+			"C/C++",
+			"Java/J2ee",
+			"数据库",
+			"数据结构与算法",
+			"网络管理",
+			"路由与交换技术",
+			"操作系统",
+			"编译原理"
+		]
+	}
   }
+  "careerExperience": {
+	"xian": {
+		"period": "2017/02 - Now",
+		"company": "Meteodyn",
+		"city": "中国陕西西安",
+		"post": "软件开发工程师",
+		"duty": [
+			"需求分析",
+			"编写技术文档",
+			"程序架构设计",
+			"编码",
+			"Debug",
+			"测试",
+			"维护",
+			"技术支持"
+		]
+		"technology": ""
+	},
+	"nantes": {
+		"period": "2015/03 - 2017/01",
+		"company": "Meteodyn",
+		"city": "法国南特",
+	},
+  }
+	
+	
+	"Skills"
+	"technology"
+	"Language"
+	"Self-evaluation"
 }
