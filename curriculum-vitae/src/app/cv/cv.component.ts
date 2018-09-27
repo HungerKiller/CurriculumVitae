@@ -8,11 +8,15 @@ import { JsonReaderService } from '../services/json-reader.service'
 })
 export class CvComponent implements OnInit {
 
+  cvData: object;
+
   constructor(private jsonReaderService: JsonReaderService) { }
 
   ngOnInit() {
     this.jsonReaderService.getJSON().subscribe(data => {
-      console.log(data)
+      this.cvData = data['basicInformation'];
+      console.log(data);
+      console.log(this.cvData['name']);
     });
   }
 }
