@@ -25,24 +25,17 @@ export class CvComponent implements OnInit {
   ngOnInit() {
     this.jsonReaderService.getJSON("./assets/cv.json").subscribe(data => {
       // Basic information
-      this.basicInformation = new BasicInformation(data['basicInformation']); 
+      this.basicInformation = data['basicInformation'] as BasicInformation;
       // Educational experience
-      this.educations.push(new Education(data['educationalExperience']['tours']));
-      this.educations.push(new Education(data['educationalExperience']['dalian']));
+      this.educations = data['educationalExperience'] as Education[];
       // Career experience
-      this.careers.push(new Career(data['careerExperience']['xian']));
-      this.careers.push(new Career(data['careerExperience']['nantes']));
-      this.careers.push(new Career(data['careerExperience']['tours2014']));
-      this.careers.push(new Career(data['careerExperience']['tours2013']));
+      this.careers = data['careerExperience'] as Career[];
       // Technical skill
-      this.techSkill =new TechSkill(data['skills']['technology']);
+      this.techSkill = data['skills']['technology'] as TechSkill;
       // Language skill
-      this.langSkills.push(new LangSkill(data['skills']['language']['chinese']));
-      this.langSkills.push(new LangSkill(data['skills']['language']['french']));
-      this.langSkills.push(new LangSkill(data['skills']['language']['english']));
-      this.langSkills.push(new LangSkill(data['skills']['language']['japanese']));
+      this.langSkills = data['skills']['language'] as LangSkill[];
       // Self evaluation
-      this.selfEvaluation =new SelfEvaluation(data['selfEvaluation']);
+      this.selfEvaluation = data['selfEvaluation'] as SelfEvaluation;
     });
   }
 }

@@ -1,11 +1,13 @@
 <p-card>
-  <h2>基本信息</h2>
+  <h1>
+    <p class="label label-primary">基本信息</p>
+  </h1>
   <p class="fa fa-user">姓名：{{basicInformation?.name}}</p>
   <p class="fa fa-mars">性别：{{basicInformation?.sex}}</p>
   <p class="fa fa-birthday-cake">生日：{{basicInformation?.birthday}}</p>
   <p class="fa fa-briefcase">工作经验：{{basicInformation?.workExperience}}</p>
   <p class="fa fa-phone-square">电话：{{basicInformation?.tel}}</p>
-  <p class="fa fa-envelope">邮箱：{{basicInformation?.email}}</p>
+  <p class="fa fa-envelope">邮箱：<a href="mailto:#">{{basicInformation?.email}}</a></p>
 </p-card>
 
 <p-card>

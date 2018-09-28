@@ -1,251 +1,251 @@
 {
-  "basicInformation": {
-	"name": "王忠水",
-	"sex": "男",
-	"birthday": "1988/10/13",
-	"workExperience": "4年",
-	"tel": "+86 18291880714",
-	"email": "zhongshui.wang.chn@gmail.com"
-  },
-  "educationalExperience": {
-	"tours": {
-		"period": "2011/09 - 2014/10",
-		"school": "图尔工程师学院",
-		"specialty": "计算机",
-		"level": "硕士",
-		"city": "法国图尔",
-		"courses": [
-			"C/C++",
-			"Java/J2ee",
-			"Web编程-PHP",
-			"C#.net",
-			"数据结构与算法",
-			"图论",
-			"调度管理",
-			"项目管理",
-			"系统管理",
-			"网络管理",
-			"操作系统Unix",
-			"编译器",
-			"人工智能",
-			"解决方法",
-			"数据分析",
-			"模式识别",
-			"智能家居",
-			"信号处理",
-			"图片处理"
-		]
+	"basicInformation": {
+		"name": "王忠水",
+		"sex": "男",
+		"birthday": "1988/10/13",
+		"workExperience": "4年",
+		"tel": "+86 18291880714",
+		"email": "zhongshui.wang.chn@gmail.com"
 	},
-	"dalian": {
-		"period": "2007/09 - 2011/06",
-		"school": "大连理工大学软件学院",
-		"specialty": "网络工程",
-		"level": "本科",
-		"city": "中国辽宁大连",
-		"courses": [
-			"C/C++",
-			"Java/J2ee",
-			"数据库",
-			"数据结构与算法",
-			"网络管理",
-			"路由与交换技术",
-			"操作系统",
-			"编译原理"
-		]
-	}
-  },
-  "careerExperience": {
-	"xian": {
-		"period": "2017/02 - Now",
-		"company": "Meteodyn",
-		"city": "中国陕西西安",
-		"post": "软件开发工程师",
-		"duty": [
-			"需求分析",
-			"编写技术文档",
-			"程序架构设计",
-			"编码",
-			"Debug",
-			"测试",
-			"维护",
-			"技术支持"
-		],
-		"technology": [
-			"C#.net(winform,asp.net,asp.net core)",
-			"Angular",
-			"primeng",
-			"echarts",
-			"font-awesome",
-			"bootstrap",
-			"Sql server",
-			"Sqlite",
-			"Postgresql",
-			"Influxdb",
-			"Git",
-			"Jenkins",
-			"Mantis",
-			"InnoSetup"
-		],
-		"project": [
-			"Forecast Wind/Sun",
-			"Meso Scale Platform",
-			"Forecast Management",
-			"风场评估系统"
-		]
-	},
-	"nantes": {
-		"period": "2015/03 - 2017/01",
-		"company": "Meteodyn",
-		"city": "法国南特",
-		"post": "软件开发工程师",
-		"duty": [
-			"需求分析",
-			"编写技术文档",
-			"程序架构设计",
-			"编码",
-			"Debug",
-			"测试",
-			"维护",
-			"技术支持"
-		],
-		"technology": [
-			"C#.net(winform,wpf,asp.net)",
-			"php",
-			"html",
-			"css",
-			"JQuery",
-			"ajax",
-			"Sql server",
-			"Sqlite",
-			"Nunit",
-			"SVN",
-			"Git",
-			"Jenkins",
-			"Mantis",
-			"InnoSetup"
-		],
-		"project": [
-			"Forecast Wind/Sun",
-			"Wind Turbine (WT)",
-			"上海电气 (Shanghai Electric)",
-			"Mission M1"
-		]
-	},
-	"tours2014": {
-		"period": "2014/05 - 2014/10",
-		"company": "Orion Concept",
-		"city": "法国图尔",
-		"post": "软件开发工程师（实习）",
-		"duty": [
-			"编写技术文档",
-			"程序架构设计",
-			"编码",
-			"Debug",
-			"测试",
-			"维护"
-		],
-		"technology": [
-			"C#.net",
-			"Java",
-			"ImageJ",
-			"OpenCV/EmguCV",
-			"Latex",
-			"InnoSetup"
-		],
-		"project": [
-			"皮肤流扫描 (Skin Flow Scan (SFS)",
-			"优化医学定位拍照软件 (HeadScan Dynamics)"
-		]
-	},
-	"tours2013": {
-		"period": "2013/06 - 2013/09",
-		"company": "Orion Concept",
-		"city": "法国图尔",
-		"post": "软件开发工程师（实习）",
-		"duty": [
-			"编写技术文档",
-			"程序架构设计",
-			"编码",
-			"Debug",
-			"测试",
-			"维护"
-		],
-		"technology": [
-			"TODO"
-		],
-		"project": [
-			"提取原始医学图片的特性",
-			"控制工业摄像头"
-		]
-	}
-  },
-  "skills": {
-	"technology": {
-		"program": [
-			"C#.net",
-			"Angular",
-			"C/C++(QT)",
-			"Java/J2ee",
-			"PHP",
-			"html",
-			"css",
-			"Javascript(JQuery)"
-		],
-		"database": [
-			"Sql Server",
-			"Postgresql",
-			"Influxdb",
-			"MySql",
-			"Sqlite",
-			"Oracle"
-		],
-		"tools": [
-			"Git",
-			"SVN",
-			"Jenkins",
-			"Mantis",
-			"Redmine",
-			"InnoSetup",
-			"Latex"
-		],
-		"library": [
-			"ImageJ",
-			"OpenCV/EmguCV",
-			"primeng",
-			"echarts",
-			"font-awesome",
-			"bootstrap"
-		],
-		"other": [
-			"Matlab",
-			"Rstudio"
-		]
-	},
-	"language": {
-		"chinese": {
-			"name": "中文",
-			"grade": "精通",
-			"score": "9"
+	"educationalExperience": [
+		{
+			"period": "2011/09 - 2014/10",
+			"school": "图尔工程师学院",
+			"specialty": "计算机",
+			"level": "硕士",
+			"city": "法国图尔",
+			"courses": [
+				"C/C++",
+				"Java/J2ee",
+				"Web编程-PHP",
+				"C#.net",
+				"数据结构与算法",
+				"图论",
+				"调度管理",
+				"项目管理",
+				"系统管理",
+				"网络管理",
+				"操作系统Unix",
+				"编译器",
+				"人工智能",
+				"解决方法",
+				"数据分析",
+				"模式识别",
+				"智能家居",
+				"信号处理",
+				"图片处理"
+			]
 		},
-		"french": {
-			"name": "法语",
-			"grade": "良好",
-			"score": "7"
-		},
-		"english": {
-			"name": "英语",
-			"grade": "良好",
-			"score": "7"
-		},
-		"japanese": {
-			"name": "日语",
-			"grade": "入门",
-			"score": "1"
+		{
+			"period": "2007/09 - 2011/06",
+			"school": "大连理工大学软件学院",
+			"specialty": "网络工程",
+			"level": "本科",
+			"city": "中国辽宁大连",
+			"courses": [
+				"C/C++",
+				"Java/J2ee",
+				"数据库",
+				"数据结构与算法",
+				"网络管理",
+				"路由与交换技术",
+				"操作系统",
+				"编译原理"
+			]
 		}
+	],
+	"careerExperience": [
+		{
+			"period": "2017/02 - Now",
+			"company": "Meteodyn",
+			"city": "中国陕西西安",
+			"post": "软件开发工程师",
+			"duty": [
+				"需求分析",
+				"编写技术文档",
+				"程序架构设计",
+				"编码",
+				"Debug",
+				"测试",
+				"维护",
+				"技术支持"
+			],
+			"technology": [
+				"C#.net(winform,asp.net,asp.net core)",
+				"Angular",
+				"primeng",
+				"echarts",
+				"font-awesome",
+				"bootstrap",
+				"Sql server",
+				"Sqlite",
+				"Postgresql",
+				"Influxdb",
+				"Git",
+				"Jenkins",
+				"Mantis",
+				"InnoSetup"
+			],
+			"project": [
+				"Forecast Wind/Sun",
+				"Meso Scale Platform",
+				"Forecast Management",
+				"风场评估系统"
+			]
+		},
+		{
+			"period": "2015/03 - 2017/01",
+			"company": "Meteodyn",
+			"city": "法国南特",
+			"post": "软件开发工程师",
+			"duty": [
+				"需求分析",
+				"编写技术文档",
+				"程序架构设计",
+				"编码",
+				"Debug",
+				"测试",
+				"维护",
+				"技术支持"
+			],
+			"technology": [
+				"C#.net(winform,wpf,asp.net)",
+				"php",
+				"html",
+				"css",
+				"JQuery",
+				"ajax",
+				"Sql server",
+				"Sqlite",
+				"Nunit",
+				"SVN",
+				"Git",
+				"Jenkins",
+				"Mantis",
+				"InnoSetup"
+			],
+			"project": [
+				"Forecast Wind/Sun",
+				"Wind Turbine (WT)",
+				"上海电气 (Shanghai Electric)",
+				"Mission M1"
+			]
+		},
+		{
+			"period": "2014/05 - 2014/10",
+			"company": "Orion Concept",
+			"city": "法国图尔",
+			"post": "软件开发工程师（实习）",
+			"duty": [
+				"编写技术文档",
+				"程序架构设计",
+				"编码",
+				"Debug",
+				"测试",
+				"维护"
+			],
+			"technology": [
+				"C#.net",
+				"Java",
+				"ImageJ",
+				"OpenCV/EmguCV",
+				"Latex",
+				"InnoSetup"
+			],
+			"project": [
+				"皮肤流扫描 (Skin Flow Scan (SFS)",
+				"优化医学定位拍照软件 (HeadScan Dynamics)"
+			]
+		},
+		{
+			"period": "2013/06 - 2013/09",
+			"company": "Orion Concept",
+			"city": "法国图尔",
+			"post": "软件开发工程师（实习）",
+			"duty": [
+				"编写技术文档",
+				"程序架构设计",
+				"编码",
+				"Debug",
+				"测试",
+				"维护"
+			],
+			"technology": [
+				"TODO"
+			],
+			"project": [
+				"提取原始医学图片的特性",
+				"控制工业摄像头"
+			]
+		}
+	],
+	"skills": {
+		"technology": {
+			"program": [
+				"C#.net",
+				"Angular",
+				"C/C++(QT)",
+				"Java/J2ee",
+				"PHP",
+				"html",
+				"css",
+				"Javascript(JQuery)"
+			],
+			"database": [
+				"Sql Server",
+				"Postgresql",
+				"Influxdb",
+				"MySql",
+				"Sqlite",
+				"Oracle"
+			],
+			"tools": [
+				"Git",
+				"SVN",
+				"Jenkins",
+				"Mantis",
+				"Redmine",
+				"InnoSetup",
+				"Latex"
+			],
+			"library": [
+				"ImageJ",
+				"OpenCV/EmguCV",
+				"primeng",
+				"echarts",
+				"font-awesome",
+				"bootstrap"
+			],
+			"other": [
+				"Matlab",
+				"Rstudio"
+			]
+		},
+		"language": [
+			{
+				"name": "中文",
+				"grade": "精通",
+				"score": "9"
+			},
+			{
+				"name": "法语",
+				"grade": "良好",
+				"score": "7"
+			},
+			{
+				"name": "英语",
+				"grade": "良好",
+				"score": "7"
+			},
+			{
+				"name": "日语",
+				"grade": "入门",
+				"score": "1"
+			}
+		]
+	},
+	"selfEvaluation": {
+		"evaluation": "善于思考和学习；责任心强；有良好的沟通能力和团队合作精神。",
+		"objective": "职业目标，架构师+全栈工程师。"
 	}
-  },
-  "selfEvaluation": {
-	"evaluation": "善于思考和学习；责任心强；有良好的沟通能力和团队合作精神。",
-	"objective": "职业目标，架构师+全栈工程师。"
-  }
 }
