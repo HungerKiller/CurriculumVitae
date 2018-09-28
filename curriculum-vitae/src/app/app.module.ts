@@ -1,13 +1,13 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { NgModule } from '@angular/core';
-import { HttpClientModule } from '@angular/common/http'; 
+import { HttpClientModule } from '@angular/common/http';
 
-import {PanelMenuModule} from 'primeng/panelmenu';
-import {MessagesModule} from 'primeng/messages';
-import {MessageModule} from 'primeng/message';
-import {MenuItem} from 'primeng/api';
-import {MenuModule, MenuItemContent} from 'primeng/menu';
+import { PanelMenuModule } from 'primeng/panelmenu';
+import { MessagesModule } from 'primeng/messages';
+import { MessageModule } from 'primeng/message';
+import { MenuItem } from 'primeng/api';
+import { MenuModule, MenuItemContent } from 'primeng/menu';
 
 import { AppComponent } from './app.component';
 import { MenuComponent } from './menu/menu.component';
@@ -16,9 +16,9 @@ import { FooterComponent } from './footer/footer.component';
 import { HeaderComponent } from './header/header.component';
 import { ProjectComponent } from './project/project.component';
 import { AppRoutingModule } from './app-routing.module';
-import {ButtonModule} from 'primeng/button';
-import {CardModule} from 'primeng/card';
-import {RatingModule} from 'primeng/rating';
+import { ButtonModule } from 'primeng/button';
+import { CardModule } from 'primeng/card';
+import { RatingModule } from 'primeng/rating';
 import { FormsModule } from '@angular/forms';
 
 @NgModule({
