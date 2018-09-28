@@ -42,12 +42,13 @@
   <ul>
     <li *ngFor="let lang of langSkills">
       <p>{{lang.name}}, {{lang.grade}}, {{lang.score}}</p>
+      <p-rating [ngModel]="lang.score" readonly="true" stars="10" [cancel]="false"></p-rating>
     </li>
   </ul>
 </p-card>
 
 <p-card>
-    <h2>自我评价</h2>
-    <p>{{this.selfEvaluation?.evaluation}}</p>
-    <p>{{this.selfEvaluation?.objective}}</p>
-  </p-card>
+  <h2>自我评价</h2>
+  <p>{{this.selfEvaluation?.evaluation}}</p>
+  <p>{{this.selfEvaluation?.objective}}</p>
+</p-card>
