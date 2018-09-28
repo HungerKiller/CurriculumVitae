@@ -1,1 +1,13 @@
 .fa { display:block; }
+
+p { font-size: 16px; }
+strong { font-size: 16px; }
+
+.nopoint { list-style: none }
+
+.solid {
+    border-style: solid;
+    border-width: 1px;
+    border-color: whitesmoke;
+    /* background-color: whitesmoke; */
+}
