@@ -225,22 +225,22 @@
 		"chinese": {
 			"name": "中文",
 			"grade": "精通",
-			"score": "95"
+			"score": "9"
 		},
 		"french": {
 			"name": "法语",
 			"grade": "良好",
-			"score": "70"
+			"score": "7"
 		},
 		"english": {
 			"name": "英语",
 			"grade": "良好",
-			"score": "70"
+			"score": "7"
 		},
 		"japanese": {
 			"name": "日语",
 			"grade": "入门",
-			"score": "10"
+			"score": "1"
 		}
 	}
   },

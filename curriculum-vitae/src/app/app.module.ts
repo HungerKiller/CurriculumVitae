@@ -18,6 +18,8 @@ import { ProjectComponent } from './project/project.component';
 import { AppRoutingModule } from './app-routing.module';
 import {ButtonModule} from 'primeng/button';
 import {CardModule} from 'primeng/card';
+import {RatingModule} from 'primeng/rating';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -37,7 +39,9 @@ import {CardModule} from 'primeng/card';
     AppRoutingModule,
     HttpClientModule,
     ButtonModule,
-    CardModule
+    CardModule,
+    RatingModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
