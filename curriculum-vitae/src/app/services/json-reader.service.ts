@@ -9,7 +9,7 @@ export class JsonReaderService {
 
   constructor(private http: HttpClient) { }
 
-  public getJSON(): Observable<any> {
-    return this.http.get("./assets/cv.json");
+  public getJSON(jsonPath: string): Observable<any> {
+    return this.http.get(jsonPath);
   }
 }

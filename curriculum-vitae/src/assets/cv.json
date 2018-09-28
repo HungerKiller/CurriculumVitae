@@ -3,6 +3,7 @@
 	"name": "王忠水",
 	"sex": "男",
 	"birthday": "1988/10/13",
+	"workExperience": "4年",
 	"tel": "+86 18291880714",
 	"email": "zhongshui.wang.chn@gmail.com"
   },
@@ -157,7 +158,7 @@
 		]
 	},
 	"tours2013": {
-		"period": "2013/06 - 2013/9",
+		"period": "2013/06 - 2013/09",
 		"company": "Orion Concept",
 		"city": "法国图尔",
 		"post": "软件开发工程师（实习）",
@@ -207,7 +208,7 @@
 			"InnoSetup",
 			"Latex"
 		],
-		"lib": [
+		"library": [
 			"ImageJ",
 			"OpenCV/EmguCV",
 			"primeng",
@@ -221,10 +222,26 @@
 		]
 	},
 	"language": {
-		"中文": "精通",
-		"法语": "良好",
-		"英语": "良好",
-		"日语": "入门"
+		"chinese": {
+			"name": "中文",
+			"grade": "精通",
+			"score": "95"
+		},
+		"french": {
+			"name": "法语",
+			"grade": "良好",
+			"score": "70"
+		},
+		"english": {
+			"name": "英语",
+			"grade": "良好",
+			"score": "70"
+		},
+		"japanese": {
+			"name": "日语",
+			"grade": "入门",
+			"score": "10"
+		}
 	}
   },
   "selfEvaluation": {
