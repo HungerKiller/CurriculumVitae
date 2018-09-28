@@ -1,47 +1,53 @@
+<p-card>
+  <h2>基本信息</h2>
+  <p class="fa fa-user">姓名：{{basicInformation?.name}}</p>
+  <p class="fa fa-mars">性别：{{basicInformation?.sex}}</p>
+  <p class="fa fa-birthday-cake">生日：{{basicInformation?.birthday}}</p>
+  <p class="fa fa-briefcase">工作经验：{{basicInformation?.workExperience}}</p>
+  <p class="fa fa-phone-square">电话：{{basicInformation?.tel}}</p>
+  <p class="fa fa-envelope">邮箱：{{basicInformation?.email}}</p>
+</p-card>
 
-{{cvData['name']}}
-{{cvData['sex']}}
-{{cvData['birthday']}}
-{{cvData['tel']}}
-{{cvData['email']}}
+<p-card>
+  <h2>教育背景</h2>
+  <ul>
+    <li *ngFor="let eudcation of educations">
+      <p>{{eudcation.period}}, {{eudcation.school}}, {{eudcation.specialty}}, {{eudcation.level}}, {{eudcation.city}}</p>
+      <p>{{eudcation.courses}}</p>
+    </li>
+  </ul>
+</p-card>
 
-<div class="ui-g-12">
-  Bar
-</div>
-<div class="ui-g-12 ui-g-nopad">
-  <div class="ui-g">
-    <div class="ui-g-12 ui-md-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed imperdiet, orci nec dictum convallis, ligula mauris vestibulum
-      turpis, nec varius tortor quam at diam. Nullam a viverra nibh. In tincidunt tempor lectus quis vulputate. Pellentesque
-      nec dui aliquam, lobortis est in, lobortis ante</div>
-    <div class="ui-g-12 ui-md-4">Maecenas vel nisi aliquet, vulputate tortor id, laoreet massa. Maecenas mattis tristique bibendum. Suspendisse vel mi
-      dictum, vestibulum lacus quis, pulvinar quam. Proin vulputate, nibh at finibus varius, leo eros lacinia elit, nec blandit
-      odio tellus a justo. Donec nec ex auctor, tristique nulla nec, rutrum sapien.</div>
-    <div class="ui-g-12 ui-md-4">Proin efficitur in leo eget ornare. Nam vestibulum neque sed velit sagittis sodales. Sed scelerisque hendrerit magna
-      a hendrerit. Cras tempor sem at justo pharetra convallis. Curabitur vel sodales purus. Vestibulum interdum facilisis
-      nulla imperdiet suscipit. Quisque lectus felis, condimentum eget hendrerit sit amet.</div>
-  </div>
+<p-card>
+  <h2>工作经历</h2>
+  <ul>
+    <li *ngFor="let career of careers">
+      <p>{{career.period}}, {{career.company}}, {{career.post}}, {{career.city}}</p>
+      <p>{{career.duty}}</p>
+      <p>{{career.technology}}</p>
+      <p>{{career.project}}</p>
+    </li>
+  </ul>
+</p-card>
 
-  <div class="ui-g">
-    <div class="ui-g-6 ui-md-3">
-      <img src="assets/showcase/images/demo/galleria/galleria1.jpg" style="width:100%">
-    </div>
-    <div class="ui-g-6 ui-md-3">
-      <img src="assets/showcase/images/demo/galleria/galleria1.jpg" style="width:100%">
-    </div>
-    <div class="ui-g-6 ui-md-3">
-      <img src="assets/showcase/images/demo/galleria/galleria1.jpg" style="width:100%">
-    </div>
-    <div class="ui-g-6 ui-md-3">
-      <img src="assets/showcase/images/demo/galleria/galleria1.jpg" style="width:100%">
-    </div>
-  </div>
+<p-card>
+  <h2>能力</h2>
+  <h3>计算机</h3>
+  <p>语言：{{this.techSkill?.program}}</p>
+  <p>数据库：{{this.techSkill?.database}}</p>
+  <p>效率工具：{{this.techSkill?.tools}}</p>
+  <p>库&框架：{{this.techSkill?.library}}</p>
+  <p>其他：{{this.techSkill?.other}}</p>
+  <h3>语言</h3>
+  <ul>
+    <li *ngFor="let lang of langSkills">
+      <p>{{lang.name}}, {{lang.grade}}, {{lang.score}}</p>
+    </li>
+  </ul>
+</p-card>
 
-  <div class="ui-g">
-    <div class="ui-g-12 ui-md-6">Phasellus faucibus purus volutpat mauris lacinia sodales. Ut sit amet sapien facilisis, commodo dui non, fringilla tellus.
-      Quisque tempus facilisis nisi sodales finibus. Pellentesque neque orci, ullamcorper vitae ligula quis, dignissim euismod
-      augue.</div>
-    <div class="ui-g-12 ui-md-6">Fusce ullamcorper congue massa, eget ullamcorper nunc lobortis egestas. Lorem ipsum dolor sit amet, consectetur adipiscing
-      elit. Quisque ultrices dui eget dolor feugiat dapibus. Aliquam pretium leo et egestas luctus. Nunc facilisis gravida
-      tellus.</div>
-  </div>
-</div>
+<p-card>
+    <h2>自我评价</h2>
+    <p>{{this.selfEvaluation?.evaluation}}</p>
+    <p>{{this.selfEvaluation?.objective}}</p>
+  </p-card>

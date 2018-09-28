@@ -15,7 +15,9 @@ import { CvComponent } from './cv/cv.component';
 import { FooterComponent } from './footer/footer.component';
 import { HeaderComponent } from './header/header.component';
 import { ProjectComponent } from './project/project.component';
-import { AppRoutingModule } from './/app-routing.module';
+import { AppRoutingModule } from './app-routing.module';
+import {ButtonModule} from 'primeng/button';
+import {CardModule} from 'primeng/card';
 
 @NgModule({
   declarations: [
@@ -33,7 +35,9 @@ import { AppRoutingModule } from './/app-routing.module';
     MessagesModule,
     MessageModule,
     AppRoutingModule,
-    HttpClientModule
+    HttpClientModule,
+    ButtonModule,
+    CardModule
   ],
   providers: [],
   bootstrap: [AppComponent]
