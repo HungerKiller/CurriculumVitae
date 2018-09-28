@@ -1,82 +1,84 @@
-<div class="solid">
-  <h2>基本信息</h2>
-  <ul class="nopoint">
-    <li>
-      <p class="fa fa-user">姓名：{{basicInformation?.name}}</p>
-    </li>
-    <li>
-      <p class="fa fa-mars">性别：{{basicInformation?.sex}}</p>
-    </li>
-    <li>
-      <p class="fa fa-birthday-cake">生日：{{basicInformation?.birthday}}</p>
-    </li>
-    <li>
-      <p class="fa fa-briefcase">工作经验：{{basicInformation?.workExperience}}</p>
-    </li>
-    <li>
-      <p class="fa fa-phone-square">电话：{{basicInformation?.tel}}</p>
-    </li>
-    <li>
-      <p class="fa fa-envelope">邮箱：
-        <a href="mailto:#">{{basicInformation?.email}}</a>
-      </p>
-    </li>
-  </ul>
-</div>
+<p-accordion [multiple]="true">
+  <p-accordionTab header="基本信息" [selected]="true">
+    <h2>基本信息</h2>
+    <ul class="nopoint">
+      <li>
+        <p class="fa fa-user">姓名：{{basicInformation?.name}}</p>
+      </li>
+      <li>
+        <p class="fa fa-mars">性别：{{basicInformation?.sex}}</p>
+      </li>
+      <li>
+        <p class="fa fa-birthday-cake">生日：{{basicInformation?.birthday}}</p>
+      </li>
+      <li>
+        <p class="fa fa-briefcase">工作经验：{{basicInformation?.workExperience}}</p>
+      </li>
+      <li>
+        <p class="fa fa-phone-square">电话：{{basicInformation?.tel}}</p>
+      </li>
+      <li>
+        <p class="fa fa-envelope">邮箱：
+          <a href="mailto:#">{{basicInformation?.email}}</a>
+        </p>
+      </li>
+    </ul>
+  </p-accordionTab>
 
-<div class="solid">
-  <h2>教育背景</h2>
-  <ul>
-    <li *ngFor="let eudcation of educations">
-      <strong>{{eudcation.period}}, {{eudcation.school}}, {{eudcation.specialty}}, {{eudcation.level}}, {{eudcation.city}}</strong>
-      <p>主修课程：{{eudcation.courses}}</p>
-    </li>
-  </ul>
-</div>
+  <p-accordionTab header="教育背景" [selected]="true">
+    <h2>教育背景</h2>
+    <ul>
+      <li *ngFor="let eudcation of educations">
+        <strong>{{eudcation.period}}, {{eudcation.school}}, {{eudcation.specialty}}, {{eudcation.level}}, {{eudcation.city}}</strong>
+        <p>主修课程：{{eudcation.courses}}</p>
+      </li>
+    </ul>
+  </p-accordionTab>
 
-<div class="solid">
-  <h2>工作经历</h2>
-  <ul>
-    <li *ngFor="let career of careers">
-      <strong>{{career.period}}, {{career.company}}, {{career.post}}, {{career.city}}</strong>
-      <p>工作内容：{{career.duty}}</p>
-      <p>使用技术：{{career.technology}}</p>
-      <p>涉及项目：{{career.project}}</p>
-    </li>
-  </ul>
-</div>
+  <p-accordionTab header="工作经历" [selected]="true">
+    <h2>工作经历</h2>
+    <ul>
+      <li *ngFor="let career of careers">
+        <strong>{{career.period}}, {{career.company}}, {{career.post}}, {{career.city}}</strong>
+        <p>工作内容：{{career.duty}}</p>
+        <p>使用技术：{{career.technology}}</p>
+        <p>涉及项目：{{career.project}}</p>
+      </li>
+    </ul>
+  </p-accordionTab>
 
-<div class="solid">
-  <h2>能力</h2>
-  <h3>计算机</h3>
-  <ul class="nopoint">
-    <li>
-      <p>语言：{{this.techSkill?.program}}</p>
-    </li>
-    <li>
-      <p>数据库：{{this.techSkill?.database}}</p>
-    </li>
-    <li>
-      <p>效率工具：{{this.techSkill?.tools}}</p>
-    </li>
-    <li>
-      <p>库&框架：{{this.techSkill?.library}}</p>
-    </li>
-    <li>
-      <p>其他：{{this.techSkill?.other}}</p>
-    </li>
-  </ul>
-  <h3>语言</h3>
-  <ul>
-    <li *ngFor="let lang of langSkills">
-      <p style="display: inline;">{{lang.name}}, {{lang.grade}}, {{lang.score}}</p>
-      <p-rating [ngModel]="lang.score" readonly="true" stars="10" [cancel]="false"></p-rating>
-    </li>
-  </ul>
-</div>
+  <p-accordionTab header="能力" [selected]="true">
+    <h2>能力</h2>
+    <h3>计算机</h3>
+    <ul class="nopoint">
+      <li>
+        <p>语言：{{this.techSkill?.program}}</p>
+      </li>
+      <li>
+        <p>数据库：{{this.techSkill?.database}}</p>
+      </li>
+      <li>
+        <p>效率工具：{{this.techSkill?.tools}}</p>
+      </li>
+      <li>
+        <p>库&框架：{{this.techSkill?.library}}</p>
+      </li>
+      <li>
+        <p>其他：{{this.techSkill?.other}}</p>
+      </li>
+    </ul>
+    <h3>语言</h3>
+    <ul>
+      <li *ngFor="let lang of langSkills">
+        <p style="display: inline;">{{lang.name}}, {{lang.grade}}, {{lang.score}}</p>
+        <p-rating [ngModel]="lang.score" readonly="true" stars="10" [cancel]="false"></p-rating>
+      </li>
+    </ul>
+  </p-accordionTab>
 
-<div class="solid">
-  <h2>自我评价</h2>
-  <p>{{this.selfEvaluation?.evaluation}}</p>
-  <p>{{this.selfEvaluation?.objective}}</p>
-</div>
+  <p-accordionTab header="自我评价" [selected]="true">
+    <h2>自我评价</h2>
+    <p>{{this.selfEvaluation?.evaluation}}</p>
+    <p>{{this.selfEvaluation?.objective}}</p>
+  </p-accordionTab>
+</p-accordion>
