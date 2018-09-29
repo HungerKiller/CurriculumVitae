@@ -27,57 +27,64 @@
 
   <p-accordionTab header="教育背景" [selected]="true">
     <h2>教育背景</h2>
-    <ul>
-      <li *ngFor="let eudcation of educations">
-        <strong>{{eudcation.period}}, {{eudcation.school}}, {{eudcation.specialty}},
-          {{eudcation.level}}, {{eudcation.city}}</strong>
-        <div class="ui-g ui-md">
-          <p class="ui-g-2 ui-md-2">主修课程：</p>
-          <div class="ui-g-10 ui-md-10">
-            <p *ngFor="let course of eudcation.courses" class="line">
-              <span class="label label-primary">{{course}}</span>&nbsp;
-            </p>
-          </div>
-        </div>
-      </li>
-    </ul>
+    <nz-timeline>
+      <ul class="nopoint">
+        <li *ngFor="let eudcation of educations">
+          <nz-timeline-item>
+            <strong>{{eudcation.period}}, {{eudcation.school}}, {{eudcation.specialty}},
+              {{eudcation.level}}, {{eudcation.city}}</strong>
+            <div class="ui-g ui-md">
+              <p class="ui-g-2 ui-md-2">主修课程：</p>
+              <div class="ui-g-10 ui-md-10">
+                <p *ngFor="let course of eudcation.courses" class="line">
+                  <span class="label label-primary">{{course}}</span>&nbsp;
+                </p>
+              </div>
+            </div>
+          </nz-timeline-item>
+        </li>
+      </ul>
+    </nz-timeline>
   </p-accordionTab>
 
   <p-accordionTab header="工作经历" [selected]="true">
     <h2>工作经历</h2>
-    <ul>
-      <li *ngFor="let career of careers">
-        <strong>{{career.period}}, {{career.company}}, {{career.post}}, {{career.city}}</strong>
-        <!-- <p>工作内容：{{career.duty}}</p>
-        <p>使用技术：{{career.technology}}</p>
-        <p>涉及项目：{{career.project}}</p> -->
-
-        <div class="ui-g ui-md">
-          <p class="ui-g-2 ui-md-2">工作内容：</p>
-          <div class="ui-g-10 ui-md-10">
-            <p *ngFor="let duty of career.duty" class="line">
-              <span>{{duty}},</span>&nbsp;
-            </p>
-          </div>
-        </div>
-        <div class="ui-g ui-md">
-          <p class="ui-g-2 ui-md-2">使用技术：</p>
-          <div class="ui-g-10 ui-md-10">
-            <p *ngFor="let technology of career.technology" class="line">
-              <span>{{technology}},</span>&nbsp;
-            </p>
-          </div>
-        </div>
-        <div class="ui-g ui-md">
-          <p class="ui-g-2 ui-md-2">涉及项目：</p>
-          <div class="ui-g-10 ui-md-10">
-            <p *ngFor="let project of career.project" class="line">
-              <span>{{project}},</span>&nbsp;
-            </p>
-          </div>
-        </div>
-      </li>
-    </ul>
+    <nz-timeline>
+      <ul class="nopoint">
+        <li *ngFor="let career of careers">
+          <nz-timeline-item>
+            <strong>{{career.period}}, {{career.company}}, {{career.post}}, {{career.city}}</strong>
+            <!-- <p>工作内容：{{career.duty}}</p>
+            <p>使用技术：{{career.technology}}</p>
+            <p>涉及项目：{{career.project}}</p> -->
+            <div class="ui-g ui-md">
+              <p class="ui-g-2 ui-md-2">工作内容：</p>
+              <div class="ui-g-10 ui-md-10">
+                <p *ngFor="let duty of career.duty" class="line">
+                  <span>{{duty}},</span>&nbsp;
+                </p>
+              </div>
+            </div>
+            <div class="ui-g ui-md">
+              <p class="ui-g-2 ui-md-2">使用技术：</p>
+              <div class="ui-g-10 ui-md-10">
+                <p *ngFor="let technology of career.technology" class="line">
+                  <span>{{technology}},</span>&nbsp;
+                </p>
+              </div>
+            </div>
+            <div class="ui-g ui-md">
+              <p class="ui-g-2 ui-md-2">涉及项目：</p>
+              <div class="ui-g-10 ui-md-10">
+                <p *ngFor="let project of career.project" class="line">
+                  <span>{{project}},</span>&nbsp;
+                </p>
+              </div>
+            </div>
+          </nz-timeline-item>
+        </li>
+      </ul>
+    </nz-timeline>
   </p-accordionTab>
 
   <p-accordionTab header="能力" [selected]="true">
@@ -87,32 +94,32 @@
       <li>
         <p class="line">语言：</p>
         <p *ngFor="let program of techSkill?.program" class="line">
-            <span class="label label-primary">{{program}}</span>&nbsp;
-          </p>
+          <span class="label label-primary">{{program}}</span>&nbsp;
+        </p>
       </li>
       <li>
         <p class="line">数据库：</p>
         <p *ngFor="let database of techSkill?.database" class="line">
-            <span class="label label-info">{{database}}</span>&nbsp;
-          </p>
+          <span class="label label-info">{{database}}</span>&nbsp;
+        </p>
       </li>
       <li>
         <p class="line">效率工具：</p>
         <p *ngFor="let tool of techSkill?.tools" class="line">
-            <span class="label label-success">{{tool}}</span>&nbsp;
-          </p>
+          <span class="label label-success">{{tool}}</span>&nbsp;
+        </p>
       </li>
       <li>
         <p class="line">库&框架：</p>
         <p *ngFor="let library of techSkill?.library" class="line">
-            <span class="label label-warning">{{library}}</span>&nbsp;
-          </p>
+          <span class="label label-warning">{{library}}</span>&nbsp;
+        </p>
       </li>
       <li>
         <p class="line">其他：</p>
         <p *ngFor="let other of techSkill?.other" class="line">
-            <span class="label label-danger">{{other}}</span>&nbsp;
-          </p>
+          <span class="label label-danger">{{other}}</span>&nbsp;
+        </p>
       </li>
     </ul>
     <h3>语言</h3>
