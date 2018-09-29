@@ -24,6 +24,7 @@ import { NgZorroAntdModule, NZ_I18N, zh_CN } from 'ng-zorro-antd';
 import { registerLocaleData } from '@angular/common';
 import zh from '@angular/common/locales/zh';
 import {AccordionModule} from 'primeng/accordion';
+import {TableModule} from 'primeng/table';
 
 registerLocaleData(zh);
 
@@ -49,7 +50,8 @@ registerLocaleData(zh);
     RatingModule,
     FormsModule,
     NgZorroAntdModule,
-    AccordionModule
+    AccordionModule,
+    TableModule
   ],
   providers: [{ provide: NZ_I18N, useValue: zh_CN }],
   bootstrap: [AppComponent]
