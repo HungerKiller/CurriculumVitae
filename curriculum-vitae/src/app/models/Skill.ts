@@ -10,4 +10,5 @@ export class LangSkill {
     name: string;
     grade: string;
     score: string;
+    exams: string;
 }

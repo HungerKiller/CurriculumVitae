@@ -31,8 +31,8 @@
       <ul class="nopoint">
         <li *ngFor="let eudcation of educations">
           <nz-timeline-item>
-            <strong>{{eudcation.period}}, {{eudcation.school}}, {{eudcation.specialty}},
-              {{eudcation.level}}, {{eudcation.city}}</strong>
+            <strong>{{eudcation.period}},
+              <a target="_blank" rel="noopener noreferrer" href="{{eudcation.schoolUrl}}">{{eudcation.school}}</a>, {{eudcation.specialty}}, {{eudcation.level}}, {{eudcation.city}}</strong>
             <div class="ui-g ui-md">
               <p class="ui-g-2 ui-md-2">主修课程：</p>
               <div class="ui-g-10 ui-md-10">
@@ -125,7 +125,7 @@
     <h3>语言</h3>
     <ul class="nopoint">
       <li *ngFor="let lang of langSkills">
-        <p class="line">{{lang.name}}, {{lang.grade}}</p>&nbsp;&nbsp;
+        <p class="line" nzTitle="{{lang.exams}}" nzPlacement="right" nz-tooltip>{{lang.name}}, {{lang.grade}}</p>&nbsp;&nbsp;
         <nz-rate [ngModel]="lang.score/2" nzAllowHalf nzDisabled></nz-rate>
         <!-- <p-rating class="line" [ngModel]="lang.score" readonly="true" stars="10" [cancel]="false"></p-rating> -->
       </li>
