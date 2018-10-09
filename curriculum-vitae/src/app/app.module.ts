@@ -25,6 +25,7 @@ import { registerLocaleData } from '@angular/common';
 import zh from '@angular/common/locales/zh';
 import {AccordionModule} from 'primeng/accordion';
 import {TableModule} from 'primeng/table';
+import {InplaceModule} from 'primeng/inplace';
 
 registerLocaleData(zh);
 
@@ -51,7 +52,8 @@ registerLocaleData(zh);
     FormsModule,
     NgZorroAntdModule,
     AccordionModule,
-    TableModule
+    TableModule,
+    InplaceModule
   ],
   providers: [{ provide: NZ_I18N, useValue: zh_CN }],
   bootstrap: [AppComponent]
