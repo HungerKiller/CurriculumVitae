@@ -29,3 +29,16 @@
     <input type="text" pInputText placeholder="Email" class="ng-dirty ng-invalid">
     <p-message severity="error"></p-message>
 </div>
+
+<div style="margin-top:30px">
+    {{projects.lenght}}
+    {{project?.name}}
+    {{project?.organization}}
+    {{project?.city}}
+    {{project?.period}}
+
+    {{project?.description?.header}}
+    <p *ngFor="let dcp of project?.description?.detail" class="line">
+        <span class="label label-success">{{dcp}}</span>&nbsp;
+    </p>
+</div>

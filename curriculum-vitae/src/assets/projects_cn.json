@@ -1,0 +1,65 @@
+{
+	"projects": [
+		{
+			"name": "中尺度平台",
+			"organization": "Meteodyn",
+			"city": "中国陕西西安",
+			"period": "2017/07 - 2018/12",
+			"description": {
+				"header":"开发桌面应用，提供如下功能：",
+				"detail": [
+					"项目管理：用户可以打开、删除、新建项目。",
+					"通用功能：定义默认参数，下载再分析资料，提取再分析资料，显示提取的资料数据。",
+					"辅助功能：显示系统信息，载入许可证，显示帮助文档，切换语言等。",
+					"项目功能：项目定义（配置参数），WRF处理及计算（前处理，计算），MOS校正，提取并显示结果（后处理，点数据提取）。"
+				]
+			},
+			"duty": [
+				"编写技术文档",
+				"设计程序架构",
+				"软件端Qt/C++开发",
+				"学习并使用VTK实现3D可视化"
+			],
+			"technology": [
+				{
+					"name": "平台",
+					"content": [
+						"Ubuntu 16.04"
+					]
+				},
+				{
+					"name": "语言/库",
+					"content": [
+						"Qt/C++",
+						"VTK-8.0",
+						"Quazip5"
+					]
+				},
+				{
+					"name": "科学计算",
+					"content": [
+						"NETCDF",
+						"Jasper",
+						"OpenMPI",
+						"WPS 3.8",
+						"WRFV 3.8",
+						"NCL",
+						"Pyhton"
+					]
+				},
+				{
+					"name": "工具",
+					"content": [
+						"Jenkins",
+						"Git",
+						"Mantis",
+						"Qt Creator",
+						"AppImage",
+						"Google Earth",
+						"ParaView"
+					]
+				}
+			]
+		}
+	]
+}
