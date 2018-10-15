@@ -93,19 +93,22 @@
 				"需求分析",
 				"编写技术文档",
 				"程序架构设计",
-				"编码",
+				"开发",
 				"Debug",
 				"测试",
 				"维护",
 				"技术支持"
 			],
 			"technology": [
-				"C#.net(winform,asp.net,asp.net core)",
+				"C#.NET(WinForm,ASP.NET,ASP.NET Core)",
+				"Qt/C++",
 				"Angular",
-				"primeng",
-				"echarts",
-				"font-awesome",
-				"bootstrap",
+				"PrimeNG",
+				"NG-ZORRO",
+				"Echarts",
+				"Bootstrap",
+				"Font Awesome",
+				"VTK",
 				"Sql server",
 				"Sqlite",
 				"Postgresql",
@@ -113,13 +116,17 @@
 				"Git",
 				"Jenkins",
 				"Mantis",
-				"InnoSetup"
+				"InnoSetup",
+				"AppImage",
+				"Postman",
+				"Mono"
 			],
 			"project": [
-				"Forecast Wind/Sun",
-				"Meso Scale Platform",
+				"中尺度平台",
+				"庄河风电评估系统",
 				"Forecast Management",
-				"风场评估系统"
+				"Forecast Wind/Sun",
+				"Forecast Library"
 			]
 		},
 		{
@@ -131,32 +138,35 @@
 				"需求分析",
 				"编写技术文档",
 				"程序架构设计",
-				"编码",
+				"开发",
 				"Debug",
 				"测试",
 				"维护",
 				"技术支持"
 			],
 			"technology": [
-				"C#.net(winform,wpf,asp.net)",
-				"php",
-				"html",
-				"css",
-				"JQuery",
-				"ajax",
+				"C#.NET(WinForm,WPF,ASP.NET)",
+				"PHP",
+				"Html",
+				"CSS",
+				"Javascript",
+				"Jquery",
+				"Ajax",
 				"Sql server",
 				"Sqlite",
 				"Nunit",
+				"ApiDoc",
 				"SVN",
 				"Git",
 				"Jenkins",
 				"Mantis",
-				"InnoSetup"
+				"InnoSetup",
+				"Postman"
 			],
 			"project": [
 				"Forecast Wind/Sun",
-				"Wind Turbine (WT)",
-				"上海电气 (Shanghai Electric)",
+				"Shanghai Electric",
+				"Meteodyn WT",
 				"Mission M1"
 			]
 		},
@@ -168,22 +178,26 @@
 			"duty": [
 				"编写技术文档",
 				"程序架构设计",
-				"编码",
+				"开发",
 				"Debug",
 				"测试",
 				"维护"
 			],
 			"technology": [
-				"C#.net",
+				"C#.NET(WinForm,WPF)",
 				"Java",
 				"ImageJ",
 				"OpenCV/EmguCV",
+				"FFmpeg",
 				"Latex",
-				"InnoSetup"
+				"SVN",
+				"InnoSetup",
+				"VivaScope/VivaScan",
+				"Matlab"
 			],
 			"project": [
-				"皮肤流扫描 (Skin Flow Scan (SFS)",
-				"优化医学定位拍照软件 (HeadScan Dynamics)"
+				"Skin Flow Scan",
+				"HeadScan Dynamics"
 			]
 		},
 		{
@@ -194,13 +208,16 @@
 			"duty": [
 				"编写技术文档",
 				"程序架构设计",
-				"编码",
+				"开发",
 				"Debug",
 				"测试",
 				"维护"
 			],
 			"technology": [
-				"TODO"
+				"Java",
+				"ImageJ",
+				"Jmathplot",
+				"C#.NET"
 			],
 			"project": [
 				"提取原始医学图片的特性",
@@ -211,17 +228,17 @@
 	"skills": {
 		"technology": {
 			"program": [
-				"C#.net",
-				"Angular",
+				"C#.NET",
 				"C/C++(QT)",
+				"Angular",
 				"Java/J2ee",
 				"PHP",
-				"html",
-				"css",
-				"Javascript(JQuery)"
+				"Html",
+				"CSS",
+				"Javascript"
 			],
 			"database": [
-				"Sql Server",
+				"Sql server",
 				"Postgresql",
 				"Influxdb",
 				"MySql",
@@ -234,20 +251,25 @@
 				"Jenkins",
 				"Mantis",
 				"Redmine",
-				"InnoSetup",
-				"Latex"
+				"InnoSetup"
 			],
 			"library": [
+				"Jquery",
+				"PrimeNG",
+				"NG-ZORRO",
+				"Echarts",
+				"Bootstrap",
+				"Font Awesome",
 				"ImageJ",
 				"OpenCV/EmguCV",
-				"primeng",
-				"echarts",
-				"font-awesome",
-				"bootstrap"
+				"VTK",
+				"Mono"
 			],
 			"other": [
 				"Matlab",
-				"Rstudio"
+				"Rstudio",
+				"Postman",
+				"Latex"
 			]
 		},
 		"language": [
@@ -275,7 +297,6 @@
 		]
 	},
 	"selfEvaluation": {
-		"evaluation": "善于思考和学习；责任心强；有良好的沟通能力和团队合作精神。",
-		"objective": "职业目标，架构师+全栈工程师。"
+		"evaluation": "善于思考和学习；责任心强；有良好的沟通能力和团队合作精神。"
 	}
 }
