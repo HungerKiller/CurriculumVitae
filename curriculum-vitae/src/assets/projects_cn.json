@@ -60,6 +60,346 @@
 					]
 				}
 			]
+		},
+		{
+			"name": "庄河风电评估系统",
+			"organization": "Meteodyn",
+			"city": "中国陕西西安",
+			"period": "2018/06 - 2018/12",
+			"description": {
+				"header":"开发Web应用，提供如下功能：",
+				"details": [
+					"用户管理：管理员可管理普通用户，普通用户只能修改自己的密码。",
+					"用户（普通用户、管理员）登陆系统后，可发送数据分析计算并查看结果，也可直接查看历史结果，也可创建考核并执行考核。",
+					"系统实时从寄存器中读取/接收风场数据并存入数据库。",
+					"系统定时自动按月/年计算结果作为历史结果，并存入数据库。",
+					"针对数据进行分析：对每台风机，估算机舱转换函数、Scada数据分类、估算功率曲线、计算其他指标如：平均风速、日平均发电量、应发电量、理论发电量、实际发电量、损失发电量（限电、停机、欠发）、月发电量、额定功率、容量系数、TBA/PBA、故障分析（MTTF、MTTR、MTBF）等。对整场，计算其主要指标：应发电量、理论发电量、实际发电量、损失发电量、月发电量、额定功率、平均风速、TBA/PBA。",
+					"显示数据以及分析结果：整场信息，运行分析，实时数据，交叉对比，指标对比。"
+				]
+			},
+			"duties": [
+				"编写技术文档",
+				"设计程序架构",
+				"阅读现有文档及python代码，理解并改进算法",
+				"后端算法及WebAPI实现",
+				"前端“运行分析”，“指标对比”模块开发"
+			],
+			"technologies": [
+				{
+					"name": "前端",
+					"contents": [
+						"Angular",
+						"PrimeNG",
+						"NG-ZORRO",
+						"Echarts",
+						"Bootstrap",
+						"Font Awesome"
+					]
+				},
+				{
+					"name": "后端",
+					"contents": [
+						"C#/ASP.NET Core",
+						"Automapper",
+						"Dapper",
+						"Npgsql",
+						"Vibrant.InfluxDB.Client",
+						"NLog",
+						"Pomelo.AspNetCore.TimedJob"
+					]
+				},
+				{
+					"name": "数据库",
+					"contents": [
+						"Postgresql",
+						"Influxdb"
+					]
+				},
+				{
+					"name": "工具",
+					"contents": [
+						"Jenkins",
+						"Git",
+						"Mantis",
+						"Postman",
+						"Visual Studio",
+						"Visual Studio Code",
+						"IIS",
+						"pgAdmin",
+						"InfluxDBStudio"
+					]
+				}
+			]
+		},
+		{
+			"name": "Forecast Management",
+			"organization": "Meteodyn",
+			"city": "中国陕西西安",
+			"period": "2017/06 - 2018/02",
+			"description": {
+				"header":"开发web应用，管理功率预测的项目及文件，提供如下功能：",
+				"details": [
+					"用户管理（4种用户：管理员，内部用户，内部限制用户，外部用户）。",
+					"省份管理：增删改查。",
+					"项目管理：增删改查。",
+					"文件管理（xyh文件，系数文件，功率曲线文件，尾流曲线文件）：上传，下载，删除。",
+					"数据管理（中尺度/测风/实测/结果/限电）：导入，导出，删除。",
+					"系统功能：自动检测过期数据，自动发送提醒邮件。"
+				]
+			},
+			"duties": [
+				"需求分析",
+				"编写技术文档",
+				"设计程序架构",
+				"开发"
+			],
+			"technologies": [
+				{
+					"name": "语言/库/框架",
+					"contents": [
+						"C#/ASP.NET Core",
+						"Automapper",
+						"Dapper",
+						"Npgsql",
+						"NLog",
+						"Pomelo.AspNetCore.TimedJob"
+					]
+				},
+				{
+					"name": "数据库",
+					"contents": [
+						"Postgresql"
+					]
+				},
+				{
+					"name": "工具",
+					"contents": [
+						"Jenkins",
+						"Git",
+						"Mantis",
+						"Visual Studio",
+						"IIS",
+						"pgAdmin"
+					]
+				}
+			]
+		},
+		{
+			"name": "Forecast Library",
+			"organization": "Meteodyn",
+			"city": "法国南特/中国陕西西安",
+			"period": "2016/09 - 2017/04",
+			"description": {
+				"header":"开发C++版本的库，提供功率预测的基本功能，供其他开发者调用：",
+				"details": [
+					"基本参数的Setter和Getters函数。",
+					"载入数据函数：载入Mast、Scada、Meso数据。",
+					"启动计算及获取结果函数。"
+				]
+			},
+			"duties": [
+				"需求分析",
+				"编写技术文档",
+				"开发",
+				"客户培训",
+				"技术支持"
+			],
+			"technologies": [
+				{
+					"name": "平台",
+					"contents": [
+						"CentOS 7"
+					]
+				},
+				{
+					"name": "语言/库",
+					"contents": [
+						"Qt/C++",
+						"Mono"
+					]
+				},
+				{
+					"name": "工具",
+					"contents": [
+						"Jenkins",
+						"Git",
+						"Visual Studio",
+						"MonoDevelop"
+					]
+				}
+			]
+		},
+		{
+			"name": "Shanghai Electric",
+			"organization": "Meteodyn",
+			"city": "法国南特",
+			"period": "2015/11 - 2016/12",
+			"description": {
+				"header":"开发web服务，提供如下功能，用户管理，风场管理，风机类型管理，文件管理，流体力学计算，风力资源评估，风机位置优化等等。"
+			},
+			"duties": [
+				"需求分析",
+				"编写技术文档",
+				"开发",
+				"数据库迁移管理"
+			],
+			"technologies": [
+				{
+					"name": "语言/库/框架",
+					"contents": [
+						"C#.NET",
+						"NUnit",
+						"Nancy",
+						"Rest Api",
+						"Javascript",
+						"Ajax",
+						"ApiDoc"
+					]
+				},
+				{
+					"name": "数据库",
+					"contents": [
+						"Sql server"
+					]
+				},
+				{
+					"name": "工具",
+					"contents": [
+						"Jenkins",
+						"Git",
+						"Mantis",
+						"Visual Studio",
+						"SQL Server Management Studio",
+						"IIS",
+						"Postman"
+					]
+				}
+			]
+		},
+		{
+			"name": "Forecast Wind/Sun",
+			"organization": "Meteodyn",
+			"city": "法国南特/中国陕西西安",
+			"period": "2015/03 - 2017/06",
+			"description": {
+				"header":"功率预测软件，更新其算法及界面，添加新功能，开发新版本。软件主要功能：",
+				"details": [
+					"项目管理：用户可载入、删除项目。",
+					"项目配置：一个项目即一个风场，可以为风场内每个风机指定功率曲线和尾流曲线，添加停机限电配置；配置中尺度文件，及所要使用的时间段；配置神经网络校正文件；添加自动计算任务。",
+					"计算：可以手动发送下载任务、计算任务；也可以等待计划任务自动执行。",
+					"结果：结果输出为txt和Excel两种格式，也可以在软件界面中查看结果。"
+				]
+			},
+			"duties": [
+				"需求分析",
+				"阅读现有文档及代码，理解并改进算法和界面",
+				"更新技术文档",
+				"按需求添加新功能（神经网络从FANN更新为TensorFlow，单项目可配置多中尺度数据源计算，添加整场限电等等）",
+				"修改bug",
+				"技术支持"
+			],
+			"technologies": [
+				{
+					"name": "语言/库",
+					"contents": [
+						"C#.NET",
+						"Automapper",
+						"Fann.Net",
+						"log4net"
+					]
+				},
+				{
+					"name": "数据库",
+					"contents": [
+						"Sql server",
+						"Sqlite"
+					]
+				},
+				{
+					"name": "工具",
+					"contents": [
+						"Jenkins",
+						"Git",
+						"SVN",
+						"Mantis",
+						"Visual Studio",
+						"SQL Server Management Studio",
+						"InnoSetup"
+					]
+				}
+			]
+		},
+		{
+			"name": "Meteodyn WT",
+			"organization": "Meteodyn",
+			"city": "法国南特",
+			"period": "2015/03 - 2015/10",
+			"description": {
+				"header":"Meteodyn WT是一种风能软件，使用计算流体动力学（CFD）进行风资源评估。它量化了所需地形中的风力资源，以评估拟议风电场的可行性。可用于年度能源生产（AEP）评估，现场适用性，涡轮机布局优化，能源生产优化，维护成本和涡轮机寿命验证。"
+			},
+			"duties": [
+				"根据测试人员提交的Mantis修改bug"
+			],
+			"technologies": [
+				{
+					"name": "语言",
+					"contents": [
+						"C#.NET"
+					]
+				},
+				{
+					"name": "数据库",
+					"contents": [
+						"Sql server"
+					]
+				},
+				{
+					"name": "工具",
+					"contents": [
+						"Jenkins",
+						"SVN",
+						"Mantis",
+						"Visual Studio",
+						"InnoSetup"
+					]
+				}
+			]
+		},
+		{
+			"name": "Mission M1",
+			"organization": "Meteodyn",
+			"city": "法国南特",
+			"period": "2016/01 - 2016/02",
+			"description": {
+				"header":"开发web应用，评估法国境内，安置起重机位置与高楼之间的关系。"
+			},
+			"duties": [
+				"编写技术文档",
+				"开发",
+				"维护"
+			],
+			"technologies": [
+				{
+					"name": "语言/库",
+					"contents": [
+						"PHP",
+						"Html",
+						"CSS",
+						"Javascript",
+						"Jquery",
+						"Ajax"
+					]
+				},
+				{
+					"name": "工具",
+					"contents": [
+						"SVN",
+						"Atom",
+						"EsayPHP"
+					]
+				}
+			]
 		}
+		
 	]
 }
