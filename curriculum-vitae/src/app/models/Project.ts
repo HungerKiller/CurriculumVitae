@@ -10,10 +10,10 @@ export class Project {
 
 export class Description{
     header: string;
-    detail: Array<string>;
+    details: Array<string>;
 }
 
 export class Technology{
     name: string;
-    content: Array<string>;
+    contents: Array<string>;
 }

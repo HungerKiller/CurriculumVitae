@@ -10,14 +10,13 @@ import { Project } from '../models/Project';
 export class ProjectComponent implements OnInit {
 
   projects: Project[] = [];
-  project: Project;
 
   constructor(private jsonReaderService: JsonReaderService) { }
 
   ngOnInit() {
     this.jsonReaderService.getJSON("./assets/projects_cn.json").subscribe(data => {
-      this.projects = data as Project[];
-      this.project = this.projects[0];
+      this.projects = data['projects'] as Project[];
     });
   }
 }
+
