@@ -1,44 +1,40 @@
-<p-messages [(value)]="msgs"></p-messages>
 
-<h3 class="first">Basic</h3>
 <div>
     <button type="button" pButton (click)="showSuccess()" label="Success" class="ui-button-success"></button>
     <button type="button" pButton (click)="showInfo()" label="Info" class="ui-button-info"></button>
     <button type="button" pButton (click)="showWarn()" label="Warn" class="ui-button-warning"></button>
     <button type="button" pButton (click)="showError()" label="Error" class="ui-button-danger"></button>
-    <button type="button" pButton (click)="showMultiple()" label="Multiple"></button>
-    <button type="button" pButton (click)="clear()" icon="pi pi-times" style="float:right" label="Clear"></button>
 </div>
 
-<h3>Message Service</h3>
-<button type="button" pButton (click)="showViaService()" label="Use Service"></button>
+<p-accordion [multiple]="true">
+    <p-accordionTab *ngFor="let project of projects" header="{{project?.name}}, {{project?.organization}}, {{project?.city}}, {{project?.period}}"
+        [selected]="true">
+        <h2>概述</h2>
+        <p>{{project?.description?.header}}</p>
+        <ul *ngFor="let dcp of project?.description?.details" class="nopoint">
+            <li>
+                <p>{{dcp}}</p>
+            </li>
+        </ul>
 
-<h3>Inline Message CSS</h3>
-<p>CSS helpers to display inline messages mostly within forms.</p>
-<p-message severity="info" text="PrimeNG Rocks"></p-message>
-<p-message severity="success" text="Record Saved"></p-message>  
-<p-message severity="warn" text="Are you sure?"></p-message>  
-<p-message severity="error" text="Field is required"></p-message>
+        <h2>职责</h2>
+        <ul *ngFor="let duty of project?.duties" class="nopoint">
+            <li>
+                <p>{{duty}}</p>
+            </li>
+        </ul>
 
-<div style="margin-top:30px">
-    <input type="text" pInputText placeholder="Username" class="ng-dirty ng-invalid">
-    <p-message severity="error" text="Field is required"></p-message>
-</div>
+        <h2>开发</h2>
+        <ul class="nopoint">
+            <span *ngFor="let tech of project?.technologies">
+                <li>
+                    <p class="line">{{tech?.name}}：</p>
+                    <p *ngFor="let content of tech?.contents" class="line">
+                        <span class="label label-primary">{{content}}</span>&nbsp;
+                    </p>
+                </li>
+            </span>
+        </ul>
 
-<div style="margin-top:30px">
-    <input type="text" pInputText placeholder="Email" class="ng-dirty ng-invalid">
-    <p-message severity="error"></p-message>
-</div>
-
-<div style="margin-top:30px">
-    {{projects.lenght}}
-    {{project?.name}}
-    {{project?.organization}}
-    {{project?.city}}
-    {{project?.period}}
-
-    {{project?.description?.header}}
-    <p *ngFor="let dcp of project?.description?.detail" class="line">
-        <span class="label label-success">{{dcp}}</span>&nbsp;
-    </p>
-</div>
+    </p-accordionTab>
+</p-accordion>
