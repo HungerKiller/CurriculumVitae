@@ -31,13 +31,13 @@
       <ul class="nopoint">
         <li *ngFor="let eudcation of educations">
           <nz-timeline-item>
-            <strong>{{eudcation.period}},
+            <strong class="title">{{eudcation.period}},
               <a target="_blank" rel="noopener noreferrer" href="{{eudcation.schoolUrl}}">{{eudcation.school}}</a>, {{eudcation.specialty}}, {{eudcation.level}}, {{eudcation.city}}</strong>
             <div class="ui-g ui-md">
               <p class="ui-g-2 ui-md-2">主修课程：</p>
               <div class="ui-g-10 ui-md-10">
                 <p *ngFor="let course of eudcation.courses" class="line">
-                  <span class="label label-primary">{{course}}</span>&nbsp;
+                  <nz-tag [nzColor]="'#337ab7'"><strong class="label">{{course}}</strong></nz-tag>&nbsp;
                 </p>
               </div>
             </div>
@@ -53,7 +53,7 @@
       <ul class="nopoint">
         <li *ngFor="let career of careers">
           <nz-timeline-item>
-            <strong>{{career.period}}, {{career.company}}, {{career.post}}, {{career.city}}</strong>
+            <strong class="title">{{career.period}}, {{career.company}}, {{career.post}}, {{career.city}}</strong>
             <!-- <p>工作内容：{{career.duty}}</p>
             <p>使用技术：{{career.technology}}</p>
             <p>涉及项目：{{career.project}}</p> -->
@@ -90,35 +90,36 @@
   <p-accordionTab header="能力" [selected]="true">
     <h2>能力</h2>
     <h3>计算机</h3>
+
     <ul class="nopoint">
       <li>
         <p class="line">语言：</p>
         <p *ngFor="let program of techSkill?.program" class="line">
-          <span class="label label-primary">{{program}}</span>&nbsp;
+          <nz-tag [nzColor]="'#337ab7'"><strong class="label">{{program}}</strong></nz-tag>&nbsp;
         </p>
       </li>
       <li>
         <p class="line">数据库：</p>
         <p *ngFor="let database of techSkill?.database" class="line">
-          <span class="label label-info">{{database}}</span>&nbsp;
+          <nz-tag [nzColor]="'#5bc0de'"><strong class="label">{{database}}</strong></nz-tag>&nbsp;
         </p>
       </li>
       <li>
         <p class="line">效率工具：</p>
         <p *ngFor="let tool of techSkill?.tools" class="line">
-          <span class="label label-success">{{tool}}</span>&nbsp;
+          <nz-tag [nzColor]="'#5cb85c'"><strong class="label">{{tool}}</strong></nz-tag>&nbsp;
         </p>
       </li>
       <li>
         <p class="line">库&框架：</p>
         <p *ngFor="let library of techSkill?.library" class="line">
-          <span class="label label-warning">{{library}}</span>&nbsp;
+          <nz-tag [nzColor]="'#f0ad4e'"><strong class="label">{{library}}</strong></nz-tag>&nbsp;
         </p>
       </li>
       <li>
         <p class="line">其他：</p>
         <p *ngFor="let other of techSkill?.other" class="line">
-          <span class="label label-danger">{{other}}</span>&nbsp;
+          <nz-tag [nzColor]="'#d9534f'"><strong class="label">{{other}}</strong></nz-tag>&nbsp;
         </p>
       </li>
     </ul>
@@ -138,3 +139,5 @@
     <p>{{this.selfEvaluation?.objective}}</p>
   </p-accordionTab>
 </p-accordion>
+
+<nz-back-top></nz-back-top>

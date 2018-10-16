@@ -1,15 +1,7 @@
-
-<div>
-    <button type="button" pButton (click)="showSuccess()" label="Success" class="ui-button-success"></button>
-    <button type="button" pButton (click)="showInfo()" label="Info" class="ui-button-info"></button>
-    <button type="button" pButton (click)="showWarn()" label="Warn" class="ui-button-warning"></button>
-    <button type="button" pButton (click)="showError()" label="Error" class="ui-button-danger"></button>
-</div>
-
 <p-accordion [multiple]="true">
     <p-accordionTab *ngFor="let project of projects" header="{{project?.name}}, {{project?.organization}}, {{project?.city}}, {{project?.period}}"
         [selected]="true">
-        <h2>概述</h2>
+        <nz-divider nzText="概述" nzOrientation="left"></nz-divider>
         <p>{{project?.description?.header}}</p>
         <ul *ngFor="let dcp of project?.description?.details" class="nopoint">
             <li>
@@ -17,20 +9,20 @@
             </li>
         </ul>
 
-        <h2>职责</h2>
+        <nz-divider nzText="职责" nzOrientation="left"></nz-divider>
         <ul *ngFor="let duty of project?.duties" class="nopoint">
             <li>
                 <p>{{duty}}</p>
             </li>
         </ul>
 
-        <h2>开发</h2>
+        <nz-divider nzText="开发" nzOrientation="left"></nz-divider>
         <ul class="nopoint">
             <span *ngFor="let tech of project?.technologies">
                 <li>
                     <p class="line">{{tech?.name}}：</p>
                     <p *ngFor="let content of tech?.contents" class="line">
-                        <span class="label label-primary">{{content}}</span>&nbsp;
+                        <nz-tag [nzColor]="'#337ab7'"><strong class="label">{{content}}</strong></nz-tag>&nbsp;
                     </p>
                 </li>
             </span>
