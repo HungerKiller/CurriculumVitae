@@ -133,6 +133,13 @@
     </ul>
   </p-accordionTab>
 
+  <p-accordionTab header="爱好" [selected]="true">
+    <h2>爱好</h2>
+    <p *ngFor="let hobby of hobbies" class="line">
+      <nz-tag [nzColor]="'#337ab7'"><strong class="label">{{hobby}}</strong></nz-tag>&nbsp;
+    </p>
+  </p-accordionTab>
+
   <p-accordionTab header="自我评价" [selected]="true">
     <h2>自我评价</h2>
     <p>{{this.selfEvaluation?.evaluation}}</p>

@@ -19,6 +19,7 @@ export class CvComponent implements OnInit {
   techSkill: TechSkill;
   langSkills: Array<LangSkill> = [];
   selfEvaluation: SelfEvaluation;
+  hobbies: Array<string> = [];
 
   constructor(private jsonReaderService: JsonReaderService) { }
 
@@ -34,6 +35,8 @@ export class CvComponent implements OnInit {
       this.techSkill = data['skills']['technology'] as TechSkill;
       // Language skill
       this.langSkills = data['skills']['language'] as LangSkill[];
+      // Hobby
+      this.hobbies = data['hobbies'] as string[];
       // Self evaluation
       this.selfEvaluation = data['selfEvaluation'] as SelfEvaluation;
     });
