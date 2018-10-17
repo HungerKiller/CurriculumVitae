@@ -399,6 +399,44 @@
 					]
 				}
 			]
+		},
+		{
+			"name": "Skin Flow Scan",
+			"organization": "Orion Concept(实习)",
+			"city": "法国南特",
+			"period": "2014/05 - 2014/10",
+			"description": {
+				"header":"使用VivaScope和VivaScan对皮肤进行扫描，获取皮肤视频。开发软件，对此视频或对实时视频进行分析，检测单位时间内，血红细胞通过的数量，以判断病人的稳定情况。"
+			},
+			"duties": [
+				"需求分析",
+				"编写技术文档",
+				"设计程序架构",
+				"开发",
+				"写报告"
+			],
+			"technologies": [
+				{
+					"name": "语言/库",
+					"contents": [
+						"C#.NET",
+						"EmguCV",
+						"FFmpeg"
+					]
+				},
+				{
+					"name": "工具",
+					"contents": [
+						"SVN",
+						"Visual Studio",
+						"ImageJ",
+						"Matlab",
+						"InnoSetup",
+						"VivaScope/VivaScan",
+						"LaTeX"
+					]
+				}
+			]
 		}
 		
 	]
