@@ -403,7 +403,7 @@
 		{
 			"name": "Skin Flow Scan",
 			"organization": "Orion Concept(实习)",
-			"city": "法国南特",
+			"city": "法国图尔",
 			"period": "2014/05 - 2014/10",
 			"description": {
 				"header":"使用VivaScope和VivaScan对皮肤进行扫描，获取皮肤视频。开发软件，对此视频或对实时视频进行分析，检测单位时间内，血红细胞通过的数量，以判断病人的稳定情况。"
@@ -437,7 +437,301 @@
 					]
 				}
 			]
+		},
+		{
+			"name": "HeadScan Dynamics",
+			"organization": "Orion Concept(实习)",
+			"city": "法国图尔",
+			"period": "2014/04 - 2014/12",
+			"description": {
+				"header":"已有软件，用于定位病人与相机，自动化拍摄不同角度，不同亮度，不同过滤器的一组图片。Debug并加入新功能。"
+			},
+			"duties": [
+				"阅读现有文档和代码理解程序",
+				"更新技术文档",
+				"开发"
+			],
+			"technologies": [
+				{
+					"name": "语言/库",
+					"contents": [
+						"C#.NET",
+						"Java",
+						"Phidgets"
+					]
+				},
+				{
+					"name": "工具",
+					"contents": [
+						"Visual Studio",
+						"Eclipse",
+						"SVN",
+						"ImageJ",
+						"Excelsior JET",
+						"InnoSetup"
+					]
+				}
+			]
+		},
+		{
+			"name": "追踪大动脉中的钙化分布",
+			"organization": "图尔工程师学院",
+			"city": "法国图尔",
+			"period": "2014/01 - 2014/05",
+			"description": {
+				"header":"已有一系列大动脉截面图，每一个截面图均有钙化分布情况，且不同截面图（动脉的不同位置）钙化的大小和位置不同。开发一个软件，自动追踪钙化的区域。"
+			},
+			"duties": [
+				"需求分析",
+				"编写技术文档",
+				"设计程序架构",
+				"开发",
+				"写报告"
+			],
+			"technologies": [
+				{
+					"name": "语言/库",
+					"contents": [
+						"Java",
+						"ImageJ"
+					]
+				},
+				{
+					"name": "工具",
+					"contents": [
+						"Eclipse",
+						"SVN",
+						"LaTeX"
+					]
+				}
+			]
+		},
+		{
+			"name": "为文件分类的单类分类器分析并开发一个合并方法",
+			"organization": "图尔计算机实验室-模式识别与图像分析（毕业设计）",
+			"city": "法国图尔",
+			"period": "2013/09 - 2014/05",
+			"description": {
+				"header":"有若干图片文件，根据图片的内容，可以把文件分类：支票、信、报告等等。使用多个单类分类器对文件分类，不同分类器获得的结果不同，开发一个合并方法，使得分类的结果尽可能完美。"
+			},
+			"duties": [
+				"需求分析",
+				"编写技术文档",
+				"设计程序架构",
+				"开发",
+				"写报告"
+			],
+			"technologies": [
+				{
+					"name": "语言/库",
+					"contents": [
+						"C#.NET",
+						"AForge.NET"
+					]
+				},
+				{
+					"name": "工具",
+					"contents": [
+						"Visual Studio",
+						"Git",
+						"Redmine",
+						"单类分类器",
+						"LaTeX"
+					]
+				}
+			]
+		},
+		{
+			"name": "提取原始医学图片的特性",
+			"organization": "Orion Concept(实习)",
+			"city": "法国图尔",
+			"period": "2013/06 - 2013/09",
+			"description": {
+				"header":"已有医学皮肤图像，在图像中来提取灰度级的分布，以便建立一系列图像的特性；之后，量化这些特性以表现出不同的生物组织的特点。"
+			},
+			"duties": [
+				"需求分析",
+				"编写技术文档",
+				"设计程序架构",
+				"开发",
+				"写报告"
+			],
+			"technologies": [
+				{
+					"name": "语言/库",
+					"contents": [
+						"Java",
+						"Jmathplot",
+						"ImageJ"
+					]
+				},
+				{
+					"name": "工具",
+					"contents": [
+						"Eclipse",
+						"SVN",
+						"LaTeX"
+					]
+				}
+			]
+		},
+		{
+			"name": "控制工业摄像头",
+			"organization": "Orion Concept(实习)",
+			"city": "法国图尔",
+			"period": "2013/06 - 2013/09",
+			"description": {
+				"header":"开发工具，控制工业摄像头IDS uEye。"
+			},
+			"duties": [
+				"开发",
+				"写报告"
+			],
+			"technologies": [
+				{
+					"name": "语言/库",
+					"contents": [
+						"C#.NET",
+						"IDS uEye"
+					]
+				},
+				{
+					"name": "工具",
+					"contents": [
+						"Visual Studio",
+						"SVN",
+						"LaTeX"
+					]
+				}
+			]
+		},
+		{
+			"name": "在多个同样处理器的网格计算中分配任务",
+			"organization": "图尔工程师学院",
+			"city": "法国图尔",
+			"period": "2013/02 - 2013/05",
+			"description": {
+				"header":"已知有若干处理器，以及若干个待处理任务。每个处理器的处理速度一样，但是每个任务需要的处理时间不一定。同一时间，同一任务，只能在一个处理器上处理。寻求一个算法，使得最早完成所有任务。"
+			},
+			"duties": [
+				"分析实例",
+				"提出算法",
+				"开发",
+				"算法测试与总结",
+				"写报告"
+			],
+			"technologies": [
+				{
+					"name": "语言/库",
+					"contents": [
+						"C/C++"
+					]
+				},
+				{
+					"name": "工具",
+					"contents": [
+						"Visual Studio",
+						"Cplex Studio",
+						"LaTeX"
+					]
+				}
+			]
+		},
+		{
+			"name": "商品容量控制",
+			"organization": "图尔工程师学院",
+			"city": "法国图尔",
+			"period": "2012/10 - 2013/05",
+			"description": {
+				"header":"向集装箱内装货物，货物的容积大小不一，开发一个软件，通过获取的视频和图像，来分析这个集装箱内，还有多少可用空间。"
+			},
+			"duties": [
+				"需求分析",
+				"开发“双目摄像头3D成像”",
+				"编写技术文档"
+			],
+			"technologies": [
+				{
+					"name": "语言/库",
+					"contents": [
+						"Qt/C++",
+						"OpenCV"
+					]
+				},
+				{
+					"name": "工具",
+					"contents": [
+						"Visual Studio",
+						"Git",
+						"kinect",
+						"双目摄像头",
+						"LaTeX"
+					]
+				}
+			]
+		},
+		{
+			"name": "开发Sphero的安卓应用",
+			"organization": "图尔工程师学院",
+			"city": "法国图尔",
+			"period": "2012/09 - 2013/01",
+			"description": {
+				"header":"开发Sphero的安卓应用。通过安卓手机来控制Sphero小球的运行路线以及颜色变化。"
+			},
+			"duties": [
+				"设计程序架构",
+				"开发",
+				"写报告"
+			],
+			"technologies": [
+				{
+					"name": "语言/库",
+					"contents": [
+						"Java",
+						"Sphero"
+					]
+				},
+				{
+					"name": "工具",
+					"contents": [
+						"Eclipse",
+						"安卓手机",
+						"LaTeX"
+					]
+				}
+			]
+		},
+		{
+			"name": "在Nintendo DS上开发游戏Jezzball",
+			"organization": "图尔工程师学院",
+			"city": "法国图尔",
+			"period": "2012/01 - 2012/05",
+			"description": {
+				"header":"开发并测试游戏JezzBall。"
+			},
+			"duties": [
+				"设计程序架构",
+				"开发",
+				"写报告"
+			],
+			"technologies": [
+				{
+					"name": "语言/库",
+					"contents": [
+						"C",
+						"PAlib",
+						"devkitPro"
+					]
+				},
+				{
+					"name": "工具",
+					"contents": [
+						"CodeBlocks",
+						"Nintendo DS",
+						"LaTeX"
+					]
+				}
+			]
 		}
-		
 	]
 }
