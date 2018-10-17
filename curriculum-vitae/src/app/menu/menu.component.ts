@@ -23,8 +23,9 @@ export class MenuComponent implements OnInit {
             icon: 'fa fa-tasks',
             routerLink: 'project',
             items: [
-                { label: '项目1', icon: 'fa fa-tasks' },
-                { label: '项目2', icon: 'fa fa-tasks' }
+                { label: '概览', routerLink: 'overview', icon: 'fa fa-table' },
+                { label: '统计', routerLink: 'statistics', icon: 'fa fa-pie-chart' },
+                { label: '详情', routerLink: 'detail', icon: 'fa fa-list-ul' }
             ]
         }];
     }
