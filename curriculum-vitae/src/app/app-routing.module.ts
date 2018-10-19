@@ -7,7 +7,23 @@ import { ProjectComponent }  from './project/project.component';
 const routes: Routes = [
   { path: '', redirectTo: '/cv', pathMatch: 'full' },
   { path: 'cv', component: CvComponent },
-  { path: 'project', component: ProjectComponent }
+  { 
+    path: 'project', 
+    children: [
+      {
+        path:'overview',
+        component: ProjectComponent
+      },
+      {
+        path:'statistics',
+        component: ProjectComponent
+      },
+      {
+        path:'detail',
+        component: ProjectComponent
+      }
+    ] 
+  },
 ];
 
 @NgModule({
