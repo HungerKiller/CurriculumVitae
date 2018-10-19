@@ -1,3 +1,32 @@
-<p>
-  project-detail works!
-</p>
+<p-accordion [multiple]="true">
+  <p-accordionTab *ngFor="let project of projects" header="{{project?.name}}, {{project?.organization}}, {{project?.city}}, {{project?.period}}"
+      [selected]="false">
+      <nz-divider nzText="概述" nzOrientation="left"></nz-divider>
+      <p>{{project?.description?.header}}</p>
+      <ul *ngFor="let dcp of project?.description?.details" class="nopoint">
+          <li>
+              <p>{{dcp}}</p>
+          </li>
+      </ul>
+
+      <nz-divider nzText="职责" nzOrientation="left"></nz-divider>
+      <ul *ngFor="let duty of project?.duties" class="nopoint">
+          <li>
+              <p>{{duty}}</p>
+          </li>
+      </ul>
+
+      <nz-divider nzText="开发" nzOrientation="left"></nz-divider>
+      <ul class="nopoint">
+          <span *ngFor="let tech of project?.technologies">
+              <li>
+                  <p class="line">{{tech?.name}}：</p>
+                  <p *ngFor="let content of tech?.contents" class="line">
+                      <nz-tag [nzColor]="'#337ab7'"><strong class="label">{{content}}</strong></nz-tag>&nbsp;
+                  </p>
+              </li>
+          </span>
+      </ul>
+
+  </p-accordionTab>
+</p-accordion>

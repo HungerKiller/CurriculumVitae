@@ -3,11 +3,16 @@ import { CommonModule } from '@angular/common';
 import { ProjectDetailComponent } from './project-detail/project-detail.component';
 import { ProjectOverviewComponent } from './project-overview/project-overview.component';
 import { ProjectStatisticsComponent } from './project-statistics/project-statistics.component';
-import { ProjectRoutingModule } from './project-routing.module';
+
+import {AccordionModule} from 'primeng/accordion';
+
+import { NgZorroAntdModule, NZ_I18N, zh_CN } from 'ng-zorro-antd';
 
 @NgModule({
   imports: [
-    CommonModule
+    CommonModule,
+    AccordionModule,
+    NgZorroAntdModule
   ],
   declarations: [ProjectDetailComponent, ProjectOverviewComponent, ProjectStatisticsComponent]
 })

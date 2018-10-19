@@ -15,8 +15,10 @@ import { CvComponent } from './cv/cv.component';
 import { FooterComponent } from './footer/footer.component';
 import { HeaderComponent } from './header/header.component';
 import { ProjectComponent } from './project/project.component';
+
 import { ProjectModule } from './project/project.module';
 import { AppRoutingModule } from './app-routing.module';
+
 import { ButtonModule } from 'primeng/button';
 import { CardModule } from 'primeng/card';
 import { RatingModule } from 'primeng/rating';
