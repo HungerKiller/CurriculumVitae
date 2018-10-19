@@ -15,6 +15,7 @@ import { CvComponent } from './cv/cv.component';
 import { FooterComponent } from './footer/footer.component';
 import { HeaderComponent } from './header/header.component';
 import { ProjectComponent } from './project/project.component';
+import { ProjectModule } from './project/project.module';
 import { AppRoutingModule } from './app-routing.module';
 import { ButtonModule } from 'primeng/button';
 import { CardModule } from 'primeng/card';
@@ -53,7 +54,8 @@ registerLocaleData(zh);
     NgZorroAntdModule,
     AccordionModule,
     TableModule,
-    InplaceModule
+    InplaceModule,
+    ProjectModule
   ],
   providers: [{ provide: NZ_I18N, useValue: zh_CN }],
   bootstrap: [AppComponent]
