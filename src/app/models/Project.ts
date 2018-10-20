@@ -2,7 +2,8 @@ export class Project {
     name: string;
     organization: string;
     city: string;
-    period: string;
+    startDate: string;
+    endDate: string;
     description: Description;
     duties: Array<string>;
     technologies: Array<Technology>;

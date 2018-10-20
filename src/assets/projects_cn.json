@@ -4,7 +4,8 @@
 			"name": "中尺度平台",
 			"organization": "Meteodyn",
 			"city": "中国陕西西安",
-			"period": "2017/07 - 2018/12",
+			"startDate": "2017/07",
+			"endDate": "2018/12",
 			"description": {
 				"header":"开发桌面应用，提供如下功能：",
 				"details": [
@@ -65,7 +66,8 @@
 			"name": "庄河风电评估系统",
 			"organization": "Meteodyn",
 			"city": "中国陕西西安",
-			"period": "2018/06 - 2018/12",
+			"startDate": "2018/06",
+			"endDate": "2018/12",
 			"description": {
 				"header":"开发Web应用，提供如下功能：",
 				"details": [
@@ -135,7 +137,8 @@
 			"name": "Forecast Management",
 			"organization": "Meteodyn",
 			"city": "中国陕西西安",
-			"period": "2017/06 - 2018/02",
+			"startDate": "2017/06",
+			"endDate": "2018/02",
 			"description": {
 				"header":"开发web应用，管理功率预测的项目及文件，提供如下功能：",
 				"details": [
@@ -188,7 +191,8 @@
 			"name": "Forecast Library",
 			"organization": "Meteodyn",
 			"city": "法国南特/中国陕西西安",
-			"period": "2016/09 - 2017/04",
+			"startDate": "2016/09",
+			"endDate": "2017/04",
 			"description": {
 				"header":"开发C++版本的库，提供功率预测的基本功能，供其他开发者调用：",
 				"details": [
@@ -233,7 +237,8 @@
 			"name": "Shanghai Electric",
 			"organization": "Meteodyn",
 			"city": "法国南特",
-			"period": "2015/11 - 2016/12",
+			"startDate": "2015/11",
+			"endDate": "2016/12",
 			"description": {
 				"header":"开发web服务，提供如下功能，用户管理，风场管理，风机类型管理，文件管理，流体力学计算，风力资源评估，风机位置优化等等。"
 			},
@@ -280,7 +285,8 @@
 			"name": "Forecast Wind/Sun",
 			"organization": "Meteodyn",
 			"city": "法国南特/中国陕西西安",
-			"period": "2015/03 - 2017/06",
+			"startDate": "2015/03",
+			"endDate": "2017/06",
 			"description": {
 				"header":"功率预测软件，更新其算法及界面，添加新功能，开发新版本。软件主要功能：",
 				"details": [
@@ -333,7 +339,8 @@
 			"name": "Meteodyn WT",
 			"organization": "Meteodyn",
 			"city": "法国南特",
-			"period": "2015/03 - 2015/10",
+			"startDate": "2015/03",
+			"endDate": "2015/10",
 			"description": {
 				"header":"Meteodyn WT是一种风能软件，使用计算流体动力学（CFD）进行风资源评估。它量化了所需地形中的风力资源，以评估拟议风电场的可行性。可用于年度能源生产（AEP）评估，现场适用性，涡轮机布局优化，能源生产优化，维护成本和涡轮机寿命验证。"
 			},
@@ -369,7 +376,8 @@
 			"name": "Mission M1",
 			"organization": "Meteodyn",
 			"city": "法国南特",
-			"period": "2016/01 - 2016/02",
+			"startDate": "2016/01",
+			"endDate": "2016/02",
 			"description": {
 				"header":"开发web应用，评估法国境内，安置起重机位置与高楼之间的关系。"
 			},
@@ -404,7 +412,8 @@
 			"name": "Skin Flow Scan",
 			"organization": "Orion Concept(实习)",
 			"city": "法国图尔",
-			"period": "2014/05 - 2014/10",
+			"startDate": "2014/05",
+			"endDate": "2014/10",
 			"description": {
 				"header":"使用VivaScope和VivaScan对皮肤进行扫描，获取皮肤视频。开发软件，对此视频或对实时视频进行分析，检测单位时间内，血红细胞通过的数量，以判断病人的稳定情况。"
 			},
@@ -442,7 +451,8 @@
 			"name": "HeadScan Dynamics",
 			"organization": "Orion Concept(实习)",
 			"city": "法国图尔",
-			"period": "2014/04 - 2014/12",
+			"startDate": "2014/04",
+			"endDate": "2014/12",
 			"description": {
 				"header":"已有软件，用于定位病人与相机，自动化拍摄不同角度，不同亮度，不同过滤器的一组图片。Debug并加入新功能。"
 			},
@@ -477,7 +487,8 @@
 			"name": "追踪大动脉中的钙化分布",
 			"organization": "图尔工程师学院",
 			"city": "法国图尔",
-			"period": "2014/01 - 2014/05",
+			"startDate": "2014/01",
+			"endDate": "2014/05",
 			"description": {
 				"header":"已有一系列大动脉截面图，每一个截面图均有钙化分布情况，且不同截面图（动脉的不同位置）钙化的大小和位置不同。开发一个软件，自动追踪钙化的区域。"
 			},
@@ -510,7 +521,8 @@
 			"name": "为文件分类的单类分类器分析并开发一个合并方法",
 			"organization": "图尔计算机实验室-模式识别与图像分析（毕业设计）",
 			"city": "法国图尔",
-			"period": "2013/09 - 2014/05",
+			"startDate": "2013/09",
+			"endDate": "2014/05",
 			"description": {
 				"header":"有若干图片文件，根据图片的内容，可以把文件分类：支票、信、报告等等。使用多个单类分类器对文件分类，不同分类器获得的结果不同，开发一个合并方法，使得分类的结果尽可能完美。"
 			},
@@ -545,7 +557,8 @@
 			"name": "提取原始医学图片的特性",
 			"organization": "Orion Concept(实习)",
 			"city": "法国图尔",
-			"period": "2013/06 - 2013/09",
+			"startDate": "2013/06",
+			"endDate": "2013/09",
 			"description": {
 				"header":"已有医学皮肤图像，在图像中来提取灰度级的分布，以便建立一系列图像的特性；之后，量化这些特性以表现出不同的生物组织的特点。"
 			},
@@ -579,7 +592,8 @@
 			"name": "控制工业摄像头",
 			"organization": "Orion Concept(实习)",
 			"city": "法国图尔",
-			"period": "2013/06 - 2013/09",
+			"startDate": "2013/06",
+			"endDate": "2013/09",
 			"description": {
 				"header":"开发工具，控制工业摄像头IDS uEye。"
 			},
@@ -609,7 +623,8 @@
 			"name": "在多个同样处理器的网格计算中分配任务",
 			"organization": "图尔工程师学院",
 			"city": "法国图尔",
-			"period": "2013/02 - 2013/05",
+			"startDate": "2013/02",
+			"endDate": "2013/05",
 			"description": {
 				"header":"已知有若干处理器，以及若干个待处理任务。每个处理器的处理速度一样，但是每个任务需要的处理时间不一定。同一时间，同一任务，只能在一个处理器上处理。寻求一个算法，使得最早完成所有任务。"
 			},
@@ -641,7 +656,8 @@
 			"name": "商品容量控制",
 			"organization": "图尔工程师学院",
 			"city": "法国图尔",
-			"period": "2012/10 - 2013/05",
+			"startDate": "2012/10",
+			"endDate": "2013/05",
 			"description": {
 				"header":"向集装箱内装货物，货物的容积大小不一，开发一个软件，通过获取的视频和图像，来分析这个集装箱内，还有多少可用空间。"
 			},
@@ -674,7 +690,8 @@
 			"name": "开发Sphero的安卓应用",
 			"organization": "图尔工程师学院",
 			"city": "法国图尔",
-			"period": "2012/09 - 2013/01",
+			"startDate": "2012/09",
+			"endDate": "2013/01",
 			"description": {
 				"header":"开发Sphero的安卓应用。通过安卓手机来控制Sphero小球的运行路线以及颜色变化。"
 			},
@@ -705,7 +722,8 @@
 			"name": "在Nintendo DS上开发游戏Jezzball",
 			"organization": "图尔工程师学院",
 			"city": "法国图尔",
-			"period": "2012/01 - 2012/05",
+			"startDate": "2012/01",
+			"endDate": "2012/05",
 			"description": {
 				"header":"开发并测试游戏JezzBall。"
 			},

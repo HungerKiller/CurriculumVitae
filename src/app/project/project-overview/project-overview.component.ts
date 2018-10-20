@@ -7,6 +7,8 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ProjectOverviewComponent implements OnInit {
 
+  options: any;
+
   constructor() { }
 
   ngOnInit() {

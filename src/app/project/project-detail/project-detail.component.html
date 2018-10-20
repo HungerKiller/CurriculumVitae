@@ -1,5 +1,5 @@
 <p-accordion [multiple]="true">
-  <p-accordionTab *ngFor="let project of projects" header="{{project?.name}}, {{project?.organization}}, {{project?.city}}, {{project?.period}}"
+  <p-accordionTab *ngFor="let project of projects" header="{{project?.name}}, {{project?.organization}}, {{project?.city}}, {{project?.startDate}} - {{project?.endDate}}"
       [selected]="false">
       <nz-divider nzText="概述" nzOrientation="left"></nz-divider>
       <p>{{project?.description?.header}}</p>

@@ -7,12 +7,14 @@ import { ProjectStatisticsComponent } from './project-statistics/project-statist
 import {AccordionModule} from 'primeng/accordion';
 
 import { NgZorroAntdModule, NZ_I18N, zh_CN } from 'ng-zorro-antd';
+import { NgxEchartsModule } from 'ngx-echarts';
 
 @NgModule({
   imports: [
     CommonModule,
     AccordionModule,
-    NgZorroAntdModule
+    NgZorroAntdModule,
+    NgxEchartsModule
   ],
   declarations: [ProjectDetailComponent, ProjectOverviewComponent, ProjectStatisticsComponent]
 })
