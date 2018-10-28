@@ -1,27 +1,29 @@
-<p-table [columns]="cols" [value]="projects" selectionMode="single" sortMode="multiple" [resizableColumns]="true" columnResizeMode="expand">
-  <ng-template pTemplate="colgroup" let-columns>
-    <colgroup>
-      <col *ngFor="let col of columns" [style.width]="col.width">
-    </colgroup>
-  </ng-template>
-  <ng-template pTemplate="header" let-columns>
-    <tr>
-      <th *ngFor="let col of columns" [pSortableColumn]="col.field" pResizableColumn>
-        {{col.header}}
-        <p-sortIcon [field]="col.field"></p-sortIcon>
-      </th>
-    </tr>
-  </ng-template>
-  <ng-template pTemplate="body" let-rowData let-columns="columns">
-    <tr [pSelectableRow]="rowData">
-      <td *ngFor="let col of columns" class="ui-resizable-column">
-        {{rowData[col.field]}}
-      </td>
-    </tr>
-  </ng-template>
-</p-table>
-
-
-
-http://echarts.baidu.com/examples/editor.html?c=bar-waterfall
-<div echarts [options]="options"></div>
+<nz-tabset>
+  <nz-tab nzTitle="列表">
+    <p-table [columns]="cols" [value]="projects" selectionMode="single" sortMode="multiple" [resizableColumns]="true" columnResizeMode="expand">
+      <ng-template pTemplate="colgroup" let-columns>
+        <colgroup>
+          <col *ngFor="let col of columns" [style.width]="col.width">
+        </colgroup>
+      </ng-template>
+      <ng-template pTemplate="header" let-columns>
+        <tr>
+          <th *ngFor="let col of columns" [pSortableColumn]="col.field" pResizableColumn>
+            {{col.header}}
+            <p-sortIcon [field]="col.field"></p-sortIcon>
+          </th>
+        </tr>
+      </ng-template>
+      <ng-template pTemplate="body" let-rowData let-columns="columns">
+        <tr [pSelectableRow]="rowData">
+          <td *ngFor="let col of columns" class="ui-resizable-column">
+            {{rowData[col.field]}}
+          </td>
+        </tr>
+      </ng-template>
+    </p-table>
+  </nz-tab>
+  <nz-tab nzTitle="甘特图">
+    <div echarts [options]="options" style="min-height: 600px"></div>
+  </nz-tab>
+</nz-tabset>
