@@ -1,0 +1,179 @@
+{
+	"yearTechniques": [
+		{
+			"year": "2012",
+			"techniques": [
+				{
+					"name": "C/C++",
+					"hours": "240"
+				},
+				{
+					"name": "Java",
+					"hours": "120"
+				},
+				{
+					"name": "PHP",
+					"hours": "50"
+				},
+				{
+					"name": "C#.Net",
+					"hours": "0"
+				},
+				{
+					"name": "Angular",
+					"hours": "0"
+				}
+			]
+		},
+		{
+			"year": "2013",
+			"techniques": [
+				{
+					"name": "C/C++",
+					"hours": "270"
+				},
+				{
+					"name": "Java",
+					"hours": "210"
+				},
+				{
+					"name": "PHP",
+					"hours": "50"
+				},
+				{
+					"name": "C#.Net",
+					"hours": "420"
+				},
+				{
+					"name": "Angular",
+					"hours": "0"
+				}
+			]
+		},
+		{
+			"year": "2014",
+			"techniques": [
+				{
+					"name": "C/C++",
+					"hours": "0"
+				},
+				{
+					"name": "Java",
+					"hours": "200"
+				},
+				{
+					"name": "PHP",
+					"hours": "0"
+				},
+				{
+					"name": "C#.Net",
+					"hours": "1100"
+				},
+				{
+					"name": "Angular",
+					"hours": "0"
+				}
+			]
+		},
+		{
+			"year": "2015",
+			"techniques": [
+				{
+					"name": "C/C++",
+					"hours": "0"
+				},
+				{
+					"name": "Java",
+					"hours": "0"
+				},
+				{
+					"name": "PHP",
+					"hours": "0"
+				},
+				{
+					"name": "C#.Net",
+					"hours": "2000"
+				},
+				{
+					"name": "Angular",
+					"hours": "0"
+				}
+			]
+		},
+		{
+			"year": "2016",
+			"techniques": [
+				{
+					"name": "C/C++",
+					"hours": "600"
+				},
+				{
+					"name": "Java",
+					"hours": "0"
+				},
+				{
+					"name": "PHP",
+					"hours": "200"
+				},
+				{
+					"name": "C#.Net",
+					"hours": "1200"
+				},
+				{
+					"name": "Angular",
+					"hours": "0"
+				}
+			]
+		},
+		{
+			"year": "2017",
+			"techniques": [
+				{
+					"name": "C/C++",
+					"hours": "700"
+				},
+				{
+					"name": "Java",
+					"hours": "0"
+				},
+				{
+					"name": "PHP",
+					"hours": "0"
+				},
+				{
+					"name": "C#.Net",
+					"hours": "1500"
+				},
+				{
+					"name": "Angular",
+					"hours": "0"
+				}
+			]
+		},
+		{
+			"year": "2018",
+			"techniques": [
+				{
+					"name": "C/C++",
+					"hours": "640"
+				},
+				{
+					"name": "Java",
+					"hours": "0"
+				},
+				{
+					"name": "PHP",
+					"hours": "0"
+				},
+				{
+					"name": "C#.Net",
+					"hours": "1000"
+				},
+				{
+					"name": "Angular",
+					"hours": "640"
+				}
+			]
+		}
+	]
+}

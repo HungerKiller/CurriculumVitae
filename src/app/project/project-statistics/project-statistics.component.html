@@ -1,3 +1,13 @@
 <p>
   project-statistics works!
 </p>
+
+<span *ngFor="let yearTech of yearTechniques">
+  {{yearTech?.year}}
+  <p *ngFor="let tech of yearTech?.techniques">
+      {{tech?.name}}
+      {{tech?.hours}}
+  </p>
+</span>
+
+<div echarts [options]="options" style="min-height: 600px"></div>

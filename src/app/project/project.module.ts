@@ -9,7 +9,6 @@ import { TableModule } from 'primeng/table';
 import { NgZorroAntdModule, NZ_I18N, zh_CN } from 'ng-zorro-antd';
 import { NgxEchartsModule } from 'ngx-echarts';
 
-
 @NgModule({
   imports: [
     CommonModule,
