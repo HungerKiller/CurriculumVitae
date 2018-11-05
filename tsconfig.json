@@ -3,7 +3,7 @@
   "compilerOptions": {
     "outDir": "../dist/", // 注意这个路径
     "rootDir": ".",
-    "baseUrl": "src",
+    "baseUrl": "./",
     "sourceMap": true, // 这个必须要启用，重要
     "declaration": false,
     "moduleResolution": "node",
@@ -11,9 +11,13 @@
     "experimentalDecorators": true,
     "target": "es5",
     "paths": {
-      "echarts": ["node_modules/echarts/dist/echarts.min.js"],
-      "echarts-gl": ["node_modules/echarts-gl/dist/echarts-gl.min.js"]
-   },
+      "echarts": [
+        "node_modules/echarts/dist/echarts.min.js"
+      ],
+      "echarts-gl": [
+        "node_modules/echarts-gl/dist/echarts-gl.min.js"
+      ]
+    },
     "typeRoots": [
       "node_modules/@types"
     ],
