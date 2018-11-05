@@ -1,13 +1,11 @@
-<p>
-  project-statistics works!
-</p>
-
-<span *ngFor="let yearTech of yearTechniques">
-  {{yearTech?.year}}
-  <p *ngFor="let tech of yearTech?.techniques">
-      {{tech?.name}}
-      {{tech?.hours}}
-  </p>
-</span>
-
-<div echarts [options]="options" style="min-height: 600px"></div>
+<nz-tabset>
+  <nz-tab nzTitle="2D">
+    <div echarts [options]="option2D" style="min-height: 600px"></div>
+  </nz-tab>
+  <nz-tab nzTitle="2D Ratio">
+    <div echarts [options]="option2DRatio" style="min-height: 600px"></div>
+  </nz-tab>
+  <nz-tab nzTitle="3D">
+    <div echarts [options]="option3D" style="min-height: 600px"></div>
+  </nz-tab>
+</nz-tabset>
