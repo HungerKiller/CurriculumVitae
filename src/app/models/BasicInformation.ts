@@ -1,6 +1,6 @@
 export class BasicInformation {
     name: string;
-    sex: string;
+    gender: string;
     birthday: string;
     workExperience: string;
     tel: string;
