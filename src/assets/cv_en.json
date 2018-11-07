@@ -1,40 +1,48 @@
 {
 	"basicInformation": {
-		"name": "王忠水",
-		"sex": "男",
+		"name": "ZhongShui WANG",
+		"sex": "Male",
 		"birthday": "1988/10/13",
-		"workExperience": "4年",
+		"workExperience": "4 years",
 		"tel": "+86 18291880714",
 		"email": "zhongshui.wang.chn@gmail.com"
 	},
 	"educationalExperience": [
 		{
 			"period": "2011/09 - 2014/10",
-			"school": "图尔工程师学院",
+			"school": "Polytech Tours",
 			"schoolUrl": "https://polytech.univ-tours.fr/",
-			"specialty": "计算机",
-			"level": "硕士",
-			"city": "法国图尔",
+			"specialty": "Department information technology",
+			"level": "Master",
+			"city": "Tours France",
 			"courses": [
-				"C/C++",
+				"C Language Programming",
+				"C++ Language Programming",
 				"Java/J2ee",
-				"Web编程-PHP",
-				"C#.net",
-				"数据结构与算法",
-				"图论",
-				"调度管理",
-				"项目管理",
-				"系统管理",
-				"网络管理",
-				"操作系统Unix",
-				"编译器",
-				"人工智能",
-				"解决方法",
-				"数据分析",
-				"模式识别",
-				"智能家居",
-				"信号处理",
-				"图片处理"
+				"Web Programming-PHP",
+				"C#.Net",
+				"Data Structures and Algorithms",
+				"Mathematical Programming",
+				"Scientific Software and Mathematics-Matlab",
+				"Database",
+				"Operating System",
+				"Unix",
+				"System Stability",
+				"Parallel",
+				"Robotics",
+				"Graph Theory",
+				"Artificial Intelligence",
+				"Scheduling Management",
+				"Project Management",
+				"Resolution",
+				"System Management",
+				"Network Management",
+				"Compiler",
+				"Data Analysis",
+				"Pattern Recognition",
+				"Smart Home",
+				"Signal Processing",
+				"Image Processing"
 			]
 		},
 		{
@@ -42,8 +50,8 @@
 			"school": "Dalian University of Technology",
 			"schoolUrl": "https://www.dlut.edu.cn/",
 			"specialty": "Network Engineering",
-			"level": "本科",
-			"city": "中国辽宁大连",
+			"level": "Undergraduate",
+			"city": "Dalian Liaoning China",
 			"courses": [
 				"C Language Programming",
 				"C++ Language Programming",
@@ -79,25 +87,28 @@
 		{
 			"period": "2017/02 - Now",
 			"company": "Meteodyn",
-			"city": "中国陕西西安",
-			"post": "软件开发工程师",
+			"city": "Xian Shaanxi China",
+			"post": "Software Engineer",
 			"duty": [
-				"需求分析",
-				"编写技术文档",
-				"程序架构设计",
-				"编码",
+				"Requirements analysis",
+				"Write technical documentation",
+				"Design program architecture",
+				"Development",
 				"Debug",
-				"测试",
-				"维护",
-				"技术支持"
+				"Test",
+				"Maintenance",
+				"Technical support"
 			],
 			"technology": [
-				"C#.net(winform,asp.net,asp.net core)",
+				"C#.NET(WinForm,ASP.NET,ASP.NET Core)",
+				"Qt/C++",
 				"Angular",
-				"primeng",
-				"echarts",
-				"font-awesome",
-				"bootstrap",
+				"PrimeNG",
+				"NG-ZORRO",
+				"Echarts",
+				"Bootstrap",
+				"Font Awesome",
+				"VTK",
 				"Sql server",
 				"Sqlite",
 				"Postgresql",
@@ -105,115 +116,129 @@
 				"Git",
 				"Jenkins",
 				"Mantis",
-				"InnoSetup"
+				"InnoSetup",
+				"AppImage",
+				"Postman",
+				"Mono"
 			],
 			"project": [
-				"Forecast Wind/Sun",
 				"Meso Scale Platform",
+				"Zhuanghe Wind Power Evaluation System",
 				"Forecast Management",
-				"风场评估系统"
+				"Forecast Wind/Sun",
+				"Forecast Library"
 			]
 		},
 		{
 			"period": "2015/03 - 2017/01",
 			"company": "Meteodyn",
-			"city": "法国南特",
-			"post": "软件开发工程师",
+			"city": "Nantes France",
+			"post": "Software Engineer",
 			"duty": [
-				"需求分析",
-				"编写技术文档",
-				"程序架构设计",
-				"编码",
+				"Requirements analysis",
+				"Write technical documentation",
+				"Design program architecture",
+				"Development",
 				"Debug",
-				"测试",
-				"维护",
-				"技术支持"
+				"Test",
+				"Maintenance",
+				"Technical support"
 			],
 			"technology": [
-				"C#.net(winform,wpf,asp.net)",
-				"php",
-				"html",
-				"css",
-				"JQuery",
-				"ajax",
+				"C#.NET(WinForm,WPF,ASP.NET)",
+				"PHP",
+				"Html",
+				"CSS",
+				"Javascript",
+				"Jquery",
+				"Ajax",
 				"Sql server",
 				"Sqlite",
 				"Nunit",
+				"ApiDoc",
 				"SVN",
 				"Git",
 				"Jenkins",
 				"Mantis",
-				"InnoSetup"
+				"InnoSetup",
+				"Postman"
 			],
 			"project": [
 				"Forecast Wind/Sun",
-				"Wind Turbine (WT)",
-				"上海电气 (Shanghai Electric)",
+				"Shanghai Electric",
+				"Meteodyn WT",
 				"Mission M1"
 			]
 		},
 		{
 			"period": "2014/05 - 2014/10",
 			"company": "Orion Concept",
-			"city": "法国图尔",
-			"post": "软件开发工程师（实习）",
+			"city": "Tours France",
+			"post": "Software Engineer (Practice)",
 			"duty": [
-				"编写技术文档",
-				"程序架构设计",
-				"编码",
+				"Write technical documentation",
+				"Design program architecture",
+				"Development",
 				"Debug",
-				"测试",
-				"维护"
+				"Test",
+				"Maintenance"
 			],
 			"technology": [
-				"C#.net",
+				"C#.NET(WinForm,WPF)",
 				"Java",
 				"ImageJ",
 				"OpenCV/EmguCV",
+				"FFmpeg",
 				"Latex",
-				"InnoSetup"
+				"SVN",
+				"InnoSetup",
+				"VivaScope/VivaScan",
+				"Matlab"
 			],
 			"project": [
-				"皮肤流扫描 (Skin Flow Scan (SFS)",
-				"优化医学定位拍照软件 (HeadScan Dynamics)"
+				"Skin Flow Scan",
+				"HeadScan Dynamics"
 			]
 		},
 		{
 			"period": "2013/06 - 2013/09",
 			"company": "Orion Concept",
-			"city": "法国图尔",
-			"post": "软件开发工程师（实习）",
+			"city": "Tours France",
+			"post": "Software Engineer (Practice)",
 			"duty": [
-				"编写技术文档",
-				"程序架构设计",
-				"编码",
+				"Write technical documentation",
+				"Design program architecture",
+				"Development",
 				"Debug",
-				"测试",
-				"维护"
+				"Test",
+				"Maintenance"
 			],
 			"technology": [
-				"TODO"
+				"Java",
+				"ImageJ",
+				"Jmathplot",
+				"C#.NET"
 			],
 			"project": [
-				"提取原始医学图片的特性",
-				"控制工业摄像头"
+				"Extraction intensity profiles on medical original images",
+				"Control industrial camera"
 			]
 		}
 	],
 	"skills": {
 		"technology": {
 			"program": [
-				"C#.net",
-				"Angular",
+				"C#.NET",
 				"C/C++(QT)",
+				"Angular",
 				"Java/J2ee",
 				"PHP",
-				"html",
-				"css",
-				"Javascript(JQuery)"
+				"Html",
+				"CSS",
+				"Javascript"
 			],
 			"database": [
-				"Sql Server",
+				"Sql server",
 				"Postgresql",
 				"Influxdb",
 				"MySql",
@@ -226,47 +251,63 @@
 				"Jenkins",
 				"Mantis",
 				"Redmine",
-				"InnoSetup",
-				"Latex"
+				"InnoSetup"
 			],
 			"library": [
+				"Jquery",
+				"PrimeNG",
+				"NG-ZORRO",
+				"Echarts",
+				"Bootstrap",
+				"Font Awesome",
 				"ImageJ",
 				"OpenCV/EmguCV",
-				"primeng",
-				"echarts",
-				"font-awesome",
-				"bootstrap"
+				"VTK",
+				"Mono"
 			],
 			"other": [
 				"Matlab",
-				"Rstudio"
+				"Rstudio",
+				"Postman",
+				"Latex"
 			]
 		},
 		"language": [
 			{
-				"name": "中文",
-				"grade": "精通",
+				"name": "Chinese",
+				"grade": "Mother tongue",
 				"score": "10"
 			},
 			{
-				"name": "法语",
-				"grade": "良好",
+				"name": "French",
+				"grade": "Good",
 				"score": "7"
 			},
 			{
-				"name": "英语",
-				"grade": "良好",
-				"score": "7"
+				"name": "English",
+				"grade": "Good",
+				"score": "7",
+				"exams": "CET6, TOEIC 835"
 			},
 			{
-				"name": "日语",
-				"grade": "入门",
+				"name": "Japanese",
+				"grade": "Beginner",
 				"score": "2"
 			}
 		]
 	},
+	"hobbies": [
+		"Reading",
+		"Music",
+		"Film",
+		"Anime",
+		"Football",
+		"Game",
+		"Travel",
+		"Thinking",
+		"Walking"
+	],
 	"selfEvaluation": {
-		"evaluation": "善于思考和学习；责任心强；有良好的沟通能力和团队合作精神。",
-		"objective": "职业目标，架构师+全栈工程师。"
+		"evaluation": "Good at thinking and learning; strong sense of responsibility; good communication skills and teamwork spirit."
 	}
 }

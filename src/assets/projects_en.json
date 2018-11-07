@@ -1,0 +1,755 @@
+{
+	"projects": [
+		{
+			"name": "Meso Scale Platform",
+			"organization": "Meteodyn",
+			"city": "Xian Shaanxi China",
+			"startDate": "2017/07",
+			"endDate": "2018/12",
+			"description": {
+				"header":"Develop a desktop application that provide the following features:",
+				"details": [
+					"Project Management: Users can open, delete, and create new projects.",
+					"Common functions: define default parameters, download and analyze data, extract and analyze data, and display extracted data.",
+					"Accessibility: Display system information, load license, display help file, switch language, etc.",
+					"Project functions: project definition (parameter configuration), WRF processing and calculation (pre-processing, calculation), MOS correction, extraction and display of results (post-processing, point data extraction)."
+				]
+			},
+			"duties": [
+				"Write technical documentation",
+				"Design program architecture",
+				"Software side Qt/C++ development",
+				"Learn and use VTK to achieve 3D visualization"
+			],
+			"technologies": [
+				{
+					"name": "Platform",
+					"contents": [
+						"Ubuntu 16.04"
+					]
+				},
+				{
+					"name": "Language/library",
+					"contents": [
+						"Qt/C++",
+						"VTK-8.0",
+						"Quazip5"
+					]
+				},
+				{
+					"name": "Scientific Computing",
+					"contents": [
+						"NETCDF",
+						"Jasper",
+						"OpenMPI",
+						"WPS 3.8",
+						"WRFV 3.8",
+						"NCL",
+						"Pyhton"
+					]
+				},
+				{
+					"name": "Tools",
+					"contents": [
+						"Jenkins",
+						"Git",
+						"Mantis",
+						"Qt Creator",
+						"AppImage",
+						"Google Earth",
+						"ParaView"
+					]
+				}
+			]
+		},
+		{
+			"name": "Zhuanghe Wind Power Evaluation System",
+			"organization": "Meteodyn",
+			"city": "Xian Shaanxi China",
+			"startDate": "2018/06",
+			"endDate": "2018/12",
+			"description": {
+				"header":"Develop a web application with the following features:",
+				"details": [
+					"User Management: Administrators can manage general users, and general users can only modify their own passwords.",
+					"After logging in to the system, users (general users, administrators) can send data analysis calculations and view the results. They can also directly view historical results, or create assessments and perform assessments.",
+					"The system reads/receives wind farm data from registers in real time and stores it in the database.",
+					"The system automatically calculates the results by month/year as historical results and stores them in the database.",
+					"Analysis of data: For each turbine, estimate the nacelle transfer function, Scada data classification, estimate the power curve, and calculate other indicators such as: average wind speed, daily average production, production, theoretical production, actual production, loss production (limited, shutdown, under-issued), monthly production, nominal power, capacity factor, TBA/PBA, fault analysis (MTTF, MTTR, MTBF). For the whole field, calculate the main indicators: production, theoretical production, actual production, loss production, monthly production, nominal power, average wind speed, TBA/PBA.",
+					"Display data and analysis results: whole field information, operation analysis, real-time data, cross comparison, indicator comparison."
+				]
+			},
+			"duties": [
+				"Write technical documentation",
+				"Design program architecture",
+				"Read existing documentation and python code to understand and improve algorithms",
+				"Back-end algorithm and WebAPI implementation",
+				"Front-end ‘operation analysis’, ‘indicator comparison’ module development"
+			],
+			"technologies": [
+				{
+					"name": "Front-end",
+					"contents": [
+						"Angular",
+						"PrimeNG",
+						"NG-ZORRO",
+						"Echarts",
+						"Bootstrap",
+						"Font Awesome"
+					]
+				},
+				{
+					"name": "Back-end",
+					"contents": [
+						"C#/ASP.NET Core",
+						"Automapper",
+						"Dapper",
+						"Npgsql",
+						"Vibrant.InfluxDB.Client",
+						"NLog",
+						"Pomelo.AspNetCore.TimedJob"
+					]
+				},
+				{
+					"name": "Database",
+					"contents": [
+						"Postgresql",
+						"Influxdb"
+					]
+				},
+				{
+					"name": "Tools",
+					"contents": [
+						"Jenkins",
+						"Git",
+						"Mantis",
+						"Postman",
+						"Visual Studio",
+						"Visual Studio Code",
+						"IIS",
+						"pgAdmin",
+						"InfluxDBStudio"
+					]
+				}
+			]
+		},
+		{
+			"name": "Forecast Management",
+			"organization": "Meteodyn",
+			"city": "Xian Shaanxi China",
+			"startDate": "2017/06",
+			"endDate": "2018/02",
+			"description": {
+				"header":"Develop a web application to manage power forecasting projects and files, it provides the following features:",
+				"details": [
+					"User Management (4 user types: Administrator, Internal User, Internal Limited User, External User)",
+					"Province management: Create, read, update and delete.",
+					"Project Management: Create, read, update and delete.",
+					"File management (xyh file, coefficient file, power curve file, wake curve file): upload, download, delete.",
+					"Data Management (Mesoscale / Scada / Mast / Result / Power Limit): Import, export, delete.",
+					"System function: Automatically detect expired data and automatically send reminder emails."
+				]
+			},
+			"duties": [
+				"Requirements analysis",
+				"Write technical documentation",
+				"Design program architecture",
+				"Development"
+			],
+			"technologies": [
+				{
+					"name": "Language/library/framework",
+					"contents": [
+						"C#/ASP.NET Core",
+						"Automapper",
+						"Dapper",
+						"Npgsql",
+						"NLog",
+						"Pomelo.AspNetCore.TimedJob"
+					]
+				},
+				{
+					"name": "Database",
+					"contents": [
+						"Postgresql"
+					]
+				},
+				{
+					"name": "Tools",
+					"contents": [
+						"Jenkins",
+						"Git",
+						"Mantis",
+						"Visual Studio",
+						"IIS",
+						"pgAdmin"
+					]
+				}
+			]
+		},
+		{
+			"name": "Forecast Library",
+			"organization": "Meteodyn",
+			"city": "Nantes France/Xian Shaanxi China",
+			"startDate": "2016/09",
+			"endDate": "2017/04",
+			"description": {
+				"header":"Develop a C++ version of the library that provides basic functionality for power prediction for other developers to call:",
+				"details": [
+					"Setter and Getters functions for basic parameters.",
+					"Load data function: Load Mast, Scada, Meso data.",
+					"Start calculations and get result functions."
+				]
+			},
+			"duties": [
+				"Requirements analysis",
+				"Write technical documentation",
+				"Development",
+				"Customer training",
+				"Technical support"
+			],
+			"technologies": [
+				{
+					"name": "Platform",
+					"contents": [
+						"CentOS 7"
+					]
+				},
+				{
+					"name": "Language/library",
+					"contents": [
+						"Qt/C++",
+						"Mono"
+					]
+				},
+				{
+					"name": "Tools",
+					"contents": [
+						"Jenkins",
+						"Git",
+						"Visual Studio",
+						"MonoDevelop"
+					]
+				}
+			]
+		},
+		{
+			"name": "Shanghai Electric",
+			"organization": "Meteodyn",
+			"city": "Nantes France",
+			"startDate": "2015/11",
+			"endDate": "2016/12",
+			"description": {
+				"header":"Develop a web service, provide the following functions, user management, wind farm site management, wind turbine type management, file management, computational fluid dynamics, wind resource assessment, wind turbine position optimization, etc."
+			},
+			"duties": [
+				"Requirements analysis",
+				"Write technical documentation",
+				"Development",
+				"Database migration management"
+			],
+			"technologies": [
+				{
+					"name": "Language/library/framework",
+					"contents": [
+						"C#.NET",
+						"NUnit",
+						"Nancy",
+						"Rest Api",
+						"Javascript",
+						"Ajax",
+						"ApiDoc"
+					]
+				},
+				{
+					"name": "Database",
+					"contents": [
+						"Sql server"
+					]
+				},
+				{
+					"name": "Tools",
+					"contents": [
+						"Jenkins",
+						"Git",
+						"Mantis",
+						"Visual Studio",
+						"SQL Server Management Studio",
+						"IIS",
+						"Postman"
+					]
+				}
+			]
+		},
+		{
+			"name": "Forecast Wind/Sun",
+			"organization": "Meteodyn",
+			"city": "Nantes France/Xian Shaanxi China",
+			"startDate": "2015/03",
+			"endDate": "2017/06",
+			"description": {
+				"header":"Power prediction software, update its algorithms and interfaces, add new features, and develop new versions. Main features of software:",
+				"details": [
+					"Project Management: Users can load and delete projects.",
+					"Project configuration: One project is a wind farm, which can specify the power curve and wake curve for each turbine in the wind farm, add the shutdown power limit configuration; configure the mesoscale file, and the time period to be used; configure the neural network correction file; add automatic calculation tasks.",
+					"Calculation: User can manually send download tasks, calculate tasks; or wait for scheduled tasks to be executed automatically.",
+					"Result: The results are output in both txt and Excel formats, and the results can also be viewed in the software interface."
+				]
+			},
+			"duties": [
+				"Requirements analysis",
+				"Read existing documentation and code to understand and improve algorithms and interfaces",
+				"Update technical documentation",
+				"Add new features (neural network updated from FANN to TensorFlow, single project configurable multi-scale data source, add wind farm power limit, etc.)",
+				"Debug",
+				"Technical Support"
+			],
+			"technologies": [
+				{
+					"name": "Language/library",
+					"contents": [
+						"C#.NET",
+						"Automapper",
+						"Fann.Net",
+						"log4net"
+					]
+				},
+				{
+					"name": "Database",
+					"contents": [
+						"Sql server",
+						"Sqlite"
+					]
+				},
+				{
+					"name": "Tools",
+					"contents": [
+						"Jenkins",
+						"Git",
+						"SVN",
+						"Mantis",
+						"Visual Studio",
+						"SQL Server Management Studio",
+						"InnoSetup"
+					]
+				}
+			]
+		},
+		{
+			"name": "Meteodyn WT",
+			"organization": "Meteodyn",
+			"city": "Nantes France",
+			"startDate": "2015/03",
+			"endDate": "2015/10",
+			"description": {
+				"header":"Meteodyn WT is a wind energy software that uses computational fluid dynamics (CFD) to conduct wind resource assessment. It quantifies the wind resource in a desired terrain in order to assess the feasibility of a proposed wind farm. It could be used for annual energy production (AEP) evaluation, site suitability, turbine layout optimization, energy production optimization, maintenance costs and turbine lifespan validation."
+			},
+			"duties": [
+				"Corrcet bug according to Mantis submitted by the tester"
+			],
+			"technologies": [
+				{
+					"name": "Language",
+					"contents": [
+						"C#.NET"
+					]
+				},
+				{
+					"name": "Database",
+					"contents": [
+						"Sql server"
+					]
+				},
+				{
+					"name": "Tools",
+					"contents": [
+						"Jenkins",
+						"SVN",
+						"Mantis",
+						"Visual Studio",
+						"InnoSetup"
+					]
+				}
+			]
+		},
+		{
+			"name": "Mission M1",
+			"organization": "Meteodyn",
+			"city": "Nantes France",
+			"startDate": "2016/01",
+			"endDate": "2016/02",
+			"description": {
+				"header":"Develop web applications to assess the relationship between the location of cranes and high-rise buildings in France."
+			},
+			"duties": [
+				"Write technical documentation",
+				"Development",
+				"Maintenance"
+			],
+			"technologies": [
+				{
+					"name": "Language/library",
+					"contents": [
+						"PHP",
+						"Html",
+						"CSS",
+						"Javascript",
+						"Jquery",
+						"Ajax"
+					]
+				},
+				{
+					"name": "Tools",
+					"contents": [
+						"SVN",
+						"Atom",
+						"EsayPHP"
+					]
+				}
+			]
+		},
+		{
+			"name": "Skin Flow Scan",
+			"organization": "Orion Concept (Practice)",
+			"city": "Tours France",
+			"startDate": "2014/05",
+			"endDate": "2014/10",
+			"description": {
+				"header":"Use VivaScope and VivaScan to scan the skin for skin video. Develop software to analyze this video or live video to detect the number of red blood cells passing through the unit time to determine the patient's stability."
+			},
+			"duties": [
+				"Requirements analysis",
+				"Write technical documentation",
+				"Design program architecture",
+				"Development",
+				"Write report"
+			],
+			"technologies": [
+				{
+					"name": "Language/library",
+					"contents": [
+						"C#.NET",
+						"EmguCV",
+						"FFmpeg"
+					]
+				},
+				{
+					"name": "Tools",
+					"contents": [
+						"SVN",
+						"Visual Studio",
+						"ImageJ",
+						"Matlab",
+						"InnoSetup",
+						"VivaScope/VivaScan",
+						"LaTeX"
+					]
+				}
+			]
+		},
+		{
+			"name": "HeadScan Dynamics",
+			"organization": "Orion Concept (Practice)",
+			"city": "Tours France",
+			"startDate": "2014/04",
+			"endDate": "2014/12",
+			"description": {
+				"header":"There is a software for locating patients and cameras, and automatically taking a set of pictures with different angles, different brightness, and different filters. Debug and add new features."
+			},
+			"duties": [
+				"Read existing documentation and code to understand programs",
+				"Update technical documentation",
+				"Development"
+			],
+			"technologies": [
+				{
+					"name": "Language/library",
+					"contents": [
+						"C#.NET",
+						"Java",
+						"Phidgets"
+					]
+				},
+				{
+					"name": "Tools",
+					"contents": [
+						"Visual Studio",
+						"Eclipse",
+						"SVN",
+						"ImageJ",
+						"Excelsior JET",
+						"InnoSetup"
+					]
+				}
+			]
+		},
+		{
+			"name": "Tracking the distribution of calcification in the aorta",
+			"organization": "Polytech Tours",
+			"city": "Tours France",
+			"startDate": "2014/01",
+			"endDate": "2014/05",
+			"description": {
+				"header":"There are series of large arterial cross-sections, each with a calcification profile, and different cross-sectional views (different locations of the arteries) have different calcifications and locations. Develop a software that automatically tracks calcified areas."
+			},
+			"duties": [
+				"Requirements analysis",
+				"Write technical documentation",
+				"Design program architecture",
+				"Development",
+				"Write report"
+			],
+			"technologies": [
+				{
+					"name": "Language/library",
+					"contents": [
+						"Java",
+						"ImageJ"
+					]
+				},
+				{
+					"name": "Tools",
+					"contents": [
+						"Eclipse",
+						"SVN",
+						"LaTeX"
+					]
+				}
+			]
+		},
+		{
+			"name": "Analyze and development of a fusion method for the classification of documents by classifiers 1-class",
+			"organization": "RFAI Team of the Computer Laboratory Tours (Graduation Design)",
+			"city": "Tours France",
+			"startDate": "2013/09",
+			"endDate": "2014/05",
+			"description": {
+				"header":"There are several image files, which can be classified according to the content of the image: check, letter, report, and so on. Using multiple single-class classifiers to classify files, different classifiers get different results, and develop a merge method to make the results of the classification as perfect as possible."
+			},
+			"duties": [
+				"Requirements analysis",
+				"Write technical documentation",
+				"Design program architecture",
+				"Development",
+				"Write report"
+			],
+			"technologies": [
+				{
+					"name": "Language/library",
+					"contents": [
+						"C#.NET",
+						"AForge.NET"
+					]
+				},
+				{
+					"name": "Tools",
+					"contents": [
+						"Visual Studio",
+						"Git",
+						"Redmine",
+						"Classifiers 1-class",
+						"LaTeX"
+					]
+				}
+			]
+		},
+		{
+			"name": "Extraction intensity profiles on medical original images",
+			"organization": "Orion Concept (Practice)",
+			"city": "Tours France",
+			"startDate": "2013/06",
+			"endDate": "2013/09",
+			"description": {
+				"header":"There are medical skin images in which the distribution of gray levels is extracted to establish the characteristics of a series of images; these characteristics are then quantified to characterize different biological tissues."
+			},
+			"duties": [
+				"Requirements analysis",
+				"Write technical documentation",
+				"Design program architecture",
+				"Development",
+				"Write report"
+			],
+			"technologies": [
+				{
+					"name": "Language/library",
+					"contents": [
+						"Java",
+						"Jmathplot",
+						"ImageJ"
+					]
+				},
+				{
+					"name": "Tools",
+					"contents": [
+						"Eclipse",
+						"SVN",
+						"LaTeX"
+					]
+				}
+			]
+		},
+		{
+			"name": "Control industrial camera",
+			"organization": "Orion Concept (Practice)",
+			"city": "Tours France",
+			"startDate": "2013/06",
+			"endDate": "2013/09",
+			"description": {
+				"header":"Development a Tool to Control Industrial Camera IDS uEye."
+			},
+			"duties": [
+				"Development",
+				"Write report"
+			],
+			"technologies": [
+				{
+					"name": "Language/library",
+					"contents": [
+						"C#.NET",
+						"IDS uEye"
+					]
+				},
+				{
+					"name": "Tools",
+					"contents": [
+						"Visual Studio",
+						"SVN",
+						"LaTeX"
+					]
+				}
+			]
+		},
+		{
+			"name": "Assign tasks to grid computing for multiple identical processors",
+			"organization": "Polytech Tours",
+			"city": "Tours France",
+			"startDate": "2013/02",
+			"endDate": "2013/05",
+			"description": {
+				"header":"Several processors are known, as well as several pending tasks. Each processor has the same processing speed, but the processing time required for each task is not necessarily the same. At the same time, the same task can only be processed on one processor. Look for an algorithm that will complete all tasks at the earliest."
+			},
+			"duties": [
+				"Analyze examples",
+				"Propose algorithms",
+				"Development",
+				"Test algorithm and summarize",
+				"Write report"
+			],
+			"technologies": [
+				{
+					"name": "Language/library",
+					"contents": [
+						"C/C++"
+					]
+				},
+				{
+					"name": "Tools",
+					"contents": [
+						"Visual Studio",
+						"Cplex Studio",
+						"LaTeX"
+					]
+				}
+			]
+		},
+		{
+			"name": "Control volume of goods",
+			"organization": "Polytech Tours",
+			"city": "Tours France",
+			"startDate": "2012/10",
+			"endDate": "2013/05",
+			"description": {
+				"header":"Loading the goods into the container, the volume of the goods is different, develop a software, through the acquired video and images, to analyze how much space is available in the container."
+			},
+			"duties": [
+				"Requirements analysis",
+				"Develop 'binocular camera 3D imaging'"
+				"Write technical documentation"
+			],
+			"technologies": [
+				{
+					"name": "Language/library",
+					"contents": [
+						"Qt/C++",
+						"OpenCV"
+					]
+				},
+				{
+					"name": "Tools",
+					"contents": [
+						"Visual Studio",
+						"Git",
+						"Kinect",
+						"Binocular camera",
+						"LaTeX"
+					]
+				}
+			]
+		},
+		{
+			"name": "Develop Sphero's Android app",
+			"organization": "Polytech Tours",
+			"city": "Tours France",
+			"startDate": "2012/09",
+			"endDate": "2013/01",
+			"description": {
+				"header":"Develop Sphero's Android app. Control the running route and color change of the Sphero ball through the Android phone."
+			},
+			"duties": [
+				"Design program architecture",
+				"Development",
+				"Write report"
+			],
+			"technologies": [
+				{
+					"name": "Language/library",
+					"contents": [
+						"Java",
+						"Sphero"
+					]
+				},
+				{
+					"name": "Tools",
+					"contents": [
+						"Eclipse",
+						"Android phone",
+						"LaTeX"
+					]
+				}
+			]
+		},
+		{
+			"name": "Develop game Jezzball on Nintendo DS",
+			"organization": "Polytech Tours",
+			"city": "Tours France",
+			"startDate": "2012/01",
+			"endDate": "2012/05",
+			"description": {
+				"header":"Develop and test the game JezzBall."
+			},
+			"duties": [
+				"Design program architecture",
+				"Development",
+				"Write report"
+			],
+			"technologies": [
+				{
+					"name": "Language/library",
+					"contents": [
+						"C",
+						"PAlib",
+						"devkitPro"
+					]
+				},
+				{
+					"name": "Tools",
+					"contents": [
+						"CodeBlocks",
+						"Nintendo DS",
+						"LaTeX"
+					]
+				}
+			]
+		}
+	]
+}

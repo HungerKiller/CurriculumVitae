@@ -8,6 +8,7 @@ import { MessagesModule } from 'primeng/messages';
 import { MessageModule } from 'primeng/message';
 import { MenuItem } from 'primeng/api';
 import { MenuModule, MenuItemContent } from 'primeng/menu';
+import { DropdownModule } from 'primeng/dropdown';
 
 import { AppComponent } from './app.component';
 import { MenuComponent } from './menu/menu.component';
@@ -59,7 +60,8 @@ registerLocaleData(zh);
     TableModule,
     InplaceModule,
     ProjectModule,
-    NgxEchartsModule
+    NgxEchartsModule,
+    DropdownModule
   ],
   providers: [{ provide: NZ_I18N, useValue: zh_CN }],
   bootstrap: [AppComponent]
