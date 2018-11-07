@@ -1,0 +1,313 @@
+{
+	"basicInformation": {
+		"name": "ZhongShui WANG",
+		"gender": "Male",
+		"birthday": "1988/10/13",
+		"workExperience": "4 years",
+		"tel": "+86 18291880714",
+		"email": "zhongshui.wang.chn@gmail.com"
+	},
+	"educationalExperience": [
+		{
+			"period": "2011/09 - 2014/10",
+			"school": "Polytech Tours",
+			"schoolUrl": "https://polytech.univ-tours.fr/",
+			"specialty": "Department information technology",
+			"level": "Master",
+			"city": "Tours France",
+			"courses": [
+				"Programmation Langage C",
+				"Programmation Langage C++",
+				"Java/J2ee",
+				"Programmation Web-PHP",
+				"C#.Net",
+				"Structures de Données et Algorithmes",
+				"Programmation Math",
+				"Logiciel Scientifique et Math(matlab)",
+				"Base de Donnée",
+				"Système d'exploitation",
+				"Unix",
+				"Fiabilité des Systèmes",
+				"Parallélisme",
+				"Robotique",
+				"Théorie Graphe",
+				"Intelligence Artificielle",
+				"Gestion Flux",
+				"Conduite Projets",
+				"Génie Logiciel II, Méthodologies",
+				"Gestion du Système",
+				"Gestion du Réseau",
+				"Compilateur",
+				"Analyse Données",
+				"Reconnaissance de Formes",
+				"Environnement Intelligent",
+				"Traitement du Signal",
+				"Traitement de l'image"
+			]
+		},
+		{
+			"period": "2007/09 - 2011/06",
+			"school": "Dalian University of Technology",
+			"schoolUrl": "https://www.dlut.edu.cn/",
+			"specialty": "Network Engineering",
+			"level": "Undergraduate",
+			"city": "Dalian Liaoning China",
+			"courses": [
+				"C Language Programming",
+				"C++ Language Programming",
+				"Java Language Programming",
+				"Web Techniques and Management",
+				"Interface and Assemble",
+				"Introduction to Software Engineering",
+				"Database Systems",
+				"Course Design of Database System",
+				"Data Structures and Computational Methods",
+				"Compilation Techniques",
+				"Operating Systems",
+				"Design of Network Safety",
+				"Network Programming",
+				"Network Security and Privacy",
+				"Technology of Routing and Switch",
+				"Cryptography Theory and Technology",
+				"Network Management",
+				"Wireless Communication and Networks",
+				"Network Security Design and Programming",
+				"Computer Network",
+				"Experiments of Computer Organization and Structures",
+				"Designing Games",
+				"Advanced Mathematics",
+				"Linear Algebra",
+				"Discrete Mathematics",
+				"Probability and Statistics",
+				"University Physics"
+			]
+		}
+	],
+	"careerExperience": [
+		{
+			"period": "2017/02 - Now",
+			"company": "Meteodyn",
+			"city": "Xian Shaanxi China",
+			"post": "Software Engineer",
+			"duty": [
+				"Requirements analysis",
+				"Write technical documentation",
+				"Design program architecture",
+				"Development",
+				"Debug",
+				"Test",
+				"Maintenance",
+				"Technical support"
+			],
+			"technology": [
+				"C#.NET(WinForm,ASP.NET,ASP.NET Core)",
+				"Qt/C++",
+				"Angular",
+				"PrimeNG",
+				"NG-ZORRO",
+				"Echarts",
+				"Bootstrap",
+				"Font Awesome",
+				"VTK",
+				"Sql server",
+				"Sqlite",
+				"Postgresql",
+				"Influxdb",
+				"Git",
+				"Jenkins",
+				"Mantis",
+				"InnoSetup",
+				"AppImage",
+				"Postman",
+				"Mono"
+			],
+			"project": [
+				"Meso Scale Platform",
+				"Zhuanghe Wind Power Evaluation System",
+				"Forecast Management",
+				"Forecast Wind/Sun",
+				"Forecast Library"
+			]
+		},
+		{
+			"period": "2015/03 - 2017/01",
+			"company": "Meteodyn",
+			"city": "Nantes France",
+			"post": "Software Engineer",
+			"duty": [
+				"Requirements analysis",
+				"Write technical documentation",
+				"Design program architecture",
+				"Development",
+				"Debug",
+				"Test",
+				"Maintenance",
+				"Technical support"
+			],
+			"technology": [
+				"C#.NET(WinForm,WPF,ASP.NET)",
+				"PHP",
+				"Html",
+				"CSS",
+				"Javascript",
+				"Jquery",
+				"Ajax",
+				"Sql server",
+				"Sqlite",
+				"Nunit",
+				"ApiDoc",
+				"SVN",
+				"Git",
+				"Jenkins",
+				"Mantis",
+				"InnoSetup",
+				"Postman"
+			],
+			"project": [
+				"Forecast Wind/Sun",
+				"Shanghai Electric",
+				"Meteodyn WT",
+				"Mission M1"
+			]
+		},
+		{
+			"period": "2014/05 - 2014/10",
+			"company": "Orion Concept",
+			"city": "Tours France",
+			"post": "Software Engineer (Practice)",
+			"duty": [
+				"Write technical documentation",
+				"Design program architecture",
+				"Development",
+				"Debug",
+				"Test",
+				"Maintenance"
+			],
+			"technology": [
+				"C#.NET(WinForm,WPF)",
+				"Java",
+				"ImageJ",
+				"OpenCV/EmguCV",
+				"FFmpeg",
+				"Latex",
+				"SVN",
+				"InnoSetup",
+				"VivaScope/VivaScan",
+				"Matlab"
+			],
+			"project": [
+				"Skin Flow Scan",
+				"HeadScan Dynamics"
+			]
+		},
+		{
+			"period": "2013/06 - 2013/09",
+			"company": "Orion Concept",
+			"city": "Tours France",
+			"post": "Software Engineer (Practice)",
+			"duty": [
+				"Write technical documentation",
+				"Design program architecture",
+				"Development",
+				"Debug",
+				"Test",
+				"Maintenance"
+			],
+			"technology": [
+				"Java",
+				"ImageJ",
+				"Jmathplot",
+				"C#.NET"
+			],
+			"project": [
+				"Extraction intensity profiles on medical original images",
+				"Control industrial camera"
+			]
+		}
+	],
+	"skills": {
+		"technology": {
+			"program": [
+				"C#.NET",
+				"C/C++(QT)",
+				"Angular",
+				"Java/J2ee",
+				"PHP",
+				"Html",
+				"CSS",
+				"Javascript"
+			],
+			"database": [
+				"Sql server",
+				"Postgresql",
+				"Influxdb",
+				"MySql",
+				"Sqlite",
+				"Oracle"
+			],
+			"tools": [
+				"Git",
+				"SVN",
+				"Jenkins",
+				"Mantis",
+				"Redmine",
+				"InnoSetup"
+			],
+			"library": [
+				"Jquery",
+				"PrimeNG",
+				"NG-ZORRO",
+				"Echarts",
+				"Bootstrap",
+				"Font Awesome",
+				"ImageJ",
+				"OpenCV/EmguCV",
+				"VTK",
+				"Mono"
+			],
+			"other": [
+				"Matlab",
+				"Rstudio",
+				"Postman",
+				"Latex"
+			]
+		},
+		"language": [
+			{
+				"name": "Chinese",
+				"grade": "Mother tongue",
+				"score": "10"
+			},
+			{
+				"name": "French",
+				"grade": "Good",
+				"score": "7"
+			},
+			{
+				"name": "English",
+				"grade": "Good",
+				"score": "7",
+				"exams": "CET6, TOEIC 835"
+			},
+			{
+				"name": "Japanese",
+				"grade": "Beginner",
+				"score": "2"
+			}
+		]
+	},
+	"hobbies": [
+		"Reading",
+		"Music",
+		"Film",
+		"Anime",
+		"Football",
+		"Game",
+		"Travel",
+		"Thinking",
+		"Walking"
+	],
+	"selfEvaluation": {
+		"evaluation": "Good at thinking and learning; strong sense of responsibility; good communication skills and teamwork spirit."
+	}
+}
