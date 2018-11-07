@@ -6,11 +6,17 @@ import { Observable, Subject } from 'rxjs';
 })
 export class MessageService {
   private subject = new Subject<any>();
+  private msg: string = 'cn';
 
   constructor() { }
 
   set(message: any) {
+    this.msg = message;
     this.subject.next(message);
+  }
+
+  setSame() {
+    this.subject.next(this.msg);
   }
 
   get(): Observable<any> {

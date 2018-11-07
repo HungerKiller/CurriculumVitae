@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { JsonReaderService } from '../services/json-reader.service'
-import {MessageService } from '../services/message.service';
+import { MessageService } from '../services/message.service';
 import { BasicInformation } from '../models/BasicInformation';
 import { Education } from '../models/Education';
 import { Career } from '../models/Career';
@@ -43,6 +43,6 @@ export class CvComponent implements OnInit {
         this.selfEvaluation = data['selfEvaluation'] as SelfEvaluation;
       });
     });
-    
+    this.messageService.setSame();
   }
 }

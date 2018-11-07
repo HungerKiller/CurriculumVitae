@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import {MessageService } from '../services/message.service';
+import { MessageService } from '../services/message.service';
 
 @Component({
   selector: 'app-header',
@@ -15,19 +15,18 @@ export class HeaderComponent implements OnInit {
 
   ngOnInit() {
     this.languages = [
-      {label: 'Chinese', value: 'cn'},
-      {label: 'English', value: 'en'},
-      {label: 'French', value: 'fr'}
-  ];
+      { label: 'Chinese', value: 'cn' },
+      { label: 'English', value: 'en' },
+      { label: 'French', value: 'fr' }
+    ];
   }
 
-  changeLanguage(lang: string){
+  changeLanguage(lang: string) {
     this.messageService.set(this.selectedLang);
   }
-
 }
 
-class Language{
+class Language {
   label: string;
   value: string;
 }

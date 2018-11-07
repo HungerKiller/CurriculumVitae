@@ -1,7 +1,5 @@
 <div class="ui-g-12">
-    <img class="ui-g-2" src="assets/CV.png" />
-    {{selectedLang}}
-
+    <!-- <img class="ui-g-2" src="assets/CV.png" /> -->
     <p-dropdown [options]="languages" [(ngModel)]="selectedLang" [style]="{'width':'150px'}" (ngModelChange)="changeLanguage($event)">
         <ng-template let-item pTemplate="selectedItem">
             <img src="assets/{{item.value}}.png" style="width:16px;vertical-align:middle" />

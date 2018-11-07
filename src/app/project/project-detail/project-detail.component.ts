@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { JsonReaderService } from '../../services/json-reader.service'
+import { MessageService } from '../../services/message.service';
 import { Project } from '../../models/Project';
 
 @Component({
@@ -11,11 +12,14 @@ export class ProjectDetailComponent implements OnInit {
 
   projects: Project[] = [];
 
-  constructor(private jsonReaderService: JsonReaderService) { }
+  constructor(private jsonReaderService: JsonReaderService, private messageService: MessageService) { }
 
   ngOnInit() {
-    this.jsonReaderService.getJSON("./assets/projects_cn.json").subscribe(data => {
-      this.projects = data['projects'] as Project[];
+    this.messageService.get().subscribe((msg) => {
+      this.jsonReaderService.getJSON(`./assets/projects_${msg}.json`).subscribe(data => {
+        this.projects = data['projects'] as Project[];
+      });
     });
+    this.messageService.setSame();
   }
 }
