@@ -9,9 +9,9 @@
 			"description": {
 				"header":"Develop a desktop application that provide the following features:",
 				"details": [
-					"Project Management: Users can open, delete, and create new projects.",
+					"Project Management: users can open, delete, and create new projects.",
 					"Common functions: define default parameters, download and analyze data, extract and analyze data, and display extracted data.",
-					"Accessibility: Display system information, load license, display help file, switch language, etc.",
+					"Accessibility: display system information, load license, display help file, switch language, etc.",
 					"Project functions: project definition (parameter configuration), WRF processing and calculation (pre-processing, calculation), MOS correction, extraction and display of results (post-processing, point data extraction)."
 				]
 			},
@@ -71,11 +71,11 @@
 			"description": {
 				"header":"Develop a web application with the following features:",
 				"details": [
-					"User Management: Administrators can manage general users, and general users can only modify their own passwords.",
+					"User Management: administrators can manage general users, and general users can only modify their own passwords.",
 					"After logging in to the system, users (general users, administrators) can send data analysis calculations and view the results. They can also directly view historical results, or create assessments and perform assessments.",
 					"The system reads/receives wind farm data from registers in real time and stores it in the database.",
 					"The system automatically calculates the results by month/year as historical results and stores them in the database.",
-					"Analysis of data: For each turbine, estimate the nacelle transfer function, Scada data classification, estimate the power curve, and calculate other indicators such as: average wind speed, daily average production, production, theoretical production, actual production, loss production (limited, shutdown, under-issued), monthly production, nominal power, capacity factor, TBA/PBA, fault analysis (MTTF, MTTR, MTBF). For the whole field, calculate the main indicators: production, theoretical production, actual production, loss production, monthly production, nominal power, average wind speed, TBA/PBA.",
+					"Analysis of data: for each turbine, estimate the nacelle transfer function, Scada data classification, estimate the power curve, and calculate other indicators such as: average wind speed, daily average production, production, theoretical production, actual production, loss production (limited, shutdown, under-issued), monthly production, nominal power, capacity factor, TBA/PBA, fault analysis (MTTF, MTTR, MTBF). For the whole field, calculate the main indicators: production, theoretical production, actual production, loss production, monthly production, nominal power, average wind speed, TBA/PBA.",
 					"Display data and analysis results: whole field information, operation analysis, real-time data, cross comparison, indicator comparison."
 				]
 			},
@@ -143,10 +143,10 @@
 				"header":"Develop a web application to manage power forecasting projects and files, it provides the following features:",
 				"details": [
 					"User Management (4 user types: Administrator, Internal User, Internal Limited User, External User)",
-					"Province management: Create, read, update and delete.",
-					"Project Management: Create, read, update and delete.",
+					"Province management: create, read, update and delete.",
+					"Project Management: create, read, update and delete.",
 					"File management (xyh file, coefficient file, power curve file, wake curve file): upload, download, delete.",
-					"Data Management (Mesoscale / Scada / Mast / Result / Power Limit): Import, export, delete.",
+					"Data Management (Mesoscale / Scada / Mast / Result / Power Limit): import, export, delete.",
 					"System function: Automatically detect expired data and automatically send reminder emails."
 				]
 			},
@@ -197,7 +197,7 @@
 				"header":"Develop a C++ version of the library that provides basic functionality for power prediction for other developers to call:",
 				"details": [
 					"Setter and Getters functions for basic parameters.",
-					"Load data function: Load Mast, Scada, Meso data.",
+					"Load data function: load Mast, Scada, Meso data.",
 					"Start calculations and get result functions."
 				]
 			},
@@ -290,10 +290,10 @@
 			"description": {
 				"header":"Power prediction software, update its algorithms and interfaces, add new features, and develop new versions. Main features of software:",
 				"details": [
-					"Project Management: Users can load and delete projects.",
-					"Project configuration: One project is a wind farm, which can specify the power curve and wake curve for each turbine in the wind farm, add the shutdown power limit configuration; configure the mesoscale file, and the time period to be used; configure the neural network correction file; add automatic calculation tasks.",
-					"Calculation: User can manually send download tasks, calculate tasks; or wait for scheduled tasks to be executed automatically.",
-					"Result: The results are output in both txt and Excel formats, and the results can also be viewed in the software interface."
+					"Project Management: users can load and delete projects.",
+					"Project configuration: one project is a wind farm, which can specify the power curve and wake curve for each turbine in the wind farm, add the shutdown power limit configuration; configure the mesoscale file, and the time period to be used; configure the neural network correction file; add automatic calculation tasks.",
+					"Calculation: user can manually send download tasks, calculate tasks; or wait for scheduled tasks to be executed automatically.",
+					"Result: the results are output in both txt and Excel formats, and the results can also be viewed in the software interface."
 				]
 			},
 			"duties": [
