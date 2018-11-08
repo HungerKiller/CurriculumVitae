@@ -36,7 +36,7 @@
             <div class="ui-g ui-md">
               <p class="ui-g-2 ui-md-2">主修课程：</p>
               <div class="ui-g-10 ui-md-10">
-                <p *ngFor="let course of eudcation.courses" class="line">
+                <p *ngFor="let course of eudcation.majorCourses" class="line">
                   <nz-tag [nzColor]="'#337ab7'"><strong class="label">{{course}}</strong></nz-tag>&nbsp;
                 </p>
               </div>
@@ -60,7 +60,7 @@
             <div class="ui-g ui-md">
               <p class="ui-g-2 ui-md-2">工作内容：</p>
               <div class="ui-g-10 ui-md-10">
-                <p *ngFor="let duty of career.duty" class="line">
+                <p *ngFor="let duty of career.duties" class="line">
                   <span>{{duty}};</span>&nbsp;
                 </p>
               </div>
@@ -68,7 +68,7 @@
             <div class="ui-g ui-md">
               <p class="ui-g-2 ui-md-2">使用技术：</p>
               <div class="ui-g-10 ui-md-10">
-                <p *ngFor="let technology of career.technology" class="line">
+                <p *ngFor="let technology of career.technologies" class="line">
                   <span>{{technology}};</span>&nbsp;
                 </p>
               </div>
@@ -76,7 +76,7 @@
             <div class="ui-g ui-md">
               <p class="ui-g-2 ui-md-2">涉及项目：</p>
               <div class="ui-g-10 ui-md-10">
-                <p *ngFor="let project of career.project" class="line">
+                <p *ngFor="let project of career.projects" class="line">
                   <span>&quot;{{project}}&quot;;</span>&nbsp;
                 </p>
               </div>
@@ -94,8 +94,8 @@
     <ul class="nopoint">
       <li>
         <p class="line">语言：</p>
-        <p *ngFor="let program of techSkill?.program" class="line">
-          <nz-tag [nzColor]="'#337ab7'"><strong class="label">{{program}}</strong></nz-tag>&nbsp;
+        <p *ngFor="let language of techSkill?.language" class="line">
+          <nz-tag [nzColor]="'#337ab7'"><strong class="label">{{language}}</strong></nz-tag>&nbsp;
         </p>
       </li>
       <li>
@@ -118,7 +118,7 @@
       </li>
       <li>
         <p class="line">其他：</p>
-        <p *ngFor="let other of techSkill?.other" class="line">
+        <p *ngFor="let other of techSkill?.others" class="line">
           <nz-tag [nzColor]="'#d9534f'"><strong class="label">{{other}}</strong></nz-tag>&nbsp;
         </p>
       </li>

@@ -3,7 +3,7 @@ export class Career {
     company: string;
     post: string;
     city: string;
-    duty: Array<string>;
-    technology: Array<string>;
-    project: Array<string>;
+    duties: Array<string>;
+    technologies: Array<string>;
+    projects: Array<string>;
 }

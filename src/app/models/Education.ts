@@ -5,5 +5,5 @@ export class Education {
     specialty: string;
     level: string;
     city: string;
-    courses: Array<string>;
+    majorCourses: Array<string>;
 }

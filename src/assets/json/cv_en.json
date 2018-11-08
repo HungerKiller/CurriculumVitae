@@ -15,7 +15,7 @@
 			"specialty": "Department Information Technology",
 			"level": "Master",
 			"city": "Tours France",
-			"courses": [
+			"majorCourses": [
 				"C Language Programming",
 				"C++ Language Programming",
 				"Java/J2ee",
@@ -52,7 +52,7 @@
 			"specialty": "Network Engineering",
 			"level": "Undergraduate",
 			"city": "Dalian Liaoning China",
-			"courses": [
+			"majorCourses": [
 				"C Language Programming",
 				"C++ Language Programming",
 				"Java Language Programming",
@@ -121,7 +121,7 @@
 				"Postman",
 				"Mono"
 			],
-			"project": [
+			"projects": [
 				"Meso Scale Platform",
 				"Zhuanghe Wind Power Evaluation System",
 				"Forecast Management",
@@ -163,7 +163,7 @@
 				"InnoSetup",
 				"Postman"
 			],
-			"project": [
+			"projects": [
 				"Forecast Wind/Sun",
 				"Shanghai Electric",
 				"Meteodyn WT",
@@ -195,7 +195,7 @@
 				"VivaScope/VivaScan",
 				"Matlab"
 			],
-			"project": [
+			"projects": [
 				"Skin Flow Scan",
 				"HeadScan Dynamics"
 			]
@@ -219,15 +219,15 @@
 				"Jmathplot",
 				"C#.NET"
 			],
-			"project": [
+			"projects": [
 				"Extraction intensity profiles on medical original images",
 				"Control industrial camera"
 			]
 		}
 	],
 	"skills": {
-		"technologies": {
-			"program": [
+		"computer": {
+			"language": [
 				"C#.NET",
 				"C/C++(QT)",
 				"Angular",

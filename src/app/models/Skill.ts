@@ -1,9 +1,9 @@
 export class TechSkill {
-    program: Array<string>;
+    language: Array<string>;
     database: Array<string>;
     tools: Array<string>;
     library: Array<string>;
-    other: Array<string>;
+    others: Array<string>;
 }
 
 export class LangSkill {

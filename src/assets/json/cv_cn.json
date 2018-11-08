@@ -15,7 +15,7 @@
 			"specialty": "计算机",
 			"level": "硕士",
 			"city": "法国图尔",
-			"courses": [
+			"majorCourses": [
 				"C语言",
 				"C++",
 				"Java/J2ee",
@@ -52,7 +52,7 @@
 			"specialty": "网络工程",
 			"level": "本科",
 			"city": "中国辽宁大连",
-			"courses": [
+			"majorCourses": [
 				"C语言程序设计",
 				"C++语言程序设计",
 				"Java语言程序设计",
@@ -121,7 +121,7 @@
 				"Postman",
 				"Mono"
 			],
-			"project": [
+			"projects": [
 				"中尺度平台",
 				"庄河风电评估系统",
 				"Forecast Management",
@@ -163,7 +163,7 @@
 				"InnoSetup",
 				"Postman"
 			],
-			"project": [
+			"projects": [
 				"Forecast Wind/Sun",
 				"Shanghai Electric",
 				"Meteodyn WT",
@@ -195,7 +195,7 @@
 				"VivaScope/VivaScan",
 				"Matlab"
 			],
-			"project": [
+			"projects": [
 				"Skin Flow Scan",
 				"HeadScan Dynamics"
 			]
@@ -219,15 +219,15 @@
 				"Jmathplot",
 				"C#.NET"
 			],
-			"project": [
+			"projects": [
 				"提取原始医学图片的特性",
 				"控制工业摄像头"
 			]
 		}
 	],
 	"skills": {
-		"technologies": {
-			"program": [
+		"computer": {
+			"language": [
 				"C#.NET",
 				"C/C++(QT)",
 				"Angular",

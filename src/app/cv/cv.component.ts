@@ -35,7 +35,7 @@ export class CvComponent implements OnInit {
         // Career experience
         this.careers = data['careerExperience'] as Career[];
         // Technical skill
-        this.techSkill = data['skills']['technology'] as TechSkill;
+        this.techSkill = data['skills']['computer'] as TechSkill;
         // Language skill
         this.langSkills = data['skills']['language'] as LangSkill[];
         // Hobby
