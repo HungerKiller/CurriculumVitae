@@ -11,13 +11,13 @@
 				"details": [
 					"Gestion de projet: les utilisateurs peuvent ouvrir, supprimer et créer de nouveaux projets.",
 					"Fonctions communes: définir les paramètres par défaut, télécharger et analyser les données, extraire et analyser les données et afficher les données extraites.",
-					"Accessibilité: afficher les informations de système, charger la licence, afficher le fichier d’aide, changer de langue, etc.",
+					"Accessibilité: afficher les informations de système, charger la licence, afficher le fichier d'aide, changer de langue, etc.",
 					"Fonctions du projet: définition du projet (configuration des paramètres), traitement et calcul WRF (prétraitement, calcul), correction MOS, extraction et affichage des résultats (post-traitement, extraction de données ponctuelles)."
 				]
 			},
 			"duties": [
 				"Rédiger la documentation technique",
-				"Conception de l’architecture du programme",
+				"Conception de l'architecture du programme",
 				"Développement côté logiciel Qt/C++",
 				"Apprendre et utiliser VTK pour réaliser la visualisation 3D"
 			],
@@ -75,15 +75,15 @@
 					"Une fois connectés au système, les utilisateurs (utilisateurs généraux, administrateurs) peuvent envoyer des calculs d'analyse de données et afficher les résultats. Ils peuvent également visualiser directement les résultats historiques, ou créer des évaluations et effectuer des évaluations.",
 					"Le système lit/reçoit les données du parc éolien à partir des registres en temps réel et les stocke dans la base de données.",
 					"Le système calcule automatiquement les résultats par mois/année sous forme de résultats historiques et les stocke dans la base de données.",
-					"Analyse des données: pour chaque turbine, estimer la fonction de transfert de la nacelle, la classification des données Scada, estimer la courbe de puissance et calculer d’autres indicateurs tels que: vitesse moyenne du vent, production moyenne journalière, production, production théorique, production réelle, perte de production (limitée, arrêt, sous-émission), production mensuelle, puissance nominale, facteur de capacité, TBA / PBA, analyser des défaillances (MTTF, MTTR, MTBF). Pour le parc entière, calculer les principaux indicateurs: production, production théorique, production réelle, perte de production, production mensuelle, puissance nominale, vitesse moyenne du vent, TBA / PBA.",
+					"Analyse des données: pour chaque turbine, estimer la fonction de transfert de la nacelle, la classification des données Scada, estimer la courbe de puissance et calculer d'autres indicateurs tels que: vitesse moyenne du vent, production moyenne journalière, production, production théorique, production réelle, perte de production (limitée, arrêt, sous-émission), production mensuelle, puissance nominale, facteur de capacité, TBA / PBA, analyser des défaillances (MTTF, MTTR, MTBF). Pour le parc entière, calculer les principaux indicateurs: production, production théorique, production réelle, perte de production, production mensuelle, puissance nominale, vitesse moyenne du vent, TBA / PBA.",
 					"Afficher les données et les résultats d'analyse: informations complètes sur le terrain, analyse des opérations, données en temps réel, comparaison croisée, comparaison des indicateurs."
 				]
 			},
 			"duties": [
 				"Rédiger la documentation technique",
-				"Conception de l’architecture du programme",
+				"Conception de l'architecture du programme",
 				"Lire la documentation existante et le code python pour comprendre et améliorer les algorithmes",
-				"Implémentation d’algorithme back-end et WebAPI",
+				"Implémentation d'algorithme back-end et WebAPI",
 				"Développement du Front-end module 'analyse des opérations' et 'comparaison des indicateurs'"
 			],
 			"technologies": [
@@ -142,7 +142,7 @@
 			"description": {
 				"header":"Développer une application Web pour gérer les projets et les fichiers de prévision de puissance. Elle offre les fonctionnalités suivantes:",
 				"details": [
-					"Gestion des utilisateurs (4 types d’utilisateurs: administrateur, utilisateur interne, utilisateur interne limité, utilisateur externe)",
+					"Gestion des utilisateurs (4 types d'utilisateurs: administrateur, utilisateur interne, utilisateur interne limité, utilisateur externe)",
 					"Gestion de province: créer, lire, mettre à jour et supprimer.",
 					"Gestion de projet: créer, lire, mettre à jour et supprimer.",
 					"Gestion de fichier (fichier xyh, fichier de coefficient, fichier de courbe de puissance, fichier de courbe de réveil): uploader, télécharger, supprimer.",
@@ -153,7 +153,7 @@
 			"duties": [
 				"Analyse des besoins",
 				"Rédiger la documentation technique",
-				"Conception de l’architecture du programme",
+				"Conception de l'architecture du programme",
 				"Développement"
 			],
 			"technologies": [
@@ -240,7 +240,7 @@
 			"startDate": "2015/11",
 			"endDate": "2016/12",
 			"description": {
-				"header":"Développer un service Web et fournir les fonctions suivantes: gestion des utilisateurs, gestion des sites de parcs éoliens, gestion des types d’éoliennes, gestion des fichiers, calcul fluide dynamique, évaluation des ressources éoliennes, optimisation du positionnement des éoliennes, etc."
+				"header":"Développer un service Web et fournir les fonctions suivantes: gestion des utilisateurs, gestion des sites de parcs éoliens, gestion des types d'éoliennes, gestion des fichiers, calcul fluide dynamique, évaluation des ressources éoliennes, optimisation du positionnement des éoliennes, etc."
 			},
 			"duties": [
 				"Analyse des besoins",
@@ -342,7 +342,7 @@
 			"startDate": "2015/03",
 			"endDate": "2015/10",
 			"description": {
-				"header":"Meteodyn WT est un logiciel d’énergie éolienne qui utilise le calcul fluide dynamique pour effectuer une évaluation des ressources éoliennes. Il quantifie la ressource éolienne sur un terrain souhaité afin d'évaluer la faisabilité d'un parc éolien proposé. Il pourrait être utilisé pour l'évaluation de la production annuelle d'énergie (AEP), l'adéquation du site, l'optimisation de l'aménagement de la turbine, l'optimisation de la production d'énergie, les coûts de maintenance et la validation de la durée de vie d'une turbine."
+				"header":"Meteodyn WT est un logiciel d'énergie éolienne qui utilise le calcul fluide dynamique pour effectuer une évaluation des ressources éoliennes. Il quantifie la ressource éolienne sur un terrain souhaité afin d'évaluer la faisabilité d'un parc éolien proposé. Il pourrait être utilisé pour l'évaluation de la production annuelle d'énergie (AEP), l'adéquation du site, l'optimisation de l'aménagement de la turbine, l'optimisation de la production d'énergie, les coûts de maintenance et la validation de la durée de vie d'une turbine."
 			},
 			"duties": [
 				"Corriger le bug selon Mantis soumis par le testeur "
@@ -420,7 +420,7 @@
 			"duties": [
 				"Analyse des besoins",
 				"Rédiger la documentation technique",
-				"Conception de l’architecture du programme",
+				"Conception de l'architecture du programme",
 				"Développement",
 				"Rédiger le rapport"
 			],
@@ -495,7 +495,7 @@
 			"duties": [
 				"Analyse des besoins",
 				"Rédiger la documentation technique",
-				"Conception de l’architecture du programme",
+				"Conception de l'architecture du programme",
 				"Développement",
 				"Rédiger le rapport"
 			],
@@ -518,8 +518,8 @@
 			]
 		},
 		{
-			"name": "Analyse et développement d’une méthode de fusion pour la classification de documents par classificateurs 1-classe",
-			"organization": "Equipe RFAI du Laboratoire d'Informatique de Tours (Projet de fin d’étude)",
+			"name": "Analyse et développement d'une méthode de fusion pour la classification de documents par classificateurs 1-classe",
+			"organization": "Equipe RFAI du Laboratoire d'Informatique de Tours (Projet de fin d'étude)",
 			"city": "Tours France",
 			"startDate": "2013/09",
 			"endDate": "2014/05",
@@ -529,7 +529,7 @@
 			"duties": [
 				"Analyse des besoins",
 				"Rédiger la documentation technique",
-				"Conception de l’architecture du programme",
+				"Conception de l'architecture du programme",
 				"Développement",
 				"Rédiger le rapport"
 			],
@@ -554,7 +554,7 @@
 			]
 		},
 		{
-			"name": "Extraction de profils d’intensité sur des images d’origine médicale",
+			"name": "Extraction de profils d'intensité sur des images d'origine médicale",
 			"organization": "Orion Concept (Stage)",
 			"city": "Tours France",
 			"startDate": "2013/06",
@@ -565,7 +565,7 @@
 			"duties": [
 				"Analyse des besoins",
 				"Rédiger la documentation technique",
-				"Conception de l’architecture du programme",
+				"Conception de l'architecture du programme",
 				"Développement",
 				"Rédiger le rapport"
 			],
@@ -696,7 +696,7 @@
 				"header":"Développer l'application Android de Sphero. Contrôler le parcours et le changement de couleur de la boule Sphero via le téléphone Android."
 			},
 			"duties": [
-				"Conception de l’architecture du programme",
+				"Conception de l'architecture du programme",
 				"Développement",
 				"Rédiger le rapport"
 			],
@@ -719,7 +719,7 @@
 			]
 		},
 		{
-			"name": "Développement d’un jeu Jezzball sur Nintendo DS",
+			"name": "Développement d'un jeu Jezzball sur Nintendo DS",
 			"organization": "Polytech Tours",
 			"city": "Tours France",
 			"startDate": "2012/01",
@@ -728,7 +728,7 @@
 				"header":"Développez et testez le jeu JezzBall."
 			},
 			"duties": [
-				"Conception de l’architecture du programme",
+				"Conception de l'architecture du programme",
 				"Développement",
 				"Rédiger le rapport"
 			],
