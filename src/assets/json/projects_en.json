@@ -194,7 +194,7 @@
 			"startDate": "2016/09",
 			"endDate": "2017/04",
 			"description": {
-				"header":"Develop a C++ version of the library that provides basic functionality for power prediction for other developers to call:",
+				"header":"Develop the library of C++ version that provides basic functionality for power prediction for other developers to call:",
 				"details": [
 					"Setter and Getters functions for basic parameters.",
 					"Load data function: load Mast, Scada, Meso data.",
@@ -345,7 +345,7 @@
 				"header":"Meteodyn WT is a wind energy software that uses computational fluid dynamics (CFD) to conduct wind resource assessment. It quantifies the wind resource in a desired terrain in order to assess the feasibility of a proposed wind farm. It could be used for annual energy production (AEP) evaluation, site suitability, turbine layout optimization, energy production optimization, maintenance costs and turbine lifespan validation."
 			},
 			"duties": [
-				"Corrcet bug according to Mantis submitted by the tester"
+				"Correct bug according to Mantis submitted by the tester"
 			],
 			"technologies": [
 				{
@@ -379,7 +379,7 @@
 			"startDate": "2016/01",
 			"endDate": "2016/02",
 			"description": {
-				"header":"Develop web applications to assess the relationship between the location of cranes and high-rise buildings in France."
+				"header":"Develop a web application to assess the relationship between the location of cranes and high-rise buildings in France."
 			},
 			"duties": [
 				"Write technical documentation",
@@ -519,12 +519,12 @@
 		},
 		{
 			"name": "Analyze and development of a fusion method for the classification of documents by classifiers 1-class",
-			"organization": "RFAI Team of the Computer Laboratory Tours (Graduation Design)",
+			"organization": "RFAI Team of the Computer Science Laboratory of Tours (Graduation Design)",
 			"city": "Tours France",
 			"startDate": "2013/09",
 			"endDate": "2014/05",
 			"description": {
-				"header":"There are several image files, which can be classified according to the content of the image: check, letter, report, and so on. Using multiple single-class classifiers to classify files, different classifiers get different results, and develop a merge method to make the results of the classification as perfect as possible."
+				"header":"There are many image files, which can be classified according to the content of the image: check, letter, report, and so on. Using multiple single-class classifiers to classify files, different classifiers get different results, and develop a merge method to make the results of the classification as perfect as possible."
 			},
 			"duties": [
 				"Requirements analysis",

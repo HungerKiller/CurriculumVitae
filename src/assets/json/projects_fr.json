@@ -1,0 +1,755 @@
+{
+	"projects": [
+		{
+			"name": "Meso Scale Platform",
+			"organization": "Meteodyn",
+			"city": "Xian Shaanxi China",
+			"startDate": "2017/07",
+			"endDate": "2018/12",
+			"description": {
+				"header":"Développer une application de bureau offrant les fonctionnalités suivantes:",
+				"details": [
+					"Gestion de projet: les utilisateurs peuvent ouvrir, supprimer et créer de nouveaux projets.",
+					"Fonctions communes: définir les paramètres par défaut, télécharger et analyser les données, extraire et analyser les données et afficher les données extraites.",
+					"Accessibilité: afficher les informations de système, charger la licence, afficher le fichier d’aide, changer de langue, etc.",
+					"Fonctions du projet: définition du projet (configuration des paramètres), traitement et calcul WRF (prétraitement, calcul), correction MOS, extraction et affichage des résultats (post-traitement, extraction de données ponctuelles)."
+				]
+			},
+			"duties": [
+				"Rédiger la documentation technique",
+				"Conception de l’architecture du programme",
+				"Développement côté logiciel Qt/C++",
+				"Apprendre et utiliser VTK pour réaliser la visualisation 3D"
+			],
+			"technologies": [
+				{
+					"name": "Plateforme",
+					"contents": [
+						"Ubuntu 16.04"
+					]
+				},
+				{
+					"name": "Langue/bibliothèque",
+					"contents": [
+						"Qt/C++",
+						"VTK-8.0",
+						"Quazip5"
+					]
+				},
+				{
+					"name": "Calcul scientifique",
+					"contents": [
+						"NETCDF",
+						"Jasper",
+						"OpenMPI",
+						"WPS 3.8",
+						"WRFV 3.8",
+						"NCL",
+						"Pyhton"
+					]
+				},
+				{
+					"name": "Outils",
+					"contents": [
+						"Jenkins",
+						"Git",
+						"Mantis",
+						"Qt Creator",
+						"AppImage",
+						"Google Earth",
+						"ParaView"
+					]
+				}
+			]
+		},
+		{
+			"name": "Système d'évaluation de l'énergie éolienne Zhuanghe",
+			"organization": "Meteodyn",
+			"city": "Xian Shaanxi China",
+			"startDate": "2018/06",
+			"endDate": "2018/12",
+			"description": {
+				"header":"Développer une application Web avec les fonctionnalités suivantes:",
+				"details": [
+					"Gestion des utilisateurs: les administrateurs peuvent gérer les utilisateurs généraux, et les utilisateurs généraux ne peuvent modifier que leurs propres mots de passe.",
+					"Une fois connectés au système, les utilisateurs (utilisateurs généraux, administrateurs) peuvent envoyer des calculs d'analyse de données et afficher les résultats. Ils peuvent également visualiser directement les résultats historiques, ou créer des évaluations et effectuer des évaluations.",
+					"Le système lit/reçoit les données du parc éolien à partir des registres en temps réel et les stocke dans la base de données.",
+					"Le système calcule automatiquement les résultats par mois/année sous forme de résultats historiques et les stocke dans la base de données.",
+					"Analyse des données: pour chaque turbine, estimer la fonction de transfert de la nacelle, la classification des données Scada, estimer la courbe de puissance et calculer d’autres indicateurs tels que: vitesse moyenne du vent, production moyenne journalière, production, production théorique, production réelle, perte de production (limitée, arrêt, sous-émission), production mensuelle, puissance nominale, facteur de capacité, TBA / PBA, analyser des défaillances (MTTF, MTTR, MTBF). Pour le parc entière, calculer les principaux indicateurs: production, production théorique, production réelle, perte de production, production mensuelle, puissance nominale, vitesse moyenne du vent, TBA / PBA.",
+					"Afficher les données et les résultats d'analyse: informations complètes sur le terrain, analyse des opérations, données en temps réel, comparaison croisée, comparaison des indicateurs."
+				]
+			},
+			"duties": [
+				"Rédiger la documentation technique",
+				"Conception de l’architecture du programme",
+				"Lire la documentation existante et le code python pour comprendre et améliorer les algorithmes",
+				"Implémentation d’algorithme back-end et WebAPI",
+				"Développement du Front-end module 'analyse des opérations' et 'comparaison des indicateurs'"
+			],
+			"technologies": [
+				{
+					"name": "Front-end",
+					"contents": [
+						"Angular",
+						"PrimeNG",
+						"NG-ZORRO",
+						"Echarts",
+						"Bootstrap",
+						"Font Awesome"
+					]
+				},
+				{
+					"name": "Back-end",
+					"contents": [
+						"C#/ASP.NET Core",
+						"Automapper",
+						"Dapper",
+						"Npgsql",
+						"Vibrant.InfluxDB.Client",
+						"NLog",
+						"Pomelo.AspNetCore.TimedJob"
+					]
+				},
+				{
+					"name": "Base de données",
+					"contents": [
+						"Postgresql",
+						"Influxdb"
+					]
+				},
+				{
+					"name": "Outils",
+					"contents": [
+						"Jenkins",
+						"Git",
+						"Mantis",
+						"Postman",
+						"Visual Studio",
+						"Visual Studio Code",
+						"IIS",
+						"pgAdmin",
+						"InfluxDBStudio"
+					]
+				}
+			]
+		},
+		{
+			"name": "Forecast Management",
+			"organization": "Meteodyn",
+			"city": "Xian Shaanxi China",
+			"startDate": "2017/06",
+			"endDate": "2018/02",
+			"description": {
+				"header":"Développer une application Web pour gérer les projets et les fichiers de prévision de puissance. Elle offre les fonctionnalités suivantes:",
+				"details": [
+					"Gestion des utilisateurs (4 types d’utilisateurs: administrateur, utilisateur interne, utilisateur interne limité, utilisateur externe)",
+					"Gestion de province: créer, lire, mettre à jour et supprimer.",
+					"Gestion de projet: créer, lire, mettre à jour et supprimer.",
+					"Gestion de fichier (fichier xyh, fichier de coefficient, fichier de courbe de puissance, fichier de courbe de réveil): uploader, télécharger, supprimer.",
+					"Gestion des données (Mésoéchelle/Scada/ Mât/Résultat/Limite de puissance): importation, exportation, suppression.",
+					"Fonction système: détecter automatiquement les données expirées et envoyer automatiquement des courriels de rappel."
+				]
+			},
+			"duties": [
+				"Analyse des besoins",
+				"Rédiger la documentation technique",
+				"Conception de l’architecture du programme",
+				"Développement"
+			],
+			"technologies": [
+				{
+					"name": "Langue/bibliothèque/framework",
+					"contents": [
+						"C#/ASP.NET Core",
+						"Automapper",
+						"Dapper",
+						"Npgsql",
+						"NLog",
+						"Pomelo.AspNetCore.TimedJob"
+					]
+				},
+				{
+					"name": "Base de données",
+					"contents": [
+						"Postgresql"
+					]
+				},
+				{
+					"name": "Outils",
+					"contents": [
+						"Jenkins",
+						"Git",
+						"Mantis",
+						"Visual Studio",
+						"IIS",
+						"pgAdmin"
+					]
+				}
+			]
+		},
+		{
+			"name": "Forecast Library",
+			"organization": "Meteodyn",
+			"city": "Nantes France/Xian Shaanxi China",
+			"startDate": "2016/09",
+			"endDate": "2017/04",
+			"description": {
+				"header":"Développer la bibliothèque en version C ++ fournissant les fonctionnalités de la prévision de puissance que les autres développeurs peuvent appeler:",
+				"details": [
+					"Fonctions Setter et Getters pour les paramètres de base.",
+					"Fonctions de chargement de données: charger Mât, Scada, Meso.",
+					"Fonctions pour lancer les calculs et obtenir les résultats."
+				]
+			},
+			"duties": [
+				"Analyse des besoins",
+				"Rédiger la documentation technique",
+				"Développement",
+				"Formation client",
+				"Support technique"
+			],
+			"technologies": [
+				{
+					"name": "Plateforme",
+					"contents": [
+						"CentOS 7"
+					]
+				},
+				{
+					"name": "Langue/bibliothèque",
+					"contents": [
+						"Qt/C++",
+						"Mono"
+					]
+				},
+				{
+					"name": "Outils",
+					"contents": [
+						"Jenkins",
+						"Git",
+						"Visual Studio",
+						"MonoDevelop"
+					]
+				}
+			]
+		},
+		{
+			"name": "Shanghai Electric",
+			"organization": "Meteodyn",
+			"city": "Nantes France",
+			"startDate": "2015/11",
+			"endDate": "2016/12",
+			"description": {
+				"header":"Développer un service Web et fournir les fonctions suivantes: gestion des utilisateurs, gestion des sites de parcs éoliens, gestion des types d’éoliennes, gestion des fichiers, calcul fluide dynamique, évaluation des ressources éoliennes, optimisation du positionnement des éoliennes, etc."
+			},
+			"duties": [
+				"Analyse des besoins",
+				"Rédiger la documentation technique",
+				"Développement",
+				"Base de données migration management"
+			],
+			"technologies": [
+				{
+					"name": "Langue/bibliothèque/framework",
+					"contents": [
+						"C#.NET",
+						"NUnit",
+						"Nancy",
+						"Rest Api",
+						"Javascript",
+						"Ajax",
+						"ApiDoc"
+					]
+				},
+				{
+					"name": "Base de données",
+					"contents": [
+						"Sql server"
+					]
+				},
+				{
+					"name": "Outils",
+					"contents": [
+						"Jenkins",
+						"Git",
+						"Mantis",
+						"Visual Studio",
+						"SQL Server Management Studio",
+						"IIS",
+						"Postman"
+					]
+				}
+			]
+		},
+		{
+			"name": "Forecast Wind/Sun",
+			"organization": "Meteodyn",
+			"city": "Nantes France/Xian Shaanxi China",
+			"startDate": "2015/03",
+			"endDate": "2017/06",
+			"description": {
+				"header":"Logiciel de prédiction de puissance, mettre à jour ses algorithmes et ses interfaces, ajouter de nouvelles fonctionnalités et développer de nouvelles versions. Principales fonctionnalités du logiciel:",
+				"details": [
+					"Gestion de projet: les utilisateurs peuvent charger et supprimer des projets.",
+					"Configuration du projet: un projet est un parc éolien, qui peut spécifier la courbe de puissance et la courbe de trainée pour chaque éolienne du parc éolien, en ajoutant la configuration de limite de puissance à l'arrêt; configurer le fichier de moyenne échelle et la période à utiliser; configurer le fichier de correction de réseau neuronal; ajouter des tâches de calcul automatique.",
+					"Calcul: l'utilisateur peut envoyer manuellement des tâches de téléchargement, calculer des tâches. Ou attendre que les tâches planifiées soient exécutées automatiquement.",
+					"Résultat: les résultats sont générés aux formats Txt et Excel et peuvent également être visualisés dans l'interface du logiciel."
+				]
+			},
+			"duties": [
+				"Analyse des besoins",
+				"Lire documentations existantes et le code pour comprendre et améliorer les algorithmes et les interfaces",
+				"Mettre à jour la documentation technique",
+				"Ajouter de nouvelles fonctionnalités (réseau de neurones mis à jour de FANN vers TensorFlow, source de données multi-échelles configurable pour un seul projet, ajout de la limite de puissance du parc éolien, etc.)",
+				"Déboguer",
+				"Support technique"
+			],
+			"technologies": [
+				{
+					"name": "Langue/bibliothèque",
+					"contents": [
+						"C#.NET",
+						"Automapper",
+						"Fann.Net",
+						"log4net"
+					]
+				},
+				{
+					"name": "Base de données",
+					"contents": [
+						"Sql server",
+						"Sqlite"
+					]
+				},
+				{
+					"name": "Outils",
+					"contents": [
+						"Jenkins",
+						"Git",
+						"SVN",
+						"Mantis",
+						"Visual Studio",
+						"SQL Server Management Studio",
+						"InnoSetup"
+					]
+				}
+			]
+		},
+		{
+			"name": "Meteodyn WT",
+			"organization": "Meteodyn",
+			"city": "Nantes France",
+			"startDate": "2015/03",
+			"endDate": "2015/10",
+			"description": {
+				"header":"Meteodyn WT est un logiciel d’énergie éolienne qui utilise le calcul fluide dynamique pour effectuer une évaluation des ressources éoliennes. Il quantifie la ressource éolienne sur un terrain souhaité afin d'évaluer la faisabilité d'un parc éolien proposé. Il pourrait être utilisé pour l'évaluation de la production annuelle d'énergie (AEP), l'adéquation du site, l'optimisation de l'aménagement de la turbine, l'optimisation de la production d'énergie, les coûts de maintenance et la validation de la durée de vie d'une turbine."
+			},
+			"duties": [
+				"Corriger le bug selon Mantis soumis par le testeur "
+			],
+			"technologies": [
+				{
+					"name": "Langue",
+					"contents": [
+						"C#.NET"
+					]
+				},
+				{
+					"name": "Base de données",
+					"contents": [
+						"Sql server"
+					]
+				},
+				{
+					"name": "Outils",
+					"contents": [
+						"Jenkins",
+						"SVN",
+						"Mantis",
+						"Visual Studio",
+						"InnoSetup"
+					]
+				}
+			]
+		},
+		{
+			"name": "Mission M1",
+			"organization": "Meteodyn",
+			"city": "Nantes France",
+			"startDate": "2016/01",
+			"endDate": "2016/02",
+			"description": {
+				"header":"Développer une application Web pour évaluer la relation entre l'emplacement des grues et les immeubles de grande hauteur en France."
+			},
+			"duties": [
+				"Rédiger la documentation technique",
+				"Développement",
+				"Maintenance"
+			],
+			"technologies": [
+				{
+					"name": "Langue/bibliothèque",
+					"contents": [
+						"PHP",
+						"Html",
+						"CSS",
+						"Javascript",
+						"Jquery",
+						"Ajax"
+					]
+				},
+				{
+					"name": "Outils",
+					"contents": [
+						"SVN",
+						"Atom",
+						"EsayPHP"
+					]
+				}
+			]
+		},
+		{
+			"name": "Skin Flow Scan",
+			"organization": "Orion Concept (Stage)",
+			"city": "Tours France",
+			"startDate": "2014/05",
+			"endDate": "2014/10",
+			"description": {
+				"header":"Utiliser VivaScope et VivaScan pour numériser la peau à la recherche de vidéos sur la peau. Développer un logiciel pour analyser cette vidéo ou une vidéo en direct pour détecter le nombre de globules rouges traversant dans un temps unitaire afin de déterminer la stabilité du patient."
+			},
+			"duties": [
+				"Analyse des besoins",
+				"Rédiger la documentation technique",
+				"Conception de l’architecture du programme",
+				"Développement",
+				"Rédiger le rapport"
+			],
+			"technologies": [
+				{
+					"name": "Langue/bibliothèque",
+					"contents": [
+						"C#.NET",
+						"EmguCV",
+						"FFmpeg"
+					]
+				},
+				{
+					"name": "Outils",
+					"contents": [
+						"SVN",
+						"Visual Studio",
+						"ImageJ",
+						"Matlab",
+						"InnoSetup",
+						"VivaScope/VivaScan",
+						"LaTeX"
+					]
+				}
+			]
+		},
+		{
+			"name": "HeadScan Dynamics",
+			"organization": "Orion Concept (Stage)",
+			"city": "Tours France",
+			"startDate": "2014/04",
+			"endDate": "2014/12",
+			"description": {
+				"header":"Il existe un logiciel permettant de localiser les patients et les caméras, et de prendre automatiquement un ensemble de photos sous différents angles, avec une luminosité et des filtres différents. Déboguer et ajouter de nouvelles fonctionnalités."
+			},
+			"duties": [
+				"Lire la documentation existante et le code pour comprendre les programmes",
+				"Mettre à jour la documentation technique",
+				"Développement"
+			],
+			"technologies": [
+				{
+					"name": "Langue/bibliothèque",
+					"contents": [
+						"C#.NET",
+						"Java",
+						"Phidgets"
+					]
+				},
+				{
+					"name": "Outils",
+					"contents": [
+						"Visual Studio",
+						"Eclipse",
+						"SVN",
+						"ImageJ",
+						"Excelsior JET",
+						"InnoSetup"
+					]
+				}
+			]
+		},
+		{
+			"name": "Suivi de calcification sur une aorte",
+			"organization": "Polytech Tours",
+			"city": "Tours France",
+			"startDate": "2014/01",
+			"endDate": "2014/05",
+			"description": {
+				"header":"Il existe une série de grandes sections transversales artérielles, chacune avec un profil de calcification, et différentes vues en coupe transversale (différents emplacements des artères) présentent des calcifications et des emplacements différents. Développer un logiciel qui suit automatiquement les zones calcifiées."
+			},
+			"duties": [
+				"Analyse des besoins",
+				"Rédiger la documentation technique",
+				"Conception de l’architecture du programme",
+				"Développement",
+				"Rédiger le rapport"
+			],
+			"technologies": [
+				{
+					"name": "Langue/bibliothèque",
+					"contents": [
+						"Java",
+						"ImageJ"
+					]
+				},
+				{
+					"name": "Outils",
+					"contents": [
+						"Eclipse",
+						"SVN",
+						"LaTeX"
+					]
+				}
+			]
+		},
+		{
+			"name": "Analyse et développement d’une méthode de fusion pour la classification de documents par classificateurs 1-classe",
+			"organization": "Equipe RFAI du Laboratoire d'Informatique de Tours (Projet de fin d’étude)",
+			"city": "Tours France",
+			"startDate": "2013/09",
+			"endDate": "2014/05",
+			"description": {
+				"header":"Il existe de nombreux fichiers image pouvant être classés en fonction du contenu de l'image: chèque, lettre, rapport, etc. En utilisant plusieurs classificateurs 1-classe pour classer les fichiers, ils obtiennent des résultats différents. Développer une méthode de fusion pour rendre les résultats de la classification assez parfaits que possible."
+			},
+			"duties": [
+				"Analyse des besoins",
+				"Rédiger la documentation technique",
+				"Conception de l’architecture du programme",
+				"Développement",
+				"Rédiger le rapport"
+			],
+			"technologies": [
+				{
+					"name": "Langue/bibliothèque",
+					"contents": [
+						"C#.NET",
+						"AForge.NET"
+					]
+				},
+				{
+					"name": "Outils",
+					"contents": [
+						"Visual Studio",
+						"Git",
+						"Redmine",
+						"Classifiers 1-class",
+						"LaTeX"
+					]
+				}
+			]
+		},
+		{
+			"name": "Extraction de profils d’intensité sur des images d’origine médicale",
+			"organization": "Orion Concept (Stage)",
+			"city": "Tours France",
+			"startDate": "2013/06",
+			"endDate": "2013/09",
+			"description": {
+				"header":"Il existe des images médicales de la peau dans lesquelles la distribution des niveaux de gris est extraite pour établir les caractéristiques d'une série d'images; ces caractéristiques sont ensuite quantifiées pour caractériser différents tissus biologiques."
+			},
+			"duties": [
+				"Analyse des besoins",
+				"Rédiger la documentation technique",
+				"Conception de l’architecture du programme",
+				"Développement",
+				"Rédiger le rapport"
+			],
+			"technologies": [
+				{
+					"name": "Langue/bibliothèque",
+					"contents": [
+						"Java",
+						"Jmathplot",
+						"ImageJ"
+					]
+				},
+				{
+					"name": "Outils",
+					"contents": [
+						"Eclipse",
+						"SVN",
+						"LaTeX"
+					]
+				}
+			]
+		},
+		{
+			"name": "Pilotage de la caméra industrielle",
+			"organization": "Orion Concept (Stage)",
+			"city": "Tours France",
+			"startDate": "2013/06",
+			"endDate": "2013/09",
+			"description": {
+				"header":"Développement d'un outil pour piloter la caméra industrielle IDS uEye."
+			},
+			"duties": [
+				"Développement",
+				"Rédiger le rapport"
+			],
+			"technologies": [
+				{
+					"name": "Langue/bibliothèque",
+					"contents": [
+						"C#.NET",
+						"IDS uEye"
+					]
+				},
+				{
+					"name": "Outils",
+					"contents": [
+						"Visual Studio",
+						"SVN",
+						"LaTeX"
+					]
+				}
+			]
+		},
+		{
+			"name": "Ordonnancement multiprocesseurs identiques dans une grille de calcul",
+			"organization": "Polytech Tours",
+			"city": "Tours France",
+			"startDate": "2013/02",
+			"endDate": "2013/05",
+			"description": {
+				"header":"Plusieurs processeurs sont connus, ainsi que plusieurs tâches en attente. Chaque processeur a la même vitesse de traitement, mais le temps de traitement requis pour chaque tâche n'est pas nécessairement le même. Dans le même temps, la même tâche ne peut être traitée que par un seul processeur. Rechercher un algorithme qui accomplira toutes les tâches au plus tôt."
+			},
+			"duties": [
+				"Analyser des exemples",
+				"Proposer des algorithmes",
+				"Développement",
+				"Tester l'algorithme et résumer",
+				"Rédiger le rapport"
+			],
+			"technologies": [
+				{
+					"name": "Langue/bibliothèque",
+					"contents": [
+						"C/C++"
+					]
+				},
+				{
+					"name": "Outils",
+					"contents": [
+						"Visual Studio",
+						"Cplex Studio",
+						"LaTeX"
+					]
+				}
+			]
+		},
+		{
+			"name": "Contrôle de volume de marchandises",
+			"organization": "Polytech Tours",
+			"city": "Tours France",
+			"startDate": "2012/10",
+			"endDate": "2013/05",
+			"description": {
+				"header":"En chargeant les marchandises dans le conteneur, le volume des marchandises est différent, développer un logiciel, à travers la vidéo et les images acquises, pour analyser la quantité d'espace disponible dans le conteneur."
+			},
+			"duties": [
+				"Analyse des besoins",
+				"Développer 'une imagerie 3D caméra binoculaire'",
+				"Rédiger la documentation technique"
+			],
+			"technologies": [
+				{
+					"name": "Langue/bibliothèque",
+					"contents": [
+						"Qt/C++",
+						"OpenCV"
+					]
+				},
+				{
+					"name": "Outils",
+					"contents": [
+						"Visual Studio",
+						"Git",
+						"Kinect",
+						"Binocular camera",
+						"LaTeX"
+					]
+				}
+			]
+		},
+		{
+			"name": "Etude de la plateforme Sphero",
+			"organization": "Polytech Tours",
+			"city": "Tours France",
+			"startDate": "2012/09",
+			"endDate": "2013/01",
+			"description": {
+				"header":"Développer l'application Android de Sphero. Contrôler le parcours et le changement de couleur de la boule Sphero via le téléphone Android."
+			},
+			"duties": [
+				"Conception de l’architecture du programme",
+				"Développement",
+				"Rédiger le rapport"
+			],
+			"technologies": [
+				{
+					"name": "Langue/bibliothèque",
+					"contents": [
+						"Java",
+						"Sphero"
+					]
+				},
+				{
+					"name": "Outils",
+					"contents": [
+						"Eclipse",
+						"Android phone",
+						"LaTeX"
+					]
+				}
+			]
+		},
+		{
+			"name": "Développement d’un jeu Jezzball sur Nintendo DS",
+			"organization": "Polytech Tours",
+			"city": "Tours France",
+			"startDate": "2012/01",
+			"endDate": "2012/05",
+			"description": {
+				"header":"Développez et testez le jeu JezzBall."
+			},
+			"duties": [
+				"Conception de l’architecture du programme",
+				"Développement",
+				"Rédiger le rapport"
+			],
+			"technologies": [
+				{
+					"name": "Langue/bibliothèque",
+					"contents": [
+						"C",
+						"PAlib",
+						"devkitPro"
+					]
+				},
+				{
+					"name": "Outils",
+					"contents": [
+						"CodeBlocks",
+						"Nintendo DS",
+						"LaTeX"
+					]
+				}
+			]
+		}
+	]
+}

@@ -1,9 +1,9 @@
 {
 	"basicInformation": {
 		"name": "ZhongShui WANG",
-		"gender": "Male",
-		"birthday": "1988/10/13",
-		"workExperience": "4 years",
+		"gender": "Mâle",
+		"birthday": "13/10/1988",
+		"workExperience": "4 ans",
 		"tel": "+86 18291880714",
 		"email": "zhongshui.wang.chn@gmail.com"
 	},
@@ -12,7 +12,7 @@
 			"period": "2011/09 - 2014/10",
 			"school": "Polytech Tours",
 			"schoolUrl": "https://polytech.univ-tours.fr/",
-			"specialty": "Department information technology",
+			"specialty": "Département Informatique",
 			"level": "Master",
 			"city": "Tours France",
 			"courses": [
@@ -42,44 +42,44 @@
 				"Reconnaissance de Formes",
 				"Environnement Intelligent",
 				"Traitement du Signal",
-				"Traitement de l'image"
+				"Traitement de l'Image"
 			]
 		},
 		{
 			"period": "2007/09 - 2011/06",
-			"school": "Dalian University of Technology",
+			"school": "L’Université de Technologie de Dalian",
 			"schoolUrl": "https://www.dlut.edu.cn/",
-			"specialty": "Network Engineering",
-			"level": "Undergraduate",
+			"specialty": "Ingénierie de réseau",
+			"level": "Licence",
 			"city": "Dalian Liaoning China",
 			"courses": [
-				"C Language Programming",
-				"C++ Language Programming",
-				"Java Language Programming",
-				"Web Techniques and Management",
-				"Interface and Assemble",
-				"Introduction to Software Engineering",
-				"Database Systems",
-				"Course Design of Database System",
-				"Data Structures and Computational Methods",
-				"Compilation Techniques",
-				"Operating Systems",
-				"Design of Network Safety",
-				"Network Programming",
-				"Network Security and Privacy",
-				"Technology of Routing and Switch",
-				"Cryptography Theory and Technology",
-				"Network Management",
-				"Wireless Communication and Networks",
-				"Network Security Design and Programming",
-				"Computer Network",
-				"Experiments of Computer Organization and Structures",
-				"Designing Games",
-				"Advanced Mathematics",
-				"Linear Algebra",
-				"Discrete Mathematics",
-				"Probability and Statistics",
-				"University Physics"
+				"Programmation Langage C",
+				"Programmation Langage C++",
+				"Programmation Langage Java",
+				"Techniques et Gestion Web",
+				"Interface et Assembler",
+				"Introduction au Génie Logiciel",
+				"Système de Base de Données",
+				"Conception de Système de Base de Données",
+				"Structures de Données et Méthodes de Calcul",
+				"Techniques de Compilation",
+				"Systèmes d'Exploitation",
+				"Conception de la sécurité du réseau",
+				"Programmation Réseau",
+				"Sécurité et Confidentialité du Réseau",
+				"Technologie de Routage et de Commutation",
+				"Théorie et Technologie de la Cryptographie",
+				"Gestion du Réseau",
+				"Communication Sans Fil et Réseaux",
+				"Conception et Programmation de la Sécurité Réseau",
+				"Réseau Informatique",
+				"Expériences d'Organisation et de Structures Informatiques",
+				"Conception de Jeux",
+				"Mathématiques Avancées",
+				"Algèbre Linéaire",
+				"Mathématiques Discrètes",
+				"Probabilités et Statistiques",
+				"Physique Universitaire"
 			]
 		}
 	],
@@ -88,16 +88,16 @@
 			"period": "2017/02 - Now",
 			"company": "Meteodyn",
 			"city": "Xian Shaanxi China",
-			"post": "Software Engineer",
+			"post": "Ingénieur en développement logiciel",
 			"duty": [
-				"Requirements analysis",
-				"Write technical documentation",
-				"Design program architecture",
-				"Development",
-				"Debug",
-				"Test",
+				"Analyse des besoins",
+				"Rédiger la documentation technique",
+				"Conception de l’architecture du programme",
+				"Développement",
+				"Déboguer",
+				"Tester",
 				"Maintenance",
-				"Technical support"
+				"Support technique"
 			],
 			"technology": [
 				"C#.NET(WinForm,ASP.NET,ASP.NET Core)",
@@ -133,16 +133,16 @@
 			"period": "2015/03 - 2017/01",
 			"company": "Meteodyn",
 			"city": "Nantes France",
-			"post": "Software Engineer",
+			"post": "Ingénieur en développement logiciel",
 			"duty": [
-				"Requirements analysis",
-				"Write technical documentation",
-				"Design program architecture",
-				"Development",
-				"Debug",
-				"Test",
+				"Analyse des besoins",
+				"Rédiger la documentation technique",
+				"Conception de l’architecture du programme",
+				"Développement",
+				"Déboguer",
+				"Tester",
 				"Maintenance",
-				"Technical support"
+				"Support technique"
 			],
 			"technology": [
 				"C#.NET(WinForm,WPF,ASP.NET)",
@@ -174,13 +174,13 @@
 			"period": "2014/05 - 2014/10",
 			"company": "Orion Concept",
 			"city": "Tours France",
-			"post": "Software Engineer (Practice)",
+			"post": "Ingénieur en développement logiciel (Practice)",
 			"duty": [
-				"Write technical documentation",
-				"Design program architecture",
-				"Development",
-				"Debug",
-				"Test",
+				"Rédiger la documentation technique",
+				"Conception de l’architecture du programme",
+				"Développement",
+				"Déboguer",
+				"Tester",
 				"Maintenance"
 			],
 			"technology": [
@@ -204,13 +204,13 @@
 			"period": "2013/06 - 2013/09",
 			"company": "Orion Concept",
 			"city": "Tours France",
-			"post": "Software Engineer (Practice)",
+			"post": "Ingénieur en développement logiciel (Practice)",
 			"duty": [
-				"Write technical documentation",
-				"Design program architecture",
-				"Development",
-				"Debug",
-				"Test",
+				"Rédiger la documentation technique",
+				"Conception de l’architecture du programme",
+				"Développement",
+				"Déboguer",
+				"Tester",
 				"Maintenance"
 			],
 			"technology": [
@@ -274,40 +274,40 @@
 		},
 		"language": [
 			{
-				"name": "Chinese",
-				"grade": "Mother tongue",
+				"name": "Chinois",
+				"grade": "Langue maternelle",
 				"score": "10"
 			},
 			{
-				"name": "French",
-				"grade": "Good",
+				"name": "Français",
+				"grade": "Bon",
 				"score": "7"
 			},
 			{
-				"name": "English",
-				"grade": "Good",
+				"name": "Anglais",
+				"grade": "Bon",
 				"score": "7",
 				"exams": "CET6, TOEIC 835"
 			},
 			{
-				"name": "Japanese",
-				"grade": "Beginner",
+				"name": "Japonais",
+				"grade": "Débutant",
 				"score": "2"
 			}
 		]
 	},
 	"hobbies": [
-		"Reading",
-		"Music",
+		"Lecture",
+		"Musique",
 		"Film",
-		"Anime",
+		"Dessin animé",
 		"Football",
-		"Game",
-		"Travel",
-		"Thinking",
-		"Walking"
+		"Jeu vidéo",
+		"Voyage",
+		"Penser",
+		"Promener"
 	],
 	"selfEvaluation": {
-		"evaluation": "Good at thinking and learning; strong sense of responsibility; good communication skills and teamwork spirit."
+		"evaluation": "Bon à penser et à apprendre; sens aigu des responsabilités; bonnes aptitudes à la communication et esprit d'équipe."
 	}
 }
