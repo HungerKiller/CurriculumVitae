@@ -47,9 +47,9 @@
 		},
 		{
 			"period": "2007/09 - 2011/06",
-			"school": "L’Université de Technologie de Dalian",
+			"school": "L'Université de Technologie de Dalian",
 			"schoolUrl": "https://www.dlut.edu.cn/",
-			"specialty": "Ingénierie de réseau",
+			"specialty": "Ingénierie de Réseau",
 			"level": "Licence",
 			"city": "Dalian Liaoning China",
 			"courses": [
@@ -92,7 +92,7 @@
 			"duty": [
 				"Analyse des besoins",
 				"Rédiger la documentation technique",
-				"Conception de l’architecture du programme",
+				"Conception de l'architecture du programme",
 				"Développement",
 				"Déboguer",
 				"Tester",
@@ -137,7 +137,7 @@
 			"duty": [
 				"Analyse des besoins",
 				"Rédiger la documentation technique",
-				"Conception de l’architecture du programme",
+				"Conception de l'architecture du programme",
 				"Développement",
 				"Déboguer",
 				"Tester",
@@ -174,10 +174,10 @@
 			"period": "2014/05 - 2014/10",
 			"company": "Orion Concept",
 			"city": "Tours France",
-			"post": "Ingénieur en développement logiciel (Practice)",
+			"post": "Ingénieur en développement logiciel (Stage)",
 			"duty": [
 				"Rédiger la documentation technique",
-				"Conception de l’architecture du programme",
+				"Conception de l'architecture du programme",
 				"Développement",
 				"Déboguer",
 				"Tester",
@@ -204,10 +204,10 @@
 			"period": "2013/06 - 2013/09",
 			"company": "Orion Concept",
 			"city": "Tours France",
-			"post": "Ingénieur en développement logiciel (Practice)",
+			"post": "Ingénieur en développement logiciel (Stage)",
 			"duty": [
 				"Rédiger la documentation technique",
-				"Conception de l’architecture du programme",
+				"Conception de l'architecture du programme",
 				"Développement",
 				"Déboguer",
 				"Tester",
