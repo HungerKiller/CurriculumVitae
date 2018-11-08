@@ -26,7 +26,7 @@ export class CvComponent implements OnInit {
 
   ngOnInit() {
     this.messageService.get().subscribe((msg) => {
-      this.jsonReaderService.getJSON(`./assets/cv_${msg}.json`).subscribe(data => {
+      this.jsonReaderService.getJSON(`./assets/json/cv_${msg}.json`).subscribe(data => {
         // Basic information
         this.basicInformation = data['basicInformation'] as BasicInformation;
         // Educational experience

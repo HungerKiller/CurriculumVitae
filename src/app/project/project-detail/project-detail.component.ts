@@ -16,7 +16,7 @@ export class ProjectDetailComponent implements OnInit {
 
   ngOnInit() {
     this.messageService.get().subscribe((msg) => {
-      this.jsonReaderService.getJSON(`./assets/projects_${msg}.json`).subscribe(data => {
+      this.jsonReaderService.getJSON(`./assets/json/projects_${msg}.json`).subscribe(data => {
         this.projects = data['projects'] as Project[];
       });
     });
