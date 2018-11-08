@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { MenuItem } from 'primeng/api';
+import { TranslateService, TranslationChangeEvent } from '@ngx-translate/core';
 
 @Component({
     selector: 'app-menu',
@@ -10,22 +11,25 @@ export class MenuComponent implements OnInit {
 
     private items: MenuItem[];
 
-    constructor() { }
+    constructor(public translate: TranslateService) { }
 
     ngOnInit() {
-        this.items = [{
-            label: '简历',
-            icon: 'fa fa-address-card',
-            routerLink: 'cv'
-        },
-        {
-            label: '项目',
-            icon: 'fa fa-tasks',
-            items: [
-                { label: '概览', routerLink: 'project/overview', icon: 'fa fa-table' },
-                { label: '详情', routerLink: 'project/detail', icon: 'fa fa-list-ul' },
-                { label: '统计', routerLink: 'project/statistics', icon: 'fa fa-pie-chart' }
-            ]
-        }];
+        this.translate.onLangChange.subscribe((event: TranslationChangeEvent) => {
+            this.items = [{
+                label: this.translate.instant('MENU.CV'),
+                icon: 'fa fa-address-card',
+                routerLink: 'cv'
+            },
+            {
+                label: this.translate.instant('MENU.Projects'),
+                icon: 'fa fa-tasks',
+                items: [
+                    { label: this.translate.instant('MENU.Overview'), routerLink: 'project/overview', icon: 'fa fa-table' },
+                    { label: this.translate.instant('MENU.Detail'), routerLink: 'project/detail', icon: 'fa fa-list-ul' },
+                    { label: this.translate.instant('MENU.Statistics'), routerLink: 'project/statistics', icon: 'fa fa-pie-chart' }
+                ]
+            }];
+        });
+        this.translate.use('cn');
     }
 }

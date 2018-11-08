@@ -10,13 +10,29 @@ import { NgZorroAntdModule, NZ_I18N, zh_CN } from 'ng-zorro-antd';
 import { NgxEchartsModule } from 'ngx-echarts';
 import 'echarts-gl/dist/echarts-gl'; // Import echarts-gl for 3d
 
+import { HttpClientModule, HttpClient } from '@angular/common/http';
+import { TranslateModule, TranslateLoader } from '@ngx-translate/core';
+import { TranslateHttpLoader } from '@ngx-translate/http-loader';
+
+// AoT requires an exported function for factories
+export function HttpLoaderFactory(http: HttpClient) {
+  return new TranslateHttpLoader(http);
+}
+
 @NgModule({
   imports: [
     CommonModule,
     AccordionModule,
     TableModule,
     NgZorroAntdModule,
-    NgxEchartsModule
+    NgxEchartsModule,
+    TranslateModule.forChild({
+      loader: {
+        provide: TranslateLoader,
+        useFactory: HttpLoaderFactory,
+        deps: [HttpClient]
+      }
+    }),
   ],
   declarations: [ProjectDetailComponent, ProjectOverviewComponent, ProjectStatisticsComponent]
 })

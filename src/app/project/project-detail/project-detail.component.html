@@ -1,7 +1,7 @@
 <p-accordion [multiple]="true">
   <p-accordionTab *ngFor="let project of projects" header="{{project?.name}}, {{project?.organization}}, {{project?.city}}, {{project?.startDate}} - {{project?.endDate}}"
       [selected]="false">
-      <nz-divider nzText="概述" nzOrientation="left"></nz-divider>
+      <nz-divider nzText="{{'PROJECT.Detail.Description' | translate}}" nzOrientation="left"></nz-divider>
       <p>{{project?.description?.header}}</p>
       <ul *ngFor="let dcp of project?.description?.details" class="nopoint">
           <li>
@@ -9,14 +9,14 @@
           </li>
       </ul>
 
-      <nz-divider nzText="职责" nzOrientation="left"></nz-divider>
+      <nz-divider nzText="{{'PROJECT.Detail.Duties' | translate}}" nzOrientation="left"></nz-divider>
       <ul *ngFor="let duty of project?.duties" class="nopoint">
           <li>
               <p>{{duty}}</p>
           </li>
       </ul>
 
-      <nz-divider nzText="开发" nzOrientation="left"></nz-divider>
+      <nz-divider nzText="{{'PROJECT.Detail.Technologies' | translate}}" nzOrientation="left"></nz-divider>
       <ul class="nopoint">
           <span *ngFor="let tech of project?.technologies">
               <li>

@@ -2,7 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { JsonReaderService } from '../../services/json-reader.service'
 import { MessageService } from '../../services/message.service';
 import { Project } from '../../models/Project';
-import * as moment from 'moment';
+import { TranslateService } from '@ngx-translate/core';
 
 @Component({
   selector: 'app-project-overview',
@@ -18,7 +18,7 @@ export class ProjectOverviewComponent implements OnInit {
   startDates: Date[] = [];
   endDates: Date[] = [];
 
-  constructor(private jsonReaderService: JsonReaderService, private messageService: MessageService) { }
+  constructor(private jsonReaderService: JsonReaderService, private messageService: MessageService, public translate: TranslateService) { }
 
   ngOnInit() {
     this.messageService.get().subscribe((msg) => {
@@ -35,11 +35,11 @@ export class ProjectOverviewComponent implements OnInit {
     });
     this.messageService.setSame();
     this.cols = [
-      { field: 'name', header: 'Name', width: '30%' },
-      { field: 'organization', header: 'Organization', width: '20%' },
-      { field: 'city', header: 'City', width: '20%' },
-      { field: 'startDate', header: 'StartDate', width: '15%' },
-      { field: 'endDate', header: 'EndDate', width: '15%' }
+      { field: 'name', header: 'PROJECT.Overview.Name', width: '30%' },
+      { field: 'organization', header: 'PROJECT.Overview.Organization', width: '20%' },
+      { field: 'city', header: 'PROJECT.Overview.City', width: '20%' },
+      { field: 'startDate', header: 'PROJECT.Overview.StartDate', width: '15%' },
+      { field: 'endDate', header: 'PROJECT.Overview.EndDate', width: '15%' }
     ];
   }
 
@@ -52,9 +52,6 @@ export class ProjectOverviewComponent implements OnInit {
 
   private buildOption() {
     this.options = {
-      title: {
-        text: '项目甘特图'
-      },
       grid: {
         top: 50,
         width: '90%',

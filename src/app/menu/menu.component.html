@@ -1,1 +1,5 @@
-<p-panelMenu [model]="items"></p-panelMenu>
+<p-panelMenu [model]="items">
+    <ng-template let-item pTemplate="selectedItem">
+        {{ item.label | translate }}
+    </ng-template>
+</p-panelMenu>

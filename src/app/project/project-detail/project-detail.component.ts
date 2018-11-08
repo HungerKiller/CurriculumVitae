@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { JsonReaderService } from '../../services/json-reader.service'
 import { MessageService } from '../../services/message.service';
 import { Project } from '../../models/Project';
+import { TranslateService } from '@ngx-translate/core';
 
 @Component({
   selector: 'app-project-detail',
@@ -12,7 +13,7 @@ export class ProjectDetailComponent implements OnInit {
 
   projects: Project[] = [];
 
-  constructor(private jsonReaderService: JsonReaderService, private messageService: MessageService) { }
+  constructor(private jsonReaderService: JsonReaderService, private messageService: MessageService, public translate: TranslateService) { }
 
   ngOnInit() {
     this.messageService.get().subscribe((msg) => {
