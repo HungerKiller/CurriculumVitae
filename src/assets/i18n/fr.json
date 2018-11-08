@@ -1,0 +1,65 @@
+{
+  "HOME": {
+    "Title": "Curriculum Vitae",
+    "SelectLanguage": "Choisir la langue",
+	"Chinese":"Chinois",
+	"French":"Français",
+	"English":"Anglais"
+  },
+  "MENU": {
+	"CV": "Curriculum Vitae",
+	"Projects": "Projets",
+	"Overview": "Overview",
+	"Detail": "Détail",
+	"Statistics": "Statistiques"
+  },
+  "CV": {
+	"BasicInformation": {
+		"BasicInformation": "Informations de base",
+		"Name": "Prénom et Nom",
+		"Gender": "Genre",
+		"Birthday": "Date de naissance",
+		"WorkExperience": "Expérience professionnelle",
+		"Tel": "Tél",
+		"Email": "Email"
+	},
+	"EducationalExperience": {
+		"EducationalExperience": "Formation",
+		"MajorCourses": "Les principaux cours"
+	},
+	"CareerExperience": {
+		"CareerExperience": "Expériences Professionnelles",
+		"Duties": "Responsabilité",
+		"Technologies": "Technologies",
+		"Projects": "Projets"
+	},
+	"Skills": {
+		"Skills": "Compétences",
+		"Computer": "Informatique",
+		"Language": "Langue",
+		"Database": "Base de données",
+		"EfficiencyTools": "Outils d'efficacité",
+		"Library": "Lib&Framework",
+		"Others": "Autres"
+	},
+	"Hobbies": "Loisirs",
+	"SelfEvaluation": "Auto-évaluation"
+  },
+  "PROJECT": {
+	"Overview": {
+		"List": "Liste",
+		"Name": "Nom",
+		"Organization": "Organisation",
+		"City": "Ville",
+		"StartDate": "Date de début",
+		"EndDate": "Date de fin",
+		"Gantt": "Gantt"
+	},
+	"Detail": {
+		"Description": "Description",
+		"Duties": "Responsabilité",
+		"Technologies": "Technologies"
+	},
+	"Statistics": {}
+  }
+}

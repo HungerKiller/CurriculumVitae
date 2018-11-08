@@ -1,0 +1,65 @@
+{
+  "HOME": {
+    "Title": "个人简历",
+    "SelectLanguage": "选择语言",
+	"Chinese":"中文",
+	"French":"法语",
+	"English":"英语"
+  },
+  "MENU": {
+	"CV": "个人简历",
+	"Projects": "项目",
+	"Overview": "概览",
+	"Detail": "详情",
+	"Statistics": "统计"
+  },
+  "CV": {
+	"BasicInformation": {
+		"BasicInformation": "基本信息",
+		"Name": "姓名",
+		"Gender": "性别",
+		"Birthday": "生日",
+		"WorkExperience": "工作经验",
+		"Tel": "电话",
+		"Email": "邮箱"
+	},
+	"EducationalExperience": {
+		"EducationalExperience": "教育背景",
+		"MajorCourses": "主修课程"
+	},
+	"CareerExperience": {
+		"CareerExperience": "工作经历",
+		"Duties": "工作内容",
+		"Technologies": "使用技术",
+		"Projects": "涉及项目"
+	},
+	"Skills": {
+		"Skills": "能力",
+		"Computer": "计算机",
+		"Language": "语言",
+		"Database": "数据库",
+		"EfficiencyTools": "效率工具",
+		"Library": "库&框架",
+		"Others": "其他"
+	},
+	"Hobbies": "爱好",
+	"SelfEvaluation": "自我评价"
+  },
+  "PROJECT": {
+	"Overview": {
+		"List": "列表",
+		"Name": "名称",
+		"Organization": "机构",
+		"City": "城市",
+		"StartDate": "开始时间",
+		"EndDate": "结束时间",
+		"Gantt": "甘特图"
+	},
+	"Detail": {
+		"Description": "概述",
+		"Duties": "职责",
+		"Technologies": "技术"
+	},
+	"Statistics": {}
+  }
+}

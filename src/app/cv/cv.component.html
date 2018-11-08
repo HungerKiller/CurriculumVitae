@@ -1,24 +1,24 @@
 <p-accordion [multiple]="true">
-  <p-accordionTab header="基本信息" [selected]="true">
-    <h2>基本信息</h2>
+  <p-accordionTab header="{{'CV.BasicInformation.BasicInformation' | translate}}" [selected]="true">
+    <h2>{{'CV.BasicInformation.BasicInformation' | translate}}</h2>
     <ul class="nopoint">
       <li>
-        <p class="fa fa-user">姓名：{{basicInformation?.name}}</p>
+        <p class="fa fa-user">{{'CV.BasicInformation.Name' | translate}}: {{basicInformation?.name}}</p>
       </li>
       <li>
-        <p class="fa fa-mars">性别：{{basicInformation?.gender}}</p>
+        <p class="fa fa-mars">{{'CV.BasicInformation.Gender' | translate}}: {{basicInformation?.gender}}</p>
       </li>
       <li>
-        <p class="fa fa-birthday-cake">生日：{{basicInformation?.birthday}}</p>
+        <p class="fa fa-birthday-cake">{{'CV.BasicInformation.Birthday' | translate}}: {{basicInformation?.birthday}}</p>
       </li>
       <li>
-        <p class="fa fa-briefcase">工作经验：{{basicInformation?.workExperience}}</p>
+        <p class="fa fa-briefcase">{{'CV.BasicInformation.WorkExperience' | translate}}: {{basicInformation?.workExperience}}</p>
       </li>
       <li>
-        <p class="fa fa-phone-square">电话：{{basicInformation?.tel}}</p>
+        <p class="fa fa-phone-square">{{'CV.BasicInformation.Tel' | translate}}: {{basicInformation?.tel}}</p>
       </li>
       <li>
-        <p class="fa fa-envelope">邮箱：
+        <p class="fa fa-envelope">{{'CV.BasicInformation.Email' | translate}}: 
           <a href="mailto:#">{{basicInformation?.email}}</a>
         </p>
       </li>

@@ -89,7 +89,7 @@
 			"company": "Meteodyn",
 			"city": "中国陕西西安",
 			"post": "软件开发工程师",
-			"duty": [
+			"duties": [
 				"需求分析",
 				"编写技术文档",
 				"程序架构设计",
@@ -99,7 +99,7 @@
 				"维护",
 				"技术支持"
 			],
-			"technology": [
+			"technologies": [
 				"C#.NET(WinForm,ASP.NET,ASP.NET Core)",
 				"Qt/C++",
 				"Angular",
@@ -134,7 +134,7 @@
 			"company": "Meteodyn",
 			"city": "法国南特",
 			"post": "软件开发工程师",
-			"duty": [
+			"duties": [
 				"需求分析",
 				"编写技术文档",
 				"程序架构设计",
@@ -144,7 +144,7 @@
 				"维护",
 				"技术支持"
 			],
-			"technology": [
+			"technologies": [
 				"C#.NET(WinForm,WPF,ASP.NET)",
 				"PHP",
 				"Html",
@@ -175,7 +175,7 @@
 			"company": "Orion Concept",
 			"city": "法国图尔",
 			"post": "软件开发工程师（实习）",
-			"duty": [
+			"duties": [
 				"编写技术文档",
 				"程序架构设计",
 				"开发",
@@ -183,7 +183,7 @@
 				"测试",
 				"维护"
 			],
-			"technology": [
+			"technologies": [
 				"C#.NET(WinForm,WPF)",
 				"Java",
 				"ImageJ",
@@ -205,7 +205,7 @@
 			"company": "Orion Concept",
 			"city": "法国图尔",
 			"post": "软件开发工程师（实习）",
-			"duty": [
+			"duties": [
 				"编写技术文档",
 				"程序架构设计",
 				"开发",
@@ -213,7 +213,7 @@
 				"测试",
 				"维护"
 			],
-			"technology": [
+			"technologies": [
 				"Java",
 				"ImageJ",
 				"Jmathplot",
@@ -226,7 +226,7 @@
 		}
 	],
 	"skills": {
-		"technology": {
+		"technologies": {
 			"program": [
 				"C#.NET",
 				"C/C++(QT)",
@@ -265,7 +265,7 @@
 				"VTK",
 				"Mono"
 			],
-			"other": [
+			"others": [
 				"Matlab",
 				"Rstudio",
 				"Postman",

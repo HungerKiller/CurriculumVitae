@@ -1,14 +1,15 @@
 <div class="ui-g-12">
     <!-- <img class="ui-g-2" src="assets/img/CV.png" /> -->
+    {{ 'HOME.SELECT' | translate }}
     <p-dropdown [options]="languages" [(ngModel)]="selectedLang" [style]="{'width':'150px'}" (ngModelChange)="changeLanguage($event)">
         <ng-template let-item pTemplate="selectedItem">
             <img src="assets/img/{{item.value}}.png" style="width:16px;vertical-align:middle" />
-            <span style="vertical-align:middle; margin-left: .5em">{{item.label}}</span>
+            <span style="vertical-align:middle; margin-left: .5em">{{item.label | translate}}</span>
         </ng-template>
         <ng-template let-language pTemplate="item">
             <div class="ui-helper-clearfix" style="position: relative;height: 25px;">
                 <img src="assets/img/{{language.value}}.png" style="width:24px;position:absolute;top:1px;left:5px" />
-                <div style="font-size:14px;float:right;margin-top:4px">{{language.label}}</div>
+                <div style="font-size:14px;float:right;margin-top:4px">{{language.label | translate}}</div>
             </div>
         </ng-template>
     </p-dropdown>

@@ -1,13 +1,10 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { NgModule } from '@angular/core';
-import { HttpClientModule } from '@angular/common/http';
 
 import { PanelMenuModule } from 'primeng/panelmenu';
 import { MessagesModule } from 'primeng/messages';
 import { MessageModule } from 'primeng/message';
-import { MenuItem } from 'primeng/api';
-import { MenuModule, MenuItemContent } from 'primeng/menu';
 import { DropdownModule } from 'primeng/dropdown';
 
 import { AppComponent } from './app.component';
@@ -32,7 +29,16 @@ import { TableModule } from 'primeng/table';
 import { InplaceModule } from 'primeng/inplace';
 import { NgxEchartsModule } from 'ngx-echarts';
 
+import { HttpClientModule, HttpClient } from '@angular/common/http';
+import { TranslateModule, TranslateLoader } from '@ngx-translate/core';
+import { TranslateHttpLoader } from '@ngx-translate/http-loader';
+
 registerLocaleData(zh);
+
+// AoT requires an exported function for factories
+export function HttpLoaderFactory(http: HttpClient) {
+  return new TranslateHttpLoader(http);
+}
 
 @NgModule({
   declarations: [
@@ -45,6 +51,13 @@ registerLocaleData(zh);
   ],
   imports: [
     BrowserModule,
+    TranslateModule.forRoot({
+      loader: {
+        provide: TranslateLoader,
+        useFactory: HttpLoaderFactory,
+        deps: [HttpClient]
+      }
+    }),
     BrowserAnimationsModule,
     PanelMenuModule,
     MessagesModule,

@@ -6,6 +6,7 @@ import { Education } from '../models/Education';
 import { Career } from '../models/Career';
 import { TechSkill, LangSkill } from '../models/Skill';
 import { SelfEvaluation } from '../models/SelfEvaluation';
+import { TranslateService } from '@ngx-translate/core';
 
 @Component({
   selector: 'app-cv',
@@ -22,7 +23,7 @@ export class CvComponent implements OnInit {
   selfEvaluation: SelfEvaluation;
   hobbies: Array<string> = [];
 
-  constructor(private jsonReaderService: JsonReaderService, private messageService: MessageService) { }
+  constructor(private jsonReaderService: JsonReaderService, private messageService: MessageService, public translate: TranslateService) { }
 
   ngOnInit() {
     this.messageService.get().subscribe((msg) => {

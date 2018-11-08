@@ -89,7 +89,7 @@
 			"company": "Meteodyn",
 			"city": "Xian Shaanxi China",
 			"post": "Software Engineer",
-			"duty": [
+			"duties": [
 				"Requirements analysis",
 				"Write technical documentation",
 				"Design program architecture",
@@ -99,7 +99,7 @@
 				"Maintenance",
 				"Technical support"
 			],
-			"technology": [
+			"technologies": [
 				"C#.NET(WinForm,ASP.NET,ASP.NET Core)",
 				"Qt/C++",
 				"Angular",
@@ -134,7 +134,7 @@
 			"company": "Meteodyn",
 			"city": "Nantes France",
 			"post": "Software Engineer",
-			"duty": [
+			"duties": [
 				"Requirements analysis",
 				"Write technical documentation",
 				"Design program architecture",
@@ -144,7 +144,7 @@
 				"Maintenance",
 				"Technical support"
 			],
-			"technology": [
+			"technologies": [
 				"C#.NET(WinForm,WPF,ASP.NET)",
 				"PHP",
 				"Html",
@@ -175,7 +175,7 @@
 			"company": "Orion Concept",
 			"city": "Tours France",
 			"post": "Software Engineer (Practice)",
-			"duty": [
+			"duties": [
 				"Write technical documentation",
 				"Design program architecture",
 				"Development",
@@ -183,7 +183,7 @@
 				"Test",
 				"Maintenance"
 			],
-			"technology": [
+			"technologies": [
 				"C#.NET(WinForm,WPF)",
 				"Java",
 				"ImageJ",
@@ -205,7 +205,7 @@
 			"company": "Orion Concept",
 			"city": "Tours France",
 			"post": "Software Engineer (Practice)",
-			"duty": [
+			"duties": [
 				"Write technical documentation",
 				"Design program architecture",
 				"Development",
@@ -213,7 +213,7 @@
 				"Test",
 				"Maintenance"
 			],
-			"technology": [
+			"technologies": [
 				"Java",
 				"ImageJ",
 				"Jmathplot",
@@ -226,7 +226,7 @@
 		}
 	],
 	"skills": {
-		"technology": {
+		"technologies": {
 			"program": [
 				"C#.NET",
 				"C/C++(QT)",
@@ -265,7 +265,7 @@
 				"VTK",
 				"Mono"
 			],
-			"other": [
+			"others": [
 				"Matlab",
 				"Rstudio",
 				"Postman",
