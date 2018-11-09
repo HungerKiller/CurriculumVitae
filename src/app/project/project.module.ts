@@ -6,6 +6,7 @@ import { ProjectStatisticsComponent } from './project-statistics/project-statist
 
 import {AccordionModule} from 'primeng/accordion';
 import { TableModule } from 'primeng/table';
+import { GalleriaModule } from 'primeng/galleria';
 import { NgZorroAntdModule, NZ_I18N, zh_CN } from 'ng-zorro-antd';
 import { NgxEchartsModule } from 'ngx-echarts';
 import 'echarts-gl/dist/echarts-gl'; // Import echarts-gl for 3d
@@ -24,6 +25,7 @@ export function HttpLoaderFactory(http: HttpClient) {
     CommonModule,
     AccordionModule,
     TableModule,
+    GalleriaModule,
     NgZorroAntdModule,
     NgxEchartsModule,
     TranslateModule.forChild({

@@ -7,6 +7,7 @@ export class Project {
     description: Description;
     duties: Array<string>;
     technologies: Array<Technology>;
+    images: Array<Image>;
 }
 
 export class Description{
@@ -17,4 +18,10 @@ export class Description{
 export class Technology{
     name: string;
     contents: Array<string>;
+}
+
+export class Image{
+    source: string;
+    alt: string;
+    title: string;
 }
