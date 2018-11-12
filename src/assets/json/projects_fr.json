@@ -60,6 +60,73 @@
 						"ParaView"
 					]
 				}
+			],
+			"images": [
+				{
+					"source": "assets/img/MSP/Definition.png",
+					"alt": "Step 1 - Definition of project",
+					"title": "Definition"
+				},
+				{
+					"source": "assets/img/MSP/Preprocessing.png",
+					"alt": "Step 2 - Preprocessing of project",
+					"title": "Preprocessing"
+				},
+				{
+					"source": "assets/img/MSP/Computation.png",
+					"alt": "Step 3 - Computation of project",
+					"title": "Computation"
+				},
+				{
+					"source": "assets/img/MSP/MOS.png",
+					"alt": "Step 4 - Model output statistics of project",
+					"title": "MOS"
+				},
+				{
+					"source": "assets/img/MSP/MOS.png",
+					"alt": "Step 5 - Postprocessing of project",
+					"title": "Postprocessing"
+				},
+				{
+					"source": "assets/img/MSP/DataExtraction.png",
+					"alt": "Step 6 - Data extraction of project",
+					"title": "Data extraction"
+				},
+				{
+					"source": "assets/img/MSP/VisualVariable.gif",
+					"alt": "Variable visualization of Postprocessing",
+					"title": "Visualization"
+				},
+				{
+					"source": "assets/img/MSP/Visual3DWind.gif",
+					"alt": "Wind visualization of Postprocessing",
+					"title": "Visualization"
+				},
+				{
+					"source": "assets/img/MSP/Visual3DParc.gif",
+					"alt": "Parc visualization of Postprocessing",
+					"title": "Visualization"
+				},
+				{
+					"source": "assets/img/MSP/Visual3DTerrain.gif",
+					"alt": "Terrain visualization of Postprocessing",
+					"title": "Visualization"
+				},
+				{
+					"source": "assets/img/MSP/Visual3DGrid.gif",
+					"alt": "Grid visualization of Postprocessing",
+					"title": "Visualization"
+				},
+				{
+					"source": "assets/img/MSP/Visual2DData.gif",
+					"alt": "2D data visualization of Data extraction",
+					"title": "Visualization"
+				},
+				{
+					"source": "assets/img/MSP/Visual3DData.gif",
+					"alt": "3D data visualization of Data extraction",
+					"title": "Visualization"
+				}
 			]
 		},
 		{
@@ -131,6 +198,23 @@
 						"InfluxDBStudio"
 					]
 				}
+			],
+			"images": [
+				{
+					"source": "assets/img/Zhuanghe/zhuanghe1.gif",
+					"alt": "Zhuanghe",
+					"title": "Zhuanghe"
+				},
+				{
+					"source": "assets/img/Zhuanghe/zhuanghe2.gif",
+					"alt": "Zhuanghe",
+					"title": "Zhuanghe"
+				},
+				{
+					"source": "assets/img/Zhuanghe/zhuanghe3.gif",
+					"alt": "Zhuanghe",
+					"title": "Zhuanghe"
+				}
 			]
 		},
 		{
@@ -184,6 +268,28 @@
 						"IIS",
 						"pgAdmin"
 					]
+				}
+			],
+			"images": [
+				{
+					"source": "assets/img/FM/Project.png",
+					"alt": "Project",
+					"title": "Project"
+				},
+				{
+					"source": "assets/img/FM/Province.png",
+					"alt": "Province",
+					"title": "Province"
+				},
+				{
+					"source": "assets/img/FM/Sample.png",
+					"alt": "Sample",
+					"title": "Sample"
+				},
+				{
+					"source": "assets/img/FM/Reminder.png",
+					"alt": "Reminder",
+					"title": "Reminder"
 				}
 			]
 		},
@@ -333,6 +439,33 @@
 						"InnoSetup"
 					]
 				}
+			],
+			"images": [
+				{
+					"source": "assets/img/Forecast/MainWindow.png",
+					"alt": "Main window",
+					"title": "Main window"
+				},
+				{
+					"source": "assets/img/Forecast/Config1.png",
+					"alt": "Configuration",
+					"title": "Configuration"
+				},
+				{
+					"source": "assets/img/Forecast/Config2.png",
+					"alt": "Configuration",
+					"title": "Configuration"
+				},
+				{
+					"source": "assets/img/Forecast/Calcul.png",
+					"alt": "Calcul",
+					"title": "Calcul"
+				},
+				{
+					"source": "assets/img/Forecast/Result.png",
+					"alt": "Result",
+					"title": "Result"
+				}
 			]
 		},
 		{
@@ -405,6 +538,18 @@
 						"Atom",
 						"EsayPHP"
 					]
+				}
+			],
+			"images": [
+				{
+					"source": "assets/img/M1/UI1.png",
+					"alt": "UI",
+					"title": "UI"
+				},
+				{
+					"source": "assets/img/M1/UI2.png",
+					"alt": "UI",
+					"title": "UI"
 				}
 			]
 		},
@@ -515,6 +660,13 @@
 						"LaTeX"
 					]
 				}
+			],
+			"images": [
+				{
+					"source": "assets/img/AortaCalcification/AortaCalcification.gif",
+					"alt": "Tracking the distribution of calcification in the aorta",
+					"title": "Tracking calcification"
+				}
 			]
 		},
 		{
@@ -551,6 +703,28 @@
 						"LaTeX"
 					]
 				}
+			],
+			"images": [
+				{
+					"source": "assets/img/ClassificationDocument/1-extraire.png",
+					"alt": "Step 1 - Extraction",
+					"title": "Step 1 - Extraction"
+				},
+				{
+					"source": "assets/img/ClassificationDocument/2-apprentissage.png",
+					"alt": "Step 2 - Learning",
+					"title": "Step 2 - Learning"
+				},
+				{
+					"source": "assets/img/ClassificationDocument/3-classification2.png",
+					"alt": "Step 3 - Classification",
+					"title": "Step 3 - Classification"
+				},
+				{
+					"source": "assets/img/ClassificationDocument/4-fusion.png",
+					"alt": "Step 4 - Fusion",
+					"title": "Step 4 - Fusion"
+				}
 			]
 		},
 		{
@@ -585,6 +759,13 @@
 						"SVN",
 						"LaTeX"
 					]
+				}
+			],
+			"images": [
+				{
+					"source": "assets/img/ExtractProfil/Interface.png",
+					"alt": "Extraction intensity profiles on medical original images",
+					"title": "Extraction intensity profiles on medical original images"
 				}
 			]
 		},

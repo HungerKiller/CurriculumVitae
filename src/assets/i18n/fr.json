@@ -58,7 +58,8 @@
 	"Detail": {
 		"Description": "Description",
 		"Duties": "Responsabilité",
-		"Technologies": "Technologies"
+		"Technologies": "Technologies",
+		"Images": "Images"
 	},
 	"Statistics": {}
   }

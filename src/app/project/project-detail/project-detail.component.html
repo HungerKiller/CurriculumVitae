@@ -22,16 +22,18 @@
                 <li>
                     <p class="line">{{tech?.name}}：</p>
                     <p *ngFor="let content of tech?.contents" class="line">
-                        <nz-tag [nzColor]="'#337ab7'"><strong class="label">{{content}}</strong></nz-tag>&nbsp;
+                        <nz-tag [nzColor]="'#337ab7'">
+                            <strong class="label">{{content}}</strong>
+                        </nz-tag>&nbsp;
                     </p>
                 </li>
             </span>
         </ul>
 
-        <div *ngIf="project?.images !=null && project?.images.count != 0">
-            <p-galleria [images]="project?.images" panelWidth="800" panelHeight="600" [showCaption]="true" [autoPlay]="true"
-                [transitionInterval]="2000"></p-galleria>
-        </div>
-
+        <nz-collapse *ngIf="project?.images !=null && project?.images.count != 0">
+            <nz-collapse-panel *ngFor="let panel of panels" [nzHeader]="panel.name | translate" [nzActive]="panel.active" [nzDisabled]="panel.disabled">
+                <p-galleria [images]="project?.images" panelWidth="800" panelHeight="600" [showCaption]="true" [autoPlay]="true" [transitionInterval]="2000"></p-galleria>
+            </nz-collapse-panel>
+        </nz-collapse>
     </p-accordionTab>
 </p-accordion>

@@ -660,6 +660,13 @@
 						"LaTeX"
 					]
 				}
+			],
+			"images": [
+				{
+					"source": "assets/img/AortaCalcification/AortaCalcification.gif",
+					"alt": "Tracking the distribution of calcification in the aorta",
+					"title": "Tracking calcification"
+				}
 			]
 		},
 		{
@@ -696,6 +703,28 @@
 						"LaTeX"
 					]
 				}
+			],
+			"images": [
+				{
+					"source": "assets/img/ClassificationDocument/1-extraire.png",
+					"alt": "Step 1 - Extraction",
+					"title": "Step 1 - Extraction"
+				},
+				{
+					"source": "assets/img/ClassificationDocument/2-apprentissage.png",
+					"alt": "Step 2 - Learning",
+					"title": "Step 2 - Learning"
+				},
+				{
+					"source": "assets/img/ClassificationDocument/3-classification2.png",
+					"alt": "Step 3 - Classification",
+					"title": "Step 3 - Classification"
+				},
+				{
+					"source": "assets/img/ClassificationDocument/4-fusion.png",
+					"alt": "Step 4 - Fusion",
+					"title": "Step 4 - Fusion"
+				}
 			]
 		},
 		{
@@ -730,6 +759,13 @@
 						"SVN",
 						"LaTeX"
 					]
+				}
+			],
+			"images": [
+				{
+					"source": "assets/img/ExtractProfil/Interface.png",
+					"alt": "Extraction intensity profiles on medical original images",
+					"title": "Extraction intensity profiles on medical original images"
 				}
 			]
 		},

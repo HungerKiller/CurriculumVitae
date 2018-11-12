@@ -12,6 +12,7 @@ import { TranslateService } from '@ngx-translate/core';
 export class ProjectDetailComponent implements OnInit {
 
   projects: Project[] = [];
+  panels: any[];
 
   constructor(private jsonReaderService: JsonReaderService, private messageService: MessageService, public translate: TranslateService) { }
 
@@ -22,5 +23,12 @@ export class ProjectDetailComponent implements OnInit {
       });
     });
     this.messageService.setSame();
+    this.panels = [
+      {
+        active    : false,
+        name      : 'PROJECT.Detail.Images',
+        disabled  : false
+      }
+    ];
   }
 }

@@ -58,7 +58,8 @@
 	"Detail": {
 		"Description": "概述",
 		"Duties": "职责",
-		"Technologies": "技术"
+		"Technologies": "技术",
+		"Images": "图片"
 	},
 	"Statistics": {}
   }
