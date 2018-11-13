@@ -66,8 +66,6 @@ export class ProjectStatisticsComponent implements OnInit {
         formatter: "{a} <br/>{b}: {c} ({d}%)"
       },
       legend: {
-        orient: 'vertical',
-        x: 'left',
         data: this.techniques
       },
       series: [
