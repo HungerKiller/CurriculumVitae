@@ -9,7 +9,7 @@ import { TranslateService, TranslationChangeEvent } from '@ngx-translate/core';
 })
 export class MenuComponent implements OnInit {
 
-    private items: MenuItem[];
+    items: MenuItem[];
 
     constructor(public translate: TranslateService) { }
 
