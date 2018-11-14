@@ -33,6 +33,8 @@ import { HttpClientModule, HttpClient } from '@angular/common/http';
 import { TranslateModule, TranslateLoader } from '@ngx-translate/core';
 import { TranslateHttpLoader } from '@ngx-translate/http-loader';
 
+import { HashLocationStrategy, LocationStrategy } from '@angular/common';
+
 registerLocaleData(zh);
 
 // AoT requires an exported function for factories
@@ -76,7 +78,7 @@ export function HttpLoaderFactory(http: HttpClient) {
     NgxEchartsModule,
     DropdownModule
   ],
-  providers: [{ provide: NZ_I18N, useValue: zh_CN }],
+  providers: [{ provide: NZ_I18N, useValue: zh_CN }, { provide: LocationStrategy, useClass: HashLocationStrategy }],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
