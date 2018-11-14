@@ -20,7 +20,7 @@ export class ProjectStatisticsComponent implements OnInit {
   constructor(private jsonReaderService: JsonReaderService) { }
 
   ngOnInit() {
-    this.jsonReaderService.getJSON("./assets/json/tech.json").subscribe(data => {
+    this.jsonReaderService.getJSON(`./assets/json/tech.json`).subscribe(data => {
       this.yearTechniques = data['yearTechniques'] as YearTechnique[];
       this.yearTechniques.forEach(y => this.years.push(y.year));
       this.yearTechniques[0].techniques.forEach(t => this.techniques.push(t.name));
