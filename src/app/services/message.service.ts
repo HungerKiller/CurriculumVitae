@@ -6,7 +6,7 @@ import { Observable, Subject } from 'rxjs';
 })
 export class MessageService {
   private subject = new Subject<any>();
-  private msg: string = 'cn';
+  private msg: string = 'en';
 
   constructor() { }
 

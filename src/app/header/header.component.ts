@@ -16,8 +16,8 @@ export class HeaderComponent implements OnInit {
 
   ngOnInit() {
     this.languages = [
-      { label: `HOME.Chinese`, value: 'cn' },
       { label: `HOME.English`, value: 'en' },
+      { label: `HOME.Chinese`, value: 'cn' },
       { label: `HOME.French`, value: 'fr' }
     ];
   }

@@ -30,6 +30,6 @@ export class MenuComponent implements OnInit {
                 ]
             }];
         });
-        this.translate.use('cn');
+        this.translate.use('en');
     }
 }
