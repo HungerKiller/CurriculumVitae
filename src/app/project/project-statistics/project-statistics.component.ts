@@ -222,7 +222,7 @@ export class ProjectStatisticsComponent implements OnInit {
     this.option3D = {
       tooltip: {},
       visualMap: {
-        max: 3000,
+        max: 2500,
         inRange: {
           color: ['#313695', '#4575b4', '#74add1', '#abd9e9', '#e0f3f8', '#ffffbf', '#fee090', '#fdae61', '#f46d43', '#d73027', '#a50026']
         }
@@ -235,7 +235,10 @@ export class ProjectStatisticsComponent implements OnInit {
       yAxis3D: {
         type: 'category',
         name: 'Year',
-        data: this.years
+        data: this.years,
+        axisLabel: {
+          interval: 0,
+        }
       },
       zAxis3D: {
         type: 'value',
