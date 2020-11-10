@@ -125,5 +125,8 @@
       }
     }
   },
-  "defaultProject": "curriculum-vitae"
+  "defaultProject": "curriculum-vitae",
+  "cli": {
+    "analytics": "e2a5fda8-8aa3-40b4-96b0-faf94a8929d9"
+  }
 }
